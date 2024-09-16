@@ -15,15 +15,19 @@ const MapMarker = ({ item, handleMarkerClick, map }) => {
   const customIcon = L.divIcon({
     className: "custom-div-icon",
     html: `<div style="background-color: ${
-      item.type === "hospital" ? "red" : "green"
+      item.type === "hospital"
+        ? "red"
+        : item.type === "school"
+        ? "green"
+        : "blue"
     }; 
                        width: 30px; 
                        height: 30px; 
                        border-radius: 50%; 
                        border: 2px solid white;">
            </div>`,
-    iconSize: [15, 15],
-    iconAnchor: [7, 7],
+    iconSize: [30, 30],
+    iconAnchor: [15, 30],
   });
 
   return (
