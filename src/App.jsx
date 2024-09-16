@@ -30,7 +30,6 @@ const App = () => {
       <h1 className="centered-heading">Oyo State Infrastructure Map</h1>
       <div className="row">
         <div className="col-md-8">
-          {/* Map Component */}
           <MapComponent
             mapCenter={mapCenter}
             mapZoom={mapZoom}
@@ -38,14 +37,12 @@ const App = () => {
             setMapCenter={setMapCenter}
             setMapZoom={setMapZoom}
           />
-          {/* ButtonGroup Component */}
           <ButtonGroup
             activeLayer={activeLayer}
             setActiveLayer={setActiveLayer}
           />
         </div>
         <div className="col-md-4">
-          {/* Statistics Card Component */}
           <StatisticsCard
             data={infrastructureData}
             comparisonData={comparisonData}

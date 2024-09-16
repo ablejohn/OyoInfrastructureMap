@@ -1,18 +1,42 @@
+/* Add a new class for centering button containers */
+.button-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-top: 1rem; /* Optional: Adjust spacing from top */
+  margin-bottom: 1.5rem; /* Optional: Adjust spacing from bottom */
+}
+
+/* Existing button styles */
 .btn {
-  /* Common button styles here */
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 0.25rem;
   cursor: pointer;
   font-size: 1rem;
+  transition: background-color 0.3s ease;
 }
 
 .btn-primary {
-  background-color: green; /* Change this to the desired color for active state */
+  background-color: green; /* Color for active state */
   color: white;
 }
 
 .btn-secondary {
-  background-color: lightgray; /* Change this to the desired color for inactive state */
+  background-color: lightgray; /* Color for inactive state */
   color: black;
+}
+
+.btn-primary:focus, .btn-primary:active {
+  background-color: green;
+  outline: none;
+}
+
+.btn-secondary:focus, .btn-secondary:active {
+  background-color: lightgray;
+  outline: none;
+}
+
+.btn:hover {
+  opacity: 0.8;
 }

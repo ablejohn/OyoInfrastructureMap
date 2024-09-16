@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Styles/Button.css"; // Update the path to go up two levels
+import "../../Styles/Button.css";
 
 const Button = ({ active, onClick, children }) => {
   const buttonClass = `btn ${active ? "btn-primary" : "btn-secondary"}`;
@@ -13,7 +13,7 @@ const Button = ({ active, onClick, children }) => {
 
 const ButtonGroup = ({ activeLayer, setActiveLayer }) => {
   return (
-    <div className="btn-group mt-3">
+    <div className="button-container">
       <Button
         active={activeLayer === "all"}
         onClick={() => setActiveLayer("all")}

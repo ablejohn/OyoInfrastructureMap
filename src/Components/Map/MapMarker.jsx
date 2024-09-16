@@ -26,10 +26,7 @@ const MapMarker = ({ item, handleMarkerClick, map }) => {
         },
       }}
     >
-      <Popup
-        ref={popupRef}
-        onClose={handlePopupClose}
-      >
+      <Popup ref={popupRef} onClose={handlePopupClose}>
         <strong>{item.name}</strong>
         <br />
         Type: {item.type}
