@@ -5,7 +5,7 @@ import MapComponent from "./Components/Map/Map";
 import StatisticsCard from "./Components/Charts/StatisticsCard";
 import Button from "./Components/UI/Button";
 import { generateMockData } from "./Data/InfrastructureData";
-import { getStatistics } from "./Data/statsData";
+import { getStatistics } from "./Data/StatsData";
 
 const App = () => {
   const [activeLayer, setActiveLayer] = useState("all");
