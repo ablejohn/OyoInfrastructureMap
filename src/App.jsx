@@ -4,8 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import MapComponent from "./Components/Map/Map";
 import StatisticsCard from "./Components/Charts/StatisticsCard";
 import Button from "./Components/UI/Button";
-import { generateMockData } from "./Components/Data/InfrastructureData";
-import { getStatistics } from "./Components/Data/statsData";
+import { generateMockData } from "./Data/InfrastructureData";
+import { getStatistics } from "./Data/statsData";
 
 const App = () => {
   const [activeLayer, setActiveLayer] = useState("all");

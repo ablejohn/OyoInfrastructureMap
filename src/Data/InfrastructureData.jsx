@@ -1,4 +1,4 @@
-// src/Components/Data/InfrastructureData.jsx
+
 const getRandomInRange = (min, max) => {
     return Math.random() * (max - min) + min;
   };
