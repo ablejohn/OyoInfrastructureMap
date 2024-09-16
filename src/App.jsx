@@ -1,11 +1,11 @@
-// src/App.jsx
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import MapComponent from "./Components/Map/Map";
 import StatisticsCard from "./Components/Charts/StatisticsCard";
-import Button from "./Components/UI/Button";
+import { ButtonGroup } from "./Components/UI/Button"; // Import ButtonGroup
 import { generateMockData } from "./Data/InfrastructureData";
 import { getStatistics } from "./Data/StatsData";
+import "./Styles/App.css";
 
 const App = () => {
   const [activeLayer, setActiveLayer] = useState("all");
@@ -27,7 +27,7 @@ const App = () => {
 
   return (
     <div className="container-fluid">
-      <h1 className="mt-3 mb-4">Oyo State Infrastructure Map</h1>
+      <h1 className="centered-heading">Oyo State Infrastructure Map</h1>
       <div className="row">
         <div className="col-md-8">
           {/* Map Component */}
@@ -38,26 +38,11 @@ const App = () => {
             setMapCenter={setMapCenter}
             setMapZoom={setMapZoom}
           />
-          <div className="btn-group mt-3">
-            <Button
-              active={activeLayer === "all"}
-              onClick={() => setActiveLayer("all")}
-            >
-              All
-            </Button>
-            <Button
-              active={activeLayer === "hospital"}
-              onClick={() => setActiveLayer("hospital")}
-            >
-              Hospitals
-            </Button>
-            <Button
-              active={activeLayer === "school"}
-              onClick={() => setActiveLayer("school")}
-            >
-              Schools
-            </Button>
-          </div>
+          {/* ButtonGroup Component */}
+          <ButtonGroup
+            activeLayer={activeLayer}
+            setActiveLayer={setActiveLayer}
+          />
         </div>
         <div className="col-md-4">
           {/* Statistics Card Component */}
