@@ -25,5 +25,4 @@ const InfrastructureBarChart = ({ data }) => {
     </ResponsiveContainer>
   );
 };
-
 export default InfrastructureBarChart;

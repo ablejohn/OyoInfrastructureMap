@@ -7,9 +7,21 @@ const StatisticsCard = ({ data, comparisonData }) => {
   return (
     <>
       {/* Oyo State Infrastructure Statistics */}
-      <div className="card mb-4">
-        <div className="card-body">
-          <h5 className="card-title">Oyo State Infrastructure Statistics</h5>
+      <div
+        className="card mb-4"
+        style={{
+          backgroundColor: "#E8F5E9",
+          borderRadius: "8px",
+          border: "1px solid #4CAF50",
+        }}
+      >
+        <div className="card-body" style={{ color: "#1B5E20" }}>
+          <h5
+            className="card-title"
+            style={{ fontWeight: "bold", color: "#388E3C" }}
+          >
+            Oyo State Infrastructure Statistics
+          </h5>
           <p className="card-text">
             Population: {totalPopulation.toLocaleString()}
           </p>
@@ -21,10 +33,23 @@ const StatisticsCard = ({ data, comparisonData }) => {
           </p>
         </div>
       </div>
+
       {/* Infrastructure Gap Analysis */}
-      <div className="card mb-4">
-        <div className="card-body">
-          <h5 className="card-title">Infrastructure Gap Analysis</h5>
+      <div
+        className="card mb-4"
+        style={{
+          backgroundColor: "#F1F8E9",
+          borderRadius: "8px",
+          border: "1px solid #8BC34A",
+        }}
+      >
+        <div className="card-body" style={{ color: "#33691E" }}>
+          <h5
+            className="card-title"
+            style={{ fontWeight: "bold", color: "#689F38" }}
+          >
+            Infrastructure Gap Analysis
+          </h5>
           <InfrastructureBarChart data={comparisonData} />
           <p className="mt-3">
             <strong>Calculation Basis:</strong>
