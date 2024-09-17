@@ -1,4 +1,3 @@
-// src/Components/Charts/StatisticsCard.jsx
 import React from "react";
 import InfrastructureBarChart from "./InfrastructureBarChart";
 

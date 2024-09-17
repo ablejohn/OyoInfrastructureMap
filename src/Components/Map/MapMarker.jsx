@@ -51,10 +51,6 @@ const MapMarker = ({ item, handleMarkerClick, map }) => {
         <br />
         City: {item.city}
         <br />
-        Geolocation Coordinates:{" "}
-        {item.geolocationcordinates
-          ? item.geolocationcordinates
-          : "Not available"}
       </Popup>
     </Marker>
   );

@@ -1,4 +1,3 @@
-// src/Components/Charts/InfrastructureBarChart.jsx
 import React from "react";
 import {
   BarChart,
