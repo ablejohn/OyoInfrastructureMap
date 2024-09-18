@@ -1,30 +1,23 @@
 import React, { useEffect, useState } from "react";
-import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
-import L from "leaflet";
+import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-
-// Custom icon creation function
-const createCustomIcon = (type) => {
-  const iconUrl =
-    type === "hospital"
-      ? "https://cdn-icons-png.flaticon.com/512/3448/3448513.png"
-      : "https://cdn-icons-png.flaticon.com/512/2602/2602414.png";
-
-  return new L.Icon({
-    iconUrl: iconUrl,
-    iconSize: [32, 32],
-    iconAnchor: [16, 32],
-    popupAnchor: [0, -32],
-  });
-};
+import MapMarker from "./MapMarker";
 
 function ChangeView({ center, zoom }) {
-  const map = useMap();
   useEffect(() => {
+    const map = window.L.map("map"); // Access Leaflet directly
     map.setView(center, zoom);
-  }, [center, zoom, map]);
+  }, [center, zoom]);
+
   return null;
 }
+
+const DynamicFontSize = ({ zoom }) => {
+  const fontSize = zoom > 12 ? "16px" : zoom > 10 ? "14px" : "12px";
+  const headingSize = zoom > 12 ? "18px" : zoom > 10 ? "16px" : "14px";
+
+  return { fontSize, headingSize };
+};
 
 const MapComponent = ({
   mapCenter,
@@ -34,12 +27,15 @@ const MapComponent = ({
   setMapZoom,
 }) => {
   const [activeMarker, setActiveMarker] = useState(null);
+  const [currentZoom, setCurrentZoom] = useState(mapZoom);
 
   const handleMarkerClick = (item) => {
     setMapCenter([item.lat, item.lng]);
     setMapZoom(15);
     setActiveMarker(item);
   };
+
+  const { fontSize, headingSize } = DynamicFontSize({ zoom: currentZoom });
 
   return (
     <div
@@ -59,39 +55,12 @@ const MapComponent = ({
         style={{ height: "100%", width: "100%" }}
         zoomControl={false}
       >
-        <ChangeView center={mapCenter} zoom={mapZoom} />
         <TileLayer
-          url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+          url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
         />
         {filteredData.map((item) => (
-          <Marker
-            key={item.id}
-            position={[item.lat, item.lng]}
-            icon={createCustomIcon(item.type)}
-            eventHandlers={{
-              click: () => handleMarkerClick(item),
-            }}
-          >
-            <Popup>
-              <div style={{ fontFamily: "Arial, sans-serif", padding: "10px" }}>
-                <h3
-                  style={{
-                    margin: "0 0 10px 0",
-                    color: item.type === "hospital" ? "#e74c3c" : "#3498db",
-                  }}
-                >
-                  {item.name}
-                </h3>
-                <p style={{ margin: "5px 0" }}>
-                  <strong>Type:</strong> {item.type}
-                </p>
-                <p style={{ margin: "5px 0" }}>
-                  <strong>City:</strong> {item.city}
-                </p>
-              </div>
-            </Popup>
-          </Marker>
+          <MapMarker key={item.id} item={item} onClick={handleMarkerClick} />
         ))}
       </MapContainer>
 
@@ -107,14 +76,19 @@ const MapComponent = ({
           boxShadow: "0 2px 10px rgba(0,0,0,0.1)",
           maxWidth: "300px",
           zIndex: 1000,
+          fontSize: fontSize, // Dynamically change the font size
         }}
       >
         <h2
-          style={{ margin: "0 0 10px 0", fontSize: "18px", color: "#2c3e50" }}
+          style={{
+            margin: "0 0 10px 0",
+            fontSize: headingSize, // Dynamic heading size
+            color: "#2c3e50",
+          }}
         >
           Infrastructure Map
         </h2>
-        <p style={{ margin: "5px 0", fontSize: "14px", color: "#34495e" }}>
+        <p style={{ margin: "5px 0", fontSize: fontSize, color: "#34495e" }}>
           Total Items: {filteredData.length}
         </p>
         <div
@@ -125,13 +99,13 @@ const MapComponent = ({
             alt="Hospital"
             style={{ width: "20px", marginRight: "5px" }}
           />
-          <span style={{ fontSize: "14px", color: "#34495e" }}>Hospital</span>
+          <span style={{ fontSize: fontSize, color: "#34495e" }}>Hospital</span>
           <img
             src="https://cdn-icons-png.flaticon.com/512/2602/2602414.png"
             alt="School"
             style={{ width: "20px", marginLeft: "15px", marginRight: "5px" }}
           />
-          <span style={{ fontSize: "14px", color: "#34495e" }}>School</span>
+          <span style={{ fontSize: fontSize, color: "#34495e" }}>School</span>
         </div>
       </div>
 
@@ -148,21 +122,22 @@ const MapComponent = ({
             boxShadow: "0 2px 10px rgba(0,0,0,0.1)",
             maxWidth: "300px",
             zIndex: 1000,
+            fontSize: fontSize, // Adjust based on zoom level
           }}
         >
           <h3
             style={{
               margin: "0 0 10px 0",
-              fontSize: "16px",
+              fontSize: headingSize,
               color: activeMarker.type === "hospital" ? "#e74c3c" : "#3498db",
             }}
           >
             {activeMarker.name}
           </h3>
-          <p style={{ margin: "5px 0", fontSize: "14px", color: "#34495e" }}>
+          <p style={{ margin: "5px 0", fontSize: fontSize, color: "#34495e" }}>
             <strong>Type:</strong> {activeMarker.type}
           </p>
-          <p style={{ margin: "5px 0", fontSize: "14px", color: "#34495e" }}>
+          <p style={{ margin: "5px 0", fontSize: fontSize, color: "#34495e" }}>
             <strong>City:</strong> {activeMarker.city}
           </p>
         </div>

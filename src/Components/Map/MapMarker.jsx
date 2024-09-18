@@ -11,6 +11,19 @@ const MapMarker = ({ item, handleMarkerClick, map }) => {
     }
   };
 
+  const getMarkerIcon = (type) => {
+    switch (type) {
+      case "hospital":
+        return "🏥"; // Unicode for hospital
+      case "school":
+        return "🏫"; // Unicode for school
+      case "road":
+        return "🛣"; // Unicode for road
+      default:
+        return "📍"; // Default map marker icon
+    }
+  };
+
   const getMarkerColor = (type) => {
     switch (type) {
       case "hospital":
@@ -30,8 +43,8 @@ const MapMarker = ({ item, handleMarkerClick, map }) => {
       html: `
         <div style="
           background-color: ${getMarkerColor(item.type)};
-          width: 30px;
-          height: 30px;
+          width: 40px;
+          height: 40px;
           border-radius: 50%;
           border: 2px solid white;
           box-shadow: 0 2px 5px rgba(0,0,0,0.3);
@@ -39,14 +52,13 @@ const MapMarker = ({ item, handleMarkerClick, map }) => {
           align-items: center;
           justify-content: center;
           color: white;
-          font-weight: bold;
-          font-size: 12px;
+          font-size: 18px;
         ">
-          ${item.type.charAt(0).toUpperCase()}
+          ${getMarkerIcon(item.type)}
         </div>
       `,
-      iconSize: [30, 30],
-      iconAnchor: [15, 30],
+      iconSize: [40, 40],
+      iconAnchor: [20, 40],
     });
   }, [item.type]);
 
