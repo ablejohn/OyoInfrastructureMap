@@ -3,29 +3,27 @@ import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import MapMarker from "./MapMarker";
 
-function ChangeView({ center, zoom }) {
-  useEffect(() => {
-    const map = window.L.map("map"); // Access Leaflet directly
-    map.setView(center, zoom);
-  }, [center, zoom]);
-
-  return null;
-}
-
-const DynamicFontSize = ({ zoom }) => {
-  const fontSize = zoom > 12 ? "16px" : zoom > 10 ? "14px" : "12px";
-  const headingSize = zoom > 12 ? "18px" : zoom > 10 ? "16px" : "14px";
-
-  return { fontSize, headingSize };
+// Function to return marker icons based on type
+const getMarkerIcon = (type) => {
+  switch (type) {
+    case "hospital":
+      return "🏥"; // Unicode for hospital
+    case "school":
+      return "🏫"; // Unicode for school
+    case "road":
+      return "🛣"; // Unicode for road
+    default:
+      return "📍"; // Default map marker icon
+  }
 };
 
-const MapComponent = ({
+function MapComponent({
   mapCenter,
   mapZoom,
   filteredData,
   setMapCenter,
   setMapZoom,
-}) => {
+}) {
   const [activeMarker, setActiveMarker] = useState(null);
   const [currentZoom, setCurrentZoom] = useState(mapZoom);
 
@@ -35,7 +33,10 @@ const MapComponent = ({
     setActiveMarker(item);
   };
 
-  const { fontSize, headingSize } = DynamicFontSize({ zoom: currentZoom });
+  const fontSize =
+    currentZoom > 12 ? "16px" : currentZoom > 10 ? "14px" : "12px";
+  const headingSize =
+    currentZoom > 12 ? "18px" : currentZoom > 10 ? "16px" : "14px";
 
   return (
     <div
@@ -76,13 +77,13 @@ const MapComponent = ({
           boxShadow: "0 2px 10px rgba(0,0,0,0.1)",
           maxWidth: "300px",
           zIndex: 1000,
-          fontSize: fontSize, // Dynamically change the font size
+          fontSize: fontSize,
         }}
       >
         <h2
           style={{
             margin: "0 0 10px 0",
-            fontSize: headingSize, // Dynamic heading size
+            fontSize: headingSize,
             color: "#2c3e50",
           }}
         >
@@ -94,17 +95,13 @@ const MapComponent = ({
         <div
           style={{ display: "flex", alignItems: "center", marginTop: "10px" }}
         >
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/3448/3448513.png"
-            alt="Hospital"
-            style={{ width: "20px", marginRight: "5px" }}
-          />
+          <span style={{ fontSize: fontSize, marginRight: "15px" }}>
+            {getMarkerIcon("hospital")}
+          </span>
           <span style={{ fontSize: fontSize, color: "#34495e" }}>Hospital</span>
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/2602/2602414.png"
-            alt="School"
-            style={{ width: "20px", marginLeft: "15px", marginRight: "5px" }}
-          />
+          <span style={{ fontSize: fontSize, marginLeft: "15px" }}>
+            {getMarkerIcon("school")}
+          </span>
           <span style={{ fontSize: fontSize, color: "#34495e" }}>School</span>
         </div>
       </div>
@@ -122,7 +119,7 @@ const MapComponent = ({
             boxShadow: "0 2px 10px rgba(0,0,0,0.1)",
             maxWidth: "300px",
             zIndex: 1000,
-            fontSize: fontSize, // Adjust based on zoom level
+            fontSize: fontSize,
           }}
         >
           <h3
@@ -144,6 +141,6 @@ const MapComponent = ({
       )}
     </div>
   );
-};
+}
 
 export default MapComponent;
