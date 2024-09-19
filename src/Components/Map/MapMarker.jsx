@@ -88,7 +88,7 @@ const MapMarker = ({ item, handleMarkerClick, map }) => {
             {item.type.charAt(0).toUpperCase() + item.type.slice(1)}
           </p>
           <p>
-            <strong>City:</strong> {item.city}
+            <strong>lga:</strong> {item.lga}
           </p>
           <p>
             <strong>Coordinates:</strong>{" "}
