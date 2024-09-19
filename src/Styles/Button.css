@@ -1,42 +1,76 @@
-/* Add a new class for centering button containers */
-.button-container {
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  margin-top: 1rem; /* Optional: Adjust spacing from top */
-  margin-bottom: 1.5rem; /* Optional: Adjust spacing from bottom */
+.modern-button-container {
+  display: inline-flex;
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
-/* Existing button styles */
-.btn {
-  padding: 0.5rem 1rem;
+.modern-btn {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 20px;
   border: none;
-  border-radius: 0.25rem;
+  background-color: transparent;
+  color: #333;
   cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  border-radius: 25px;
+  margin: 0 5px;
 }
 
-.btn-primary {
-  background-color: green; /* Color for active state */
+.modern-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #4CAF50, #45a049);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.modern-btn:hover::before {
+  opacity: 0.1;
+}
+
+.modern-btn-active {
+  background-color: #4CAF50;
   color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.btn-secondary {
-  background-color: lightgray; /* Color for inactive state */
-  color: black;
+.modern-btn-active::before {
+  opacity: 1;
 }
 
-.btn-primary:focus, .btn-primary:active {
-  background-color: green;
-  outline: none;
+.modern-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-.btn-secondary:focus, .btn-secondary:active {
-  background-color: lightgray;
-  outline: none;
+.modern-btn:active {
+  transform: translateY(1px);
 }
 
-.btn:hover {
-  opacity: 0.8;
+.button-icon {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .modern-button-container {
+    flex-direction: column;
+    border-radius: 15px;
+  }
+
+  .modern-btn {
+    margin: 5px 0;
+    width: 100%;
+  }
 }

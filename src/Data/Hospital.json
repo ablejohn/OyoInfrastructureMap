@@ -1,0 +1,5686 @@
+[
+  {
+    "id": 1,
+    "name": "adeoyo teaching hospital",
+    "lga": "ibadan north",
+    "latitude": 7.38674,
+    "longitude": 3.70276
+  },
+  {
+    "id": 2,
+    "name": "university college hospital",
+    "lga": "ibadan north",
+    "latitude": 7.423713,
+    "longitude": 3.934899
+  },
+  {
+    "id": 3,
+    "name": "bowen teaching hospital",
+    "lga": "ogbomosho north",
+    "latitude": 8.13347,
+    "longitude": 4.23442
+  },
+  {
+    "id": 4,
+    "name": "ladoke akintola teaching hospital",
+    "lga": "ogbomosho north",
+    "latitude": 8.15156,
+    "longitude": 4.25309
+  },
+  {
+    "id": 5,
+    "name": "fiditi general hospital",
+    "lga": "afijio",
+    "latitude": 7.71759,
+    "longitude": 3.92277
+  },
+  {
+    "id": 6,
+    "name": "general hospital,fiditi",
+    "lga": "afijio",
+    "latitude": 7.71764,
+    "longitude": 3.92254
+  },
+  {
+    "id": 7,
+    "name": "ilora general hospital",
+    "lga": "afijio",
+    "latitude": 7.80049,
+    "longitude": 3.90237
+  },
+  {
+    "id": 8,
+    "name": "2nd mechanized division medical hosptal",
+    "lga": "akinyele",
+    "latitude": 7.47312,
+    "longitude": 3.92078
+  },
+  {
+    "id": 9,
+    "name": "adegbite cottage health clinic",
+    "lga": "akinyele",
+    "latitude": 7.54298,
+    "longitude": 3.97
+  },
+  {
+    "id": 10,
+    "name": "moniya general hospital",
+    "lga": "akinyele",
+    "latitude": 7.5322,
+    "longitude": 3.9109
+  },
+  {
+    "id": 11,
+    "name": "emmanuel alayande college of education clinic",
+    "lga": "atiba",
+    "latitude": 7.87884353,
+    "longitude": 3.90683055
+  },
+  {
+    "id": 12,
+    "name": "ago are general hospital",
+    "lga": "atisbo",
+    "latitude": 8.49864,
+    "longitude": 3.43284
+  },
+  {
+    "id": 13,
+    "name": "tede general hospital",
+    "lga": "atisbo",
+    "latitude": 8.57551,
+    "longitude": 3.47384
+  },
+  {
+    "id": 14,
+    "name": "kasumu ajia general hospital",
+    "lga": "egbeda",
+    "latitude": 7.42687,
+    "longitude": 4.04687
+  },
+  {
+    "id": 15,
+    "name": "adeoyo teaching hospital",
+    "lga": "ibadan north",
+    "latitude": 7.38674,
+    "longitude": 3.70276
+  },
+  {
+    "id": 16,
+    "name": "aremo general hospital",
+    "lga": "ibadan ne",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 17,
+    "name": "jericho nursing home",
+    "lga": "ibadan nw",
+    "latitude": 7.39917,
+    "longitude": 3.86982
+  },
+  {
+    "id": 18,
+    "name": "nigeria railways clinic",
+    "lga": "ibadan nw",
+    "latitude": 7.38843,
+    "longitude": 3.87683
+  },
+  {
+    "id": 19,
+    "name": "police hospital",
+    "lga": "ibadan nw",
+    "latitude": 7.40806,
+    "longitude": 3.86532
+  },
+  {
+    "id": 20,
+    "name": "government chest hospital",
+    "lga": "ibadan sw",
+    "latitude": 7.39484,
+    "longitude": 3.87205
+  },
+  {
+    "id": 21,
+    "name": "jericho specialist hospital",
+    "lga": "ibadan sw",
+    "latitude": 7.39673,
+    "longitude": 3.87119
+  },
+  {
+    "id": 22,
+    "name": "maternal and child health care hospital",
+    "lga": "ibadan sw",
+    "latitude": 7.38204,
+    "longitude": 3.84179
+  },
+  {
+    "id": 23,
+    "name": "oni memorial children's hospital",
+    "lga": "ibadan sw",
+    "latitude": 7.36242,
+    "longitude": 3.86198
+  },
+  {
+    "id": 24,
+    "name": "ring road state hospital",
+    "lga": "ibadan sw",
+    "latitude": 7.35167,
+    "longitude": 3.86288
+  },
+  {
+    "id": 25,
+    "name": "igboora general hospital",
+    "lga": "ibarapa central",
+    "latitude": 7.447,
+    "longitude": 3.27684
+  },
+  {
+    "id": 26,
+    "name": "eruwa general hospital",
+    "lga": "ibarapa east",
+    "latitude": 7.54034,
+    "longitude": 3.42853
+  },
+  {
+    "id": 27,
+    "name": "lanlate general hospital",
+    "lga": "ibarapa east",
+    "latitude": 7.58072,
+    "longitude": 3.44497
+  },
+  {
+    "id": 28,
+    "name": "ayete general hospital",
+    "lga": "ibarapa north",
+    "latitude": 7.53379,
+    "longitude": 3.21956
+  },
+  {
+    "id": 29,
+    "name": "kisi general hospital",
+    "lga": "irepo",
+    "latitude": 9.09138,
+    "longitude": 3.83821
+  },
+  {
+    "id": 30,
+    "name": "general hospital  iseyin",
+    "lga": "iseyin",
+    "latitude": 7.94873426,
+    "longitude": 3.61747034
+  },
+  {
+    "id": 31,
+    "name": "police hospital iseyin",
+    "lga": "iseyin",
+    "latitude": 7.961703,
+    "longitude": 3.60071
+  },
+  {
+    "id": 32,
+    "name": "general hospital okaka",
+    "lga": "itesiwaju",
+    "latitude": 8.2201735,
+    "longitude": 3.45424134
+  },
+  {
+    "id": 33,
+    "name": "general hospital iganna",
+    "lga": "iwajowa",
+    "latitude": 7.958187,
+    "longitude": 3.257492
+  },
+  {
+    "id": 34,
+    "name": "iwere ile general hospital",
+    "lga": "iwajowa",
+    "latitude": 8.004728,
+    "longitude": 3.088847
+  },
+  {
+    "id": 35,
+    "name": "okeho general hospital",
+    "lga": "kajola",
+    "latitude": 8.04321,
+    "longitude": 3.37996
+  },
+  {
+    "id": 36,
+    "name": "akobo naval air force medical centre",
+    "lga": "lagelu",
+    "latitude": 7.43193,
+    "longitude": 3.94781
+  },
+  {
+    "id": 37,
+    "name": "kutayi general hospital",
+    "lga": "lagelu",
+    "latitude": 7.56797,
+    "longitude": 4.04944
+  },
+  {
+    "id": 38,
+    "name": "lagun general hospital",
+    "lga": "lagelu",
+    "latitude": 7.53748,
+    "longitude": 4.08695
+  },
+  {
+    "id": 39,
+    "name": "ogbomoso state hospital",
+    "lga": "ogbomosho south",
+    "latitude": 8.11183,
+    "longitude": 4.23462
+  },
+  {
+    "id": 40,
+    "name": "igbeti general hospital",
+    "lga": "olorunsogo",
+    "latitude": 8.73668,
+    "longitude": 4.14717
+  },
+  {
+    "id": 41,
+    "name": "orile odo general hospital",
+    "lga": "oluyole",
+    "latitude": 7.25039,
+    "longitude": 3.85486
+  },
+  {
+    "id": 42,
+    "name": "igboho general hospital",
+    "lga": "orelope",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 43,
+    "name": "ikoyi-ile general hospital",
+    "lga": "ori ire",
+    "latitude": 8.243967,
+    "longitude": 4.165922
+  },
+  {
+    "id": 44,
+    "name": "ago amodu general hospital",
+    "lga": "saki east",
+    "latitude": 8.62098,
+    "longitude": 3.61032
+  },
+  {
+    "id": 45,
+    "name": "sepeteri general hospital",
+    "lga": "saki east",
+    "latitude": 8.62931,
+    "longitude": 3.63908
+  },
+  {
+    "id": 46,
+    "name": "saki general hospital",
+    "lga": "saki west",
+    "latitude": 8.67207,
+    "longitude": 3.39747
+  },
+  {
+    "id": 47,
+    "name": "iresadu general hospital",
+    "lga": "surulere",
+    "latitude": 8.07833705,
+    "longitude": 4.4022715
+  },
+  {
+    "id": 48,
+    "name": "aba-adio primary health centre",
+    "lga": "afijio",
+    "latitude": 7.71145,
+    "longitude": 3.96057
+  },
+  {
+    "id": 49,
+    "name": "abanti primary health centre",
+    "lga": "afijio",
+    "latitude": 7.80734,
+    "longitude": 3.76004
+  },
+  {
+    "id": 50,
+    "name": "akinmorin primary health centre",
+    "lga": "afijio",
+    "latitude": 7.79096,
+    "longitude": 3.94648
+  },
+  {
+    "id": 51,
+    "name": "asaju primary health centre",
+    "lga": "afijio",
+    "latitude": 7.67436,
+    "longitude": 3.82601
+  },
+  {
+    "id": 52,
+    "name": "awe primary health centre",
+    "lga": "afijio",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 53,
+    "name": "fiditi primary health centre",
+    "lga": "afijio",
+    "latitude": 7.7185,
+    "longitude": 3.91383
+  },
+  {
+    "id": 54,
+    "name": "fiditi primary health centre,fiditi",
+    "lga": "afijio",
+    "latitude": 7.71851,
+    "longitude": 3.91382
+  },
+  {
+    "id": 55,
+    "name": "idi igba primary health centre",
+    "lga": "afijio",
+    "latitude": 7.80426,
+    "longitude": 3.91524
+  },
+  {
+    "id": 56,
+    "name": "ijaye ojutaye primary health centre",
+    "lga": "afijio",
+    "latitude": 7.64444,
+    "longitude": 3.87141
+  },
+  {
+    "id": 57,
+    "name": "ilora primary health center",
+    "lga": "afijio",
+    "latitude": 7.80087,
+    "longitude": 3.90393
+  },
+  {
+    "id": 58,
+    "name": "ilu aje primary health centre",
+    "lga": "afijio",
+    "latitude": 7.74856,
+    "longitude": 3.88459
+  },
+  {
+    "id": 59,
+    "name": "imini primary health centre",
+    "lga": "afijio",
+    "latitude": 7.68938,
+    "longitude": 3.79339
+  },
+  {
+    "id": 60,
+    "name": "iware maternity  health centre",
+    "lga": "afijio",
+    "latitude": 7.68237,
+    "longitude": 3.9678
+  },
+  {
+    "id": 61,
+    "name": "iware model primary health care",
+    "lga": "afijio",
+    "latitude": 7.68001,
+    "longitude": 3.96717
+  },
+  {
+    "id": 62,
+    "name": "jobele primary health centre",
+    "lga": "afijio",
+    "latitude": 7.765642,
+    "longitude": 3.92184
+  },
+  {
+    "id": 63,
+    "name": "mdg primary health centre",
+    "lga": "afijio",
+    "latitude": 7.79499,
+    "longitude": 3.89278
+  },
+  {
+    "id": 64,
+    "name": "obananko primary health centre",
+    "lga": "afijio",
+    "latitude": 7.82577,
+    "longitude": 3.8455
+  },
+  {
+    "id": 65,
+    "name": "oke boda primary health centre",
+    "lga": "afijio",
+    "latitude": 7.81827,
+    "longitude": 3.97179
+  },
+  {
+    "id": 66,
+    "name": "okediji primary health care,ilora",
+    "lga": "afijio",
+    "latitude": 7.81077,
+    "longitude": 3.88893
+  },
+  {
+    "id": 67,
+    "name": "okediji primary health centre",
+    "lga": "afijio",
+    "latitude": 7.8112,
+    "longitude": 3.88898
+  },
+  {
+    "id": 68,
+    "name": "ajibode primary health centre",
+    "lga": "akinyele",
+    "latitude": 7.57021,
+    "longitude": 3.88526
+  },
+  {
+    "id": 69,
+    "name": "akinyele primary health centre",
+    "lga": "akinyele",
+    "latitude": 7.59061,
+    "longitude": 3.914347
+  },
+  {
+    "id": 70,
+    "name": "alabata primary health centre",
+    "lga": "akinyele",
+    "latitude": 7.59261,
+    "longitude": 3.86733
+  },
+  {
+    "id": 71,
+    "name": "alade health centre",
+    "lga": "akinyele",
+    "latitude": 7.60226,
+    "longitude": 4.01671
+  },
+  {
+    "id": 72,
+    "name": "apapa odan primary health centre",
+    "lga": "akinyele",
+    "latitude": 7.61998,
+    "longitude": 3.93641
+  },
+  {
+    "id": 73,
+    "name": "aroro  health centre",
+    "lga": "akinyele",
+    "latitude": 7.52312,
+    "longitude": 3.95789
+  },
+  {
+    "id": 74,
+    "name": "atan health centre",
+    "lga": "akinyele",
+    "latitude": 7.67783,
+    "longitude": 3.757
+  },
+  {
+    "id": 75,
+    "name": "elekuru primary health centre",
+    "lga": "akinyele",
+    "latitude": 7.59228,
+    "longitude": 3.82523
+  },
+  {
+    "id": 76,
+    "name": "elepo primary health centre",
+    "lga": "akinyele",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 77,
+    "name": "ijaye primary health centre",
+    "lga": "akinyele",
+    "latitude": 7.6284,
+    "longitude": 3.85084
+  },
+  {
+    "id": 78,
+    "name": "ikereku primary health",
+    "lga": "akinyele",
+    "latitude": 7.62989,
+    "longitude": 3.97473
+  },
+  {
+    "id": 79,
+    "name": "iroko  primary health centre",
+    "lga": "akinyele",
+    "latitude": 7.65997,
+    "longitude": 3.92346
+  },
+  {
+    "id": 80,
+    "name": "iware primary health centre",
+    "lga": "akinyele",
+    "latitude": 7.68021,
+    "longitude": 3.78953
+  },
+  {
+    "id": 81,
+    "name": "iwokoto health centre",
+    "lga": "akinyele",
+    "latitude": 7.53072,
+    "longitude": 3.91443
+  },
+  {
+    "id": 82,
+    "name": "kajorepo primary health centre",
+    "lga": "akinyele",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 83,
+    "name": "kara health centre",
+    "lga": "akinyele",
+    "latitude": 7.61034,
+    "longitude": 3.91388
+  },
+  {
+    "id": 84,
+    "name": "moniya primary health centre",
+    "lga": "akinyele",
+    "latitude": 7.53177,
+    "longitude": 3.91074
+  },
+  {
+    "id": 85,
+    "name": "ojoo  primary health centre",
+    "lga": "akinyele",
+    "latitude": 7.47116,
+    "longitude": 3.915688
+  },
+  {
+    "id": 86,
+    "name": "olorisa-oko primary health centre",
+    "lga": "akinyele",
+    "latitude": 7.56139,
+    "longitude": 3.887
+  },
+  {
+    "id": 87,
+    "name": "onidundu health centre",
+    "lga": "akinyele",
+    "latitude": 7.62559,
+    "longitude": 3.91885
+  },
+  {
+    "id": 88,
+    "name": "owe kekun health centre",
+    "lga": "akinyele",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 89,
+    "name": "pade model health centre",
+    "lga": "akinyele",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 90,
+    "name": "pade model health centre",
+    "lga": "akinyele",
+    "latitude": 7.62275,
+    "longitude": 4.00957
+  },
+  {
+    "id": 91,
+    "name": "sasa primary health centre",
+    "lga": "akinyele",
+    "latitude": 7.48593,
+    "longitude": 3.9139
+  },
+  {
+    "id": 92,
+    "name": "uch annex primary health care centre",
+    "lga": "akinyele",
+    "latitude": 7.54539,
+    "longitude": 3.81052
+  },
+  {
+    "id": 93,
+    "name": "aafin health centre",
+    "lga": "atiba",
+    "latitude": 7.8547372,
+    "longitude": 3.93366538
+  },
+  {
+    "id": 94,
+    "name": "aafin primary health centre",
+    "lga": "atiba",
+    "latitude": 7.8498977,
+    "longitude": 3.93737052
+  },
+  {
+    "id": 95,
+    "name": "ajiroba-agbaakin  health centre",
+    "lga": "atiba",
+    "latitude": 8.11047,
+    "longitude": 4.02079
+  },
+  {
+    "id": 96,
+    "name": "arinkinkin health centre",
+    "lga": "atiba",
+    "latitude": 8.10966,
+    "longitude": 4.02221
+  },
+  {
+    "id": 97,
+    "name": "ayetoro community health centre",
+    "lga": "atiba",
+    "latitude": 7.84811613,
+    "longitude": 3.90895721
+  },
+  {
+    "id": 98,
+    "name": "boroboro health centre",
+    "lga": "atiba",
+    "latitude": 7.858944,
+    "longitude": 3.965484
+  },
+  {
+    "id": 99,
+    "name": "elelu health centre",
+    "lga": "atiba",
+    "latitude": 8.11544,
+    "longitude": 4.02405
+  },
+  {
+    "id": 100,
+    "name": "igbonla health centre",
+    "lga": "atiba",
+    "latitude": 8.11318,
+    "longitude": 4.0221
+  },
+  {
+    "id": 101,
+    "name": "ijawaya health centre",
+    "lga": "atiba",
+    "latitude": 7.92877,
+    "longitude": 4.01256
+  },
+  {
+    "id": 102,
+    "name": "ijawaya primary health centre",
+    "lga": "atiba",
+    "latitude": 7.92433,
+    "longitude": 4.01071
+  },
+  {
+    "id": 103,
+    "name": "ilupeju  health centre",
+    "lga": "atiba",
+    "latitude": 7.90329947,
+    "longitude": 3.95384934
+  },
+  {
+    "id": 104,
+    "name": "isale-oyo health centre",
+    "lga": "atiba",
+    "latitude": 7.86344292,
+    "longitude": 3.92466154
+  },
+  {
+    "id": 105,
+    "name": "koso primary  health center",
+    "lga": "atiba",
+    "latitude": 7.87918062,
+    "longitude": 3.92647538
+  },
+  {
+    "id": 106,
+    "name": "oke-olola primary health centre",
+    "lga": "atiba",
+    "latitude": 7.85934715,
+    "longitude": 3.94379005
+  },
+  {
+    "id": 107,
+    "name": "oke-oroki health centre",
+    "lga": "atiba",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 108,
+    "name": "onire-bara health centre",
+    "lga": "atiba",
+    "latitude": 7.92897,
+    "longitude": 4.00875
+  },
+  {
+    "id": 109,
+    "name": "oniroko health centre",
+    "lga": "atiba",
+    "latitude": 7.91477,
+    "longitude": 4.77529
+  },
+  {
+    "id": 110,
+    "name": "oroki health centre",
+    "lga": "atiba",
+    "latitude": 7.863066,
+    "longitude": 3.912127
+  },
+  {
+    "id": 111,
+    "name": "otefon health center",
+    "lga": "atiba",
+    "latitude": 8.11754,
+    "longitude": 4.02581
+  },
+  {
+    "id": 112,
+    "name": "abugudu primary health centre",
+    "lga": "atisbo",
+    "latitude": 8.51664,
+    "longitude": 3.41828
+  },
+  {
+    "id": 113,
+    "name": "adeoye primary health centre",
+    "lga": "atisbo",
+    "latitude": 8.64702,
+    "longitude": 3.40268
+  },
+  {
+    "id": 114,
+    "name": "agbele primary health centre",
+    "lga": "atisbo",
+    "latitude": 8.40229,
+    "longitude": 3.45092
+  },
+  {
+    "id": 115,
+    "name": "ago are model primary health centre",
+    "lga": "atisbo",
+    "latitude": 8.50907,
+    "longitude": 3.41866
+  },
+  {
+    "id": 116,
+    "name": "ago are primary health centre",
+    "lga": "atisbo",
+    "latitude": 8.50888,
+    "longitude": 3.41872
+  },
+  {
+    "id": 117,
+    "name": "agunrege  primary health centre",
+    "lga": "atisbo",
+    "latitude": 8.39535,
+    "longitude": 3.39205
+  },
+  {
+    "id": 118,
+    "name": "ajebandele primary health centre",
+    "lga": "atisbo",
+    "latitude": 8.36216,
+    "longitude": 3.56996
+  },
+  {
+    "id": 119,
+    "name": "alajuba primary health centre",
+    "lga": "atisbo",
+    "latitude": 8.38109,
+    "longitude": 3.46742
+  },
+  {
+    "id": 120,
+    "name": "alakuko model primary health centre",
+    "lga": "atisbo",
+    "latitude": 8.49219,
+    "longitude": 3.53894
+  },
+  {
+    "id": 121,
+    "name": "atebe primary health centre",
+    "lga": "atisbo",
+    "latitude": 8.52163,
+    "longitude": 3.48014
+  },
+  {
+    "id": 122,
+    "name": "baasi town primary health centre",
+    "lga": "atisbo",
+    "latitude": 8.32449,
+    "longitude": 3.39797
+  },
+  {
+    "id": 123,
+    "name": "corner owo primary health centre",
+    "lga": "atisbo",
+    "latitude": 8.36228,
+    "longitude": 3.38316
+  },
+  {
+    "id": 124,
+    "name": "irawo owode comprehensive health centre",
+    "lga": "atisbo",
+    "latitude": 8.53775,
+    "longitude": 3.36941
+  },
+  {
+    "id": 125,
+    "name": "irawo owode primary health centre",
+    "lga": "atisbo",
+    "latitude": 8.52606,
+    "longitude": 3.36428
+  },
+  {
+    "id": 126,
+    "name": "irawo-ile ori-okoo  primary health care centre",
+    "lga": "atisbo",
+    "latitude": 8.53806,
+    "longitude": 3.34831
+  },
+  {
+    "id": 127,
+    "name": "model primary health care tede",
+    "lga": "atisbo",
+    "latitude": 8.55086,
+    "longitude": 3.44001
+  },
+  {
+    "id": 128,
+    "name": "ofiki  primary health care centre",
+    "lga": "atisbo",
+    "latitude": 8.44378,
+    "longitude": 3.33127
+  },
+  {
+    "id": 129,
+    "name": "ofiki primary health centre",
+    "lga": "atisbo",
+    "latitude": 8.44243,
+    "longitude": 3.33251
+  },
+  {
+    "id": 130,
+    "name": "owotoro primary health centre",
+    "lga": "atisbo",
+    "latitude": 8.41194,
+    "longitude": 3.35759
+  },
+  {
+    "id": 131,
+    "name": "sabe primary health centre",
+    "lga": "atisbo",
+    "latitude": 8.43326,
+    "longitude": 3.40327
+  },
+  {
+    "id": 132,
+    "name": "tede comprehensive health centre",
+    "lga": "atisbo",
+    "latitude": 8.54525,
+    "longitude": 3.44671
+  },
+  {
+    "id": 133,
+    "name": "tede primary health centre",
+    "lga": "atisbo",
+    "latitude": 8.56175,
+    "longitude": 3.44629
+  },
+  {
+    "id": 134,
+    "name": "adeleye primary health centre",
+    "lga": "egbeda",
+    "latitude": 7.45121,
+    "longitude": 4.03555
+  },
+  {
+    "id": 135,
+    "name": "adogba primary health centre",
+    "lga": "egbeda",
+    "latitude": 7.41353,
+    "longitude": 3.96141
+  },
+  {
+    "id": 136,
+    "name": "ajiwogbo health centre",
+    "lga": "egbeda",
+    "latitude": 7.48778,
+    "longitude": 4.045621
+  },
+  {
+    "id": 137,
+    "name": "alakia model primary health care center",
+    "lga": "egbeda",
+    "latitude": 7.40139,
+    "longitude": 3.97874
+  },
+  {
+    "id": 138,
+    "name": "apete primary health centre",
+    "lga": "egbeda",
+    "latitude": 7.40635,
+    "longitude": 3.94577
+  },
+  {
+    "id": 139,
+    "name": "asejire primary health centre",
+    "lga": "egbeda",
+    "latitude": 7.36017,
+    "longitude": 4.12307
+  },
+  {
+    "id": 140,
+    "name": "atari primary health centre",
+    "lga": "egbeda",
+    "latitude": 7.44286,
+    "longitude": 4.04928
+  },
+  {
+    "id": 141,
+    "name": "awaye primary health clinic",
+    "lga": "egbeda",
+    "latitude": 7.39696,
+    "longitude": 4.07194
+  },
+  {
+    "id": 142,
+    "name": "egbeda primary health centre",
+    "lga": "egbeda",
+    "latitude": 7.37593,
+    "longitude": 4.04807
+  },
+  {
+    "id": 143,
+    "name": "erunmu model primary health centre",
+    "lga": "egbeda",
+    "latitude": 7.45033,
+    "longitude": 4.07098
+  },
+  {
+    "id": 144,
+    "name": "ikumapayi primary health centre",
+    "lga": "egbeda",
+    "latitude": 7.41696,
+    "longitude": 4.01427
+  },
+  {
+    "id": 145,
+    "name": "kajorepo primary health centre",
+    "lga": "egbeda",
+    "latitude": 7.41905,
+    "longitude": 4.01353
+  },
+  {
+    "id": 146,
+    "name": "kute primary health centre",
+    "lga": "egbeda",
+    "latitude": 7.44555,
+    "longitude": 3.98053
+  },
+  {
+    "id": 147,
+    "name": "olode primary health centre",
+    "lga": "egbeda",
+    "latitude": 7.38147,
+    "longitude": 3.99534
+  },
+  {
+    "id": 148,
+    "name": "olodo primary health centre",
+    "lga": "egbeda",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 149,
+    "name": "oloya primary health centre",
+    "lga": "egbeda",
+    "latitude": 7.41854,
+    "longitude": 3.96697
+  },
+  {
+    "id": 150,
+    "name": "oremeji primary health center",
+    "lga": "egbeda",
+    "latitude": 7.38184,
+    "longitude": 3.93509
+  },
+  {
+    "id": 151,
+    "name": "owobale primary health centre",
+    "lga": "egbeda",
+    "latitude": 7.42063,
+    "longitude": 4.07088
+  },
+  {
+    "id": 152,
+    "name": "pagun primary health centre",
+    "lga": "egbeda",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 153,
+    "name": "wakajaye primary health centre",
+    "lga": "egbeda",
+    "latitude": 7.41942,
+    "longitude": 3.98532
+  },
+  {
+    "id": 154,
+    "name": "agbowo phc",
+    "lga": "ibadan north",
+    "latitude": 7.44454,
+    "longitude": 3.232154
+  },
+  {
+    "id": 155,
+    "name": "agbowo primary health centre",
+    "lga": "ibadan north",
+    "latitude": 7.44947,
+    "longitude": 3.91373
+  },
+  {
+    "id": 156,
+    "name": "ago tapa primary health centre",
+    "lga": "ibadan north",
+    "latitude": 7.40254,
+    "longitude": 3.89216
+  },
+  {
+    "id": 157,
+    "name": "barika primary health centre",
+    "lga": "ibadan n",
+    "latitude": 7.44802,
+    "longitude": 3.91104
+  },
+  {
+    "id": 158,
+    "name": "basorun primary health centre",
+    "lga": "ibadan north",
+    "latitude": 7.41521,
+    "longitude": 3.93252
+  },
+  {
+    "id": 159,
+    "name": "bodija primary health centre",
+    "lga": "ibadan north",
+    "latitude": 7.42215,
+    "longitude": 3.91441
+  },
+  {
+    "id": 160,
+    "name": "idera de primary health centre",
+    "lga": "ibadan north",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 161,
+    "name": "idi ogungun primary health center",
+    "lga": "ibadan north",
+    "latitude": 7.39495,
+    "longitude": 3.91795
+  },
+  {
+    "id": 162,
+    "name": "mokola primary health center",
+    "lga": "ibadan north",
+    "latitude": 7.41417,
+    "longitude": 3.89815
+  },
+  {
+    "id": 163,
+    "name": "obasa primary health centre",
+    "lga": "ibadan north",
+    "latitude": 7.41417,
+    "longitude": 3.89815
+  },
+  {
+    "id": 164,
+    "name": "oke are primary health centre",
+    "lga": "ibadan north",
+    "latitude": 7.43632,
+    "longitude": 3.93974
+  },
+  {
+    "id": 165,
+    "name": "oke itunu primary health centre",
+    "lga": "ibadan north",
+    "latitude": 7.41611,
+    "longitude": 3.89026
+  },
+  {
+    "id": 166,
+    "name": "sabo primary health centre",
+    "lga": "ibadan north",
+    "latitude": 7.40216,
+    "longitude": 3.88562
+  },
+  {
+    "id": 167,
+    "name": "samonda primary health  centre",
+    "lga": "ibadan north",
+    "latitude": 7.43251,
+    "longitude": 3.90489
+  },
+  {
+    "id": 168,
+    "name": "sango primary health center",
+    "lga": "ibadan north",
+    "latitude": 7.42755,
+    "longitude": 3.89302
+  },
+  {
+    "id": 169,
+    "name": "ajobo health centre",
+    "lga": "ibadan north east",
+    "latitude": 7.37287,
+    "longitude": 3.903528
+  },
+  {
+    "id": 170,
+    "name": "akeke primary health centre",
+    "lga": "ibadan north east",
+    "latitude": 7.41571,
+    "longitude": 3.93882
+  },
+  {
+    "id": 171,
+    "name": "alafara primary health centre",
+    "lga": "ibadan north east",
+    "latitude": 7.38276,
+    "longitude": 3.90504
+  },
+  {
+    "id": 172,
+    "name": "aremo primary  health centre",
+    "lga": "ibadan north east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 173,
+    "name": "ayekale primary health centre",
+    "lga": "ibadan north east",
+    "latitude": 7.37737,
+    "longitude": 3.92782808
+  },
+  {
+    "id": 174,
+    "name": "ilupeju health center",
+    "lga": "ibadan north east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 175,
+    "name": "iwo road primary health centre",
+    "lga": "ibadan north east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 176,
+    "name": "ode-aje  primary health centre",
+    "lga": "ibadan north east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 177,
+    "name": "oje primary health centre",
+    "lga": "ibadan north east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 178,
+    "name": "oke'badan health center",
+    "lga": "ibadan north east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 179,
+    "name": "oke-adu primary health centre",
+    "lga": "ibadan north east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 180,
+    "name": "omowumi primary health centre",
+    "lga": "ibadan north east",
+    "latitude": 7.36587,
+    "longitude": 3.92521
+  },
+  {
+    "id": 181,
+    "name": "oranyan primary health centre",
+    "lga": "ibadan north east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 182,
+    "name": "police medical centre",
+    "lga": "ibadan north east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 183,
+    "name": "st. mary health centre",
+    "lga": "ibadan north east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 184,
+    "name": "ayeye primary health centre",
+    "lga": "ibadan north west",
+    "latitude": 7.38083,
+    "longitude": 3.89395
+  },
+  {
+    "id": 185,
+    "name": "eleyele primary  health centre",
+    "lga": "ibadan north west",
+    "latitude": 7.41701,
+    "longitude": 3.86838
+  },
+  {
+    "id": 186,
+    "name": "koseunti primary health centre",
+    "lga": "ibadan north west",
+    "latitude": 7.42242,
+    "longitude": 3.83947
+  },
+  {
+    "id": 187,
+    "name": "oganla iware primary health centre",
+    "lga": "ibadan north west",
+    "latitude": 7.39363,
+    "longitude": 3.88619
+  },
+  {
+    "id": 188,
+    "name": "ogunpa primary health centre",
+    "lga": "ibadan north west",
+    "latitude": 7.38805,
+    "longitude": 3.88417
+  },
+  {
+    "id": 189,
+    "name": "oniyanrin primary health centre",
+    "lga": "ibadan north west",
+    "latitude": 7.38957,
+    "longitude": 3.89284
+  },
+  {
+    "id": 190,
+    "name": "ori-eru primary health centre",
+    "lga": "ibadan north west",
+    "latitude": 7.38135,
+    "longitude": 3.89141
+  },
+  {
+    "id": 191,
+    "name": "origbegi health centre",
+    "lga": "ibadan north west",
+    "latitude": 7.38269,
+    "longitude": 3.89338
+  },
+  {
+    "id": 192,
+    "name": "agbongbon pimary health centre",
+    "lga": "ibadan south east",
+    "latitude": 7.36692,
+    "longitude": 3.89926
+  },
+  {
+    "id": 193,
+    "name": "balaro primary health centre",
+    "lga": "ibadan south east",
+    "latitude": 7.35461,
+    "longitude": 3.90563
+  },
+  {
+    "id": 194,
+    "name": "boluwaji primary health centre",
+    "lga": "ibadan south east",
+    "latitude": 7.43629,
+    "longitude": 3.73435
+  },
+  {
+    "id": 195,
+    "name": "elekuro health centre",
+    "lga": "ibadan south east",
+    "latitude": 7.36734,
+    "longitude": 3.91409
+  },
+  {
+    "id": 196,
+    "name": "eyin gramer primary health centre",
+    "lga": "ibadan south east",
+    "latitude": 7.34629,
+    "longitude": 3.89297
+  },
+  {
+    "id": 197,
+    "name": "iyana court health centre",
+    "lga": "ibadan south east",
+    "latitude": 7.35944,
+    "longitude": 3.90414
+  },
+  {
+    "id": 198,
+    "name": "lanioka health centre",
+    "lga": "ibadan south east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 199,
+    "name": "mapo primary health centre",
+    "lga": "ibadan south east",
+    "latitude": 7.37626,
+    "longitude": 3.89947
+  },
+  {
+    "id": 200,
+    "name": "molete primary health center",
+    "lga": "ibadan south east",
+    "latitude": 7.35719,
+    "longitude": 3.88834
+  },
+  {
+    "id": 201,
+    "name": "odinjo primary health centre",
+    "lga": "ibadan south east",
+    "latitude": 7.35634,
+    "longitude": 3.914498
+  },
+  {
+    "id": 202,
+    "name": "oranmiyan primary health centre",
+    "lga": "ibadan south east",
+    "latitude": 7.37559,
+    "longitude": 3.90321
+  },
+  {
+    "id": 203,
+    "name": "orita aperin primary heaith centre",
+    "lga": "ibadan south east",
+    "latitude": 7.36535,
+    "longitude": 3.91974
+  },
+  {
+    "id": 204,
+    "name": "owode health centre",
+    "lga": "ibadan south east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 205,
+    "name": "adifase primary  health care centre",
+    "lga": "ibadan south west",
+    "latitude": 7.38686,
+    "longitude": 3.82915
+  },
+  {
+    "id": 206,
+    "name": "akere primary health care centre",
+    "lga": "ibadan south west",
+    "latitude": 7.37637,
+    "longitude": 3.89459
+  },
+  {
+    "id": 207,
+    "name": "akuro primary  health care centre",
+    "lga": "ibadan south west",
+    "latitude": 7.36794,
+    "longitude": 3.88547
+  },
+  {
+    "id": 208,
+    "name": "alesinleloye primary health care centre",
+    "lga": "ibadan south west",
+    "latitude": 7.38852,
+    "longitude": 3.87114
+  },
+  {
+    "id": 209,
+    "name": "awodife primary health care  centre",
+    "lga": "ibadan south west",
+    "latitude": 7.35062,
+    "longitude": 3.87496
+  },
+  {
+    "id": 210,
+    "name": "bode primary health care  center",
+    "lga": "ibadan south west",
+    "latitude": 7.36321,
+    "longitude": 3.88944
+  },
+  {
+    "id": 211,
+    "name": "elewura primary health care centre",
+    "lga": "ibadan south west",
+    "latitude": 7.34773,
+    "longitude": 3.87402
+  },
+  {
+    "id": 212,
+    "name": "foko primary health care centre",
+    "lga": "ibadan south west",
+    "latitude": 7.37604,
+    "longitude": 3.88705
+  },
+  {
+    "id": 213,
+    "name": "government college primary health care centre",
+    "lga": "ibadan south west",
+    "latitude": 7.37862,
+    "longitude": 3.83123
+  },
+  {
+    "id": 214,
+    "name": "isale- osi primary health care  centre",
+    "lga": "ibadan south west",
+    "latitude": 7.37398,
+    "longitude": 3.89121
+  },
+  {
+    "id": 215,
+    "name": "kososi primary health care centre",
+    "lga": "ibadan south west",
+    "latitude": 7.37012,
+    "longitude": 3.89246
+  },
+  {
+    "id": 216,
+    "name": "odo- ona primary health care centre",
+    "lga": "ibadan south west",
+    "latitude": 7.38122,
+    "longitude": 3.85183
+  },
+  {
+    "id": 217,
+    "name": "oke - bola primary health care centre",
+    "lga": "ibadan south west",
+    "latitude": 7.38335,
+    "longitude": 3.87749
+  },
+  {
+    "id": 218,
+    "name": "oke- ayo primary health care  centre",
+    "lga": "ibadan south west",
+    "latitude": 7.37408,
+    "longitude": 3.85155
+  },
+  {
+    "id": 219,
+    "name": "oluyole primary health  care centre",
+    "lga": "ibadan south west",
+    "latitude": 7.36906,
+    "longitude": 3.85972
+  },
+  {
+    "id": 220,
+    "name": "sharp corner primary health care centre.",
+    "lga": "ibadan south west",
+    "latitude": 7.37572,
+    "longitude": 3.87849
+  },
+  {
+    "id": 221,
+    "name": "idere model primary health centre",
+    "lga": "ibarapa central",
+    "latitude": 7.48665,
+    "longitude": 3.25699
+  },
+  {
+    "id": 222,
+    "name": "idere primary health care  centre",
+    "lga": "ibarapa central",
+    "latitude": 7.493245,
+    "longitude": 3.2481
+  },
+  {
+    "id": 223,
+    "name": "igbole primary health centre",
+    "lga": "ibarapa central",
+    "latitude": 7.38882,
+    "longitude": 3.31061
+  },
+  {
+    "id": 224,
+    "name": "isale oba primary health centre",
+    "lga": "ibarapa central",
+    "latitude": 7.43777,
+    "longitude": 3.27391
+  },
+  {
+    "id": 225,
+    "name": "kondo primary health centre",
+    "lga": "ibarapa central",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 226,
+    "name": "model primary health care centre",
+    "lga": "ibarapa central",
+    "latitude": 7.48665,
+    "longitude": 3.35699
+  },
+  {
+    "id": 227,
+    "name": "oke agogo health centre",
+    "lga": "ibarapa central",
+    "latitude": 7.43657,
+    "longitude": 3.28687
+  },
+  {
+    "id": 228,
+    "name": "oke-odo primary health centre",
+    "lga": "ibarapa central",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 229,
+    "name": "origi  primary health centre",
+    "lga": "ibarapa central",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 230,
+    "name": "origi primary health care centre",
+    "lga": "ibarapa central",
+    "latitude": 7.57799,
+    "longitude": 3.16
+  },
+  {
+    "id": 231,
+    "name": "oyo college of agriculture health centre",
+    "lga": "ibarapa central",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 232,
+    "name": "tobalogbo primary health care",
+    "lga": "ibarapa central",
+    "latitude": 7.53058,
+    "longitude": 3.28179
+  },
+  {
+    "id": 233,
+    "name": "tobalopo primary health centre",
+    "lga": "ibarapa central",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 234,
+    "name": "afuye ijesa primary health centre",
+    "lga": "ibarapa east",
+    "latitude": 7.55216,
+    "longitude": 3.42323
+  },
+  {
+    "id": 235,
+    "name": "alapa primary health centre",
+    "lga": "ibarapa east",
+    "latitude": 7.65267,
+    "longitude": 3.53582
+  },
+  {
+    "id": 236,
+    "name": "anko  primary health centre",
+    "lga": "ibarapa east",
+    "latitude": 7.53704,
+    "longitude": 3.41984
+  },
+  {
+    "id": 237,
+    "name": "idi-ata health centre",
+    "lga": "ibarapa east",
+    "latitude": 7.53706,
+    "longitude": 3.41978
+  },
+  {
+    "id": 238,
+    "name": "maya primary health centre",
+    "lga": "ibarapa east",
+    "latitude": 7.67731,
+    "longitude": 3.44457
+  },
+  {
+    "id": 239,
+    "name": "new eruwa health centre",
+    "lga": "ibarapa east",
+    "latitude": 7.54902,
+    "longitude": 3.44247
+  },
+  {
+    "id": 240,
+    "name": "new eruwa primary health centre",
+    "lga": "ibarapa east",
+    "latitude": 7.54903,
+    "longitude": 3.44409
+  },
+  {
+    "id": 241,
+    "name": "oke imale primary health centre",
+    "lga": "ibarapa east",
+    "latitude": 7.58944,
+    "longitude": 3.4492
+  },
+  {
+    "id": 242,
+    "name": "oke-imale  primary health centre",
+    "lga": "ibarapa east",
+    "latitude": 7.58946,
+    "longitude": 3.44891
+  },
+  {
+    "id": 243,
+    "name": "oke-oba eruwa primary health centre",
+    "lga": "ibarapa east",
+    "latitude": 7.53709,
+    "longitude": 3.41086
+  },
+  {
+    "id": 244,
+    "name": "oke-ola eruwa primary health centre",
+    "lga": "ibarapa east",
+    "latitude": 7.52569,
+    "longitude": 3.422912
+  },
+  {
+    "id": 245,
+    "name": "okolo health centre",
+    "lga": "ibarapa east",
+    "latitude": 7.52737,
+    "longitude": 3.51724
+  },
+  {
+    "id": 246,
+    "name": "owode  primary health centre",
+    "lga": "ibarapa east",
+    "latitude": 7.61049,
+    "longitude": 3.53711
+  },
+  {
+    "id": 247,
+    "name": "temidire primary health centre",
+    "lga": "ibarapa east",
+    "latitude": 7.45633,
+    "longitude": 3.47293
+  },
+  {
+    "id": 248,
+    "name": "abidioki primary health centre",
+    "lga": "ibarapa north",
+    "latitude": 7.76074,
+    "longitude": 3.20612
+  },
+  {
+    "id": 249,
+    "name": "akoya  primary health centre",
+    "lga": "ibarapa north",
+    "latitude": 7.73355,
+    "longitude": 3.09667
+  },
+  {
+    "id": 250,
+    "name": "alabi primary health centre",
+    "lga": "ibarapa north",
+    "latitude": 7.60108,
+    "longitude": 3.3006
+  },
+  {
+    "id": 251,
+    "name": "asunnara primary health centre",
+    "lga": "ibarapa north",
+    "latitude": 7.6549,
+    "longitude": 3.11745
+  },
+  {
+    "id": 252,
+    "name": "ayete priamary health care centre",
+    "lga": "ibarapa north",
+    "latitude": 7.54463,
+    "longitude": 3.22093
+  },
+  {
+    "id": 253,
+    "name": "idi ope millenium development goal primary health centre",
+    "lga": "ibarapa north",
+    "latitude": 7.693554,
+    "longitude": 3.18675
+  },
+  {
+    "id": 254,
+    "name": "idiyan  primary health centre",
+    "lga": "ibarapa north",
+    "latitude": 7.79762,
+    "longitude": 3.12337
+  },
+  {
+    "id": 255,
+    "name": "idiyan primary health center",
+    "lga": "ibarapa north",
+    "latitude": 7.79762,
+    "longitude": 3.12337
+  },
+  {
+    "id": 256,
+    "name": "igangan oke ola primary health centre",
+    "lga": "ibarapa north",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 257,
+    "name": "okeola primary health centre",
+    "lga": "ibarapa north",
+    "latitude": 7.68207,
+    "longitude": 3.18372
+  },
+  {
+    "id": 258,
+    "name": "tapa primary health  centre",
+    "lga": "ibarapa north",
+    "latitude": 7.5554,
+    "longitude": 3.22811
+  },
+  {
+    "id": 259,
+    "name": "akinware health centre",
+    "lga": "ido",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 260,
+    "name": "akufo health centre",
+    "lga": "ido",
+    "latitude": 7.51424,
+    "longitude": 3.79431
+  },
+  {
+    "id": 261,
+    "name": "alakaso health centre",
+    "lga": "ido",
+    "latitude": 7.40777,
+    "longitude": 3.73929
+  },
+  {
+    "id": 262,
+    "name": "apete health centre",
+    "lga": "ido",
+    "latitude": 7.45025,
+    "longitude": 3.87071
+  },
+  {
+    "id": 263,
+    "name": "araromi health centre",
+    "lga": "ido",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 264,
+    "name": "awotan comprehensive health centre",
+    "lga": "ido",
+    "latitude": 7.45665,
+    "longitude": 3.85014
+  },
+  {
+    "id": 265,
+    "name": "dagi health center",
+    "lga": "ido",
+    "latitude": 7.98077,
+    "longitude": 3.40151
+  },
+  {
+    "id": 266,
+    "name": "elebu primary health centre",
+    "lga": "ido",
+    "latitude": 7.35291,
+    "longitude": 3.82146
+  },
+  {
+    "id": 267,
+    "name": "gbekuba health centre",
+    "lga": "ido",
+    "latitude": 7.39262,
+    "longitude": 3.83298
+  },
+  {
+    "id": 268,
+    "name": "ido primary health centre",
+    "lga": "ido",
+    "latitude": 7.47319,
+    "longitude": 3.76409
+  },
+  {
+    "id": 269,
+    "name": "ladunni health centre",
+    "lga": "ido",
+    "latitude": 7.57759,
+    "longitude": 3.66212
+  },
+  {
+    "id": 270,
+    "name": "ologuneru health centre",
+    "lga": "ido",
+    "latitude": 7.43423,
+    "longitude": 3.82896
+  },
+  {
+    "id": 271,
+    "name": "olosun health center",
+    "lga": "ido",
+    "latitude": 7.2306,
+    "longitude": 3.45281
+  },
+  {
+    "id": 272,
+    "name": "omi-adio health centre",
+    "lga": "ido",
+    "latitude": 7.39524,
+    "longitude": 3.75004
+  },
+  {
+    "id": 273,
+    "name": "adagbangba primary health centre",
+    "lga": "irepo",
+    "latitude": 9.02776,
+    "longitude": 3.71984
+  },
+  {
+    "id": 274,
+    "name": "agede primary health centre",
+    "lga": "irepo",
+    "latitude": 9.07974,
+    "longitude": 3.84651
+  },
+  {
+    "id": 275,
+    "name": "ajangba primary health centre",
+    "lga": "irepo",
+    "latitude": 9.08221,
+    "longitude": 3.64732
+  },
+  {
+    "id": 276,
+    "name": "alalubosa primary health centre",
+    "lga": "irepo",
+    "latitude": 9.02776,
+    "longitude": 3.71984
+  },
+  {
+    "id": 277,
+    "name": "atipa primary health centre",
+    "lga": "irepo",
+    "latitude": 9.08432,
+    "longitude": 3.85317
+  },
+  {
+    "id": 278,
+    "name": "awe primary health centre",
+    "lga": "irepo",
+    "latitude": 9.02331,
+    "longitude": 3.81304
+  },
+  {
+    "id": 279,
+    "name": "budo olaniyan primary health centre",
+    "lga": "irepo",
+    "latitude": 8.96855,
+    "longitude": 3.89046
+  },
+  {
+    "id": 280,
+    "name": "budo tailor primary health center",
+    "lga": "irepo",
+    "latitude": 9.17806,
+    "longitude": 3.76413
+  },
+  {
+    "id": 281,
+    "name": "gaa jooro primary health centre",
+    "lga": "irepo",
+    "latitude": 9.06735,
+    "longitude": 3.83056
+  },
+  {
+    "id": 282,
+    "name": "igbo elemi /gudu primary health centre",
+    "lga": "irepo",
+    "latitude": 9.05136,
+    "longitude": 3.93976
+  },
+  {
+    "id": 283,
+    "name": "koso primary health centre",
+    "lga": "irepo",
+    "latitude": 9.08934,
+    "longitude": 3.85656
+  },
+  {
+    "id": 284,
+    "name": "laha/ajana millenium development goal primary health centre",
+    "lga": "irepo",
+    "latitude": 9.06344,
+    "longitude": 3.85836
+  },
+  {
+    "id": 285,
+    "name": "mapo primary health centre",
+    "lga": "irepo",
+    "latitude": 9.09177,
+    "longitude": 3.85031
+  },
+  {
+    "id": 286,
+    "name": "model primary health care centre olorunsogo",
+    "lga": "irepo",
+    "latitude": 9.08161,
+    "longitude": 3.85634
+  },
+  {
+    "id": 287,
+    "name": "molete primary health center",
+    "lga": "irepo",
+    "latitude": 9.072633,
+    "longitude": 3.849867
+  },
+  {
+    "id": 288,
+    "name": "molete primary health centre",
+    "lga": "irepo",
+    "latitude": 9.07264,
+    "longitude": 3.84992
+  },
+  {
+    "id": 289,
+    "name": "obada primary health centre",
+    "lga": "irepo",
+    "latitude": 9.86194,
+    "longitude": 3.85314
+  },
+  {
+    "id": 290,
+    "name": "sise orowo primary health centre",
+    "lga": "irepo",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 291,
+    "name": "soroo primary health centre",
+    "lga": "irepo",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 292,
+    "name": "tege/owode primary health centre",
+    "lga": "irepo",
+    "latitude": 9.08857,
+    "longitude": 3.84395
+  },
+  {
+    "id": 293,
+    "name": "welewele  primary health centre",
+    "lga": "irepo",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 294,
+    "name": "aba serafu model primary health care centre",
+    "lga": "iseyin",
+    "latitude": 7.853201,
+    "longitude": 3.683889
+  },
+  {
+    "id": 295,
+    "name": "ado awaye primary health care centre",
+    "lga": "iseyin",
+    "latitude": 7.829199,
+    "longitude": 3.430252
+  },
+  {
+    "id": 296,
+    "name": "ajelanwa primary health centre",
+    "lga": "iseyin",
+    "latitude": 7.96645,
+    "longitude": 3.58498
+  },
+  {
+    "id": 297,
+    "name": "ekunle primary health care centre",
+    "lga": "iseyin",
+    "latitude": 7.95892,
+    "longitude": 3.5955559
+  },
+  {
+    "id": 298,
+    "name": "elegede fsp primary health care centre",
+    "lga": "iseyin",
+    "latitude": 7.96281,
+    "longitude": 3.60487
+  },
+  {
+    "id": 299,
+    "name": "faramora primary health care centre",
+    "lga": "iseyin",
+    "latitude": 7.97059,
+    "longitude": 3.60394
+  },
+  {
+    "id": 300,
+    "name": "gboro primary health care center",
+    "lga": "iseyin",
+    "latitude": 8.221938,
+    "longitude": 3.6465
+  },
+  {
+    "id": 301,
+    "name": "ifelajulo primary health care centre",
+    "lga": "iseyin",
+    "latitude": 7.97017,
+    "longitude": 3.56235
+  },
+  {
+    "id": 302,
+    "name": "ilado primary health care centre",
+    "lga": "iseyin",
+    "latitude": 7.95925,
+    "longitude": 3.58787
+  },
+  {
+    "id": 303,
+    "name": "isalu primary health care centre",
+    "lga": "iseyin",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 304,
+    "name": "koso primary health care centre",
+    "lga": "iseyin",
+    "latitude": 7.97047,
+    "longitude": 3.57748
+  },
+  {
+    "id": 305,
+    "name": "ladogan primary health care centre",
+    "lga": "iseyin",
+    "latitude": 7.96808,
+    "longitude": 3.59209
+  },
+  {
+    "id": 306,
+    "name": "ode oba primary health care centre",
+    "lga": "iseyin",
+    "latitude": 7.96802,
+    "longitude": 3.59686
+  },
+  {
+    "id": 307,
+    "name": "oke ola primary health care centre",
+    "lga": "iseyin",
+    "latitude": 7.9737,
+    "longitude": 3.60129
+  },
+  {
+    "id": 308,
+    "name": "oke-ola kasaba primary health centre",
+    "lga": "iseyin",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 309,
+    "name": "olugbade primary health care centre",
+    "lga": "iseyin",
+    "latitude": 8.034908,
+    "longitude": 3.475216
+  },
+  {
+    "id": 310,
+    "name": "osoogun primary health care centre",
+    "lga": "iseyin",
+    "latitude": 7.715193,
+    "longitude": 3.475075
+  },
+  {
+    "id": 311,
+    "name": "adegbodu komu primary health centre",
+    "lga": "itesiwaju",
+    "latitude": 8.292727,
+    "longitude": 3.0311179
+  },
+  {
+    "id": 312,
+    "name": "babaode primary health centre",
+    "lga": "itesiwaju",
+    "latitude": 8.20633,
+    "longitude": 3.21537
+  },
+  {
+    "id": 313,
+    "name": "ifelodun primary health centre",
+    "lga": "itesiwaju",
+    "latitude": 8.13988,
+    "longitude": 3.52271
+  },
+  {
+    "id": 314,
+    "name": "igbojaye primary health center",
+    "lga": "itesiwaju",
+    "latitude": 8.23689453,
+    "longitude": 3.239685058
+  },
+  {
+    "id": 315,
+    "name": "ipapo primary health centre",
+    "lga": "itesiwaju",
+    "latitude": 8.13619,
+    "longitude": 3.50694
+  },
+  {
+    "id": 316,
+    "name": "komu health centre",
+    "lga": "itesiwaju",
+    "latitude": 8.22748,
+    "longitude": 3.20601
+  },
+  {
+    "id": 317,
+    "name": "komu primary health centre",
+    "lga": "itesiwaju",
+    "latitude": 8.22616,
+    "longitude": 3.19688
+  },
+  {
+    "id": 318,
+    "name": "okaka primary health centre",
+    "lga": "itesiwaju",
+    "latitude": 8.215548,
+    "longitude": 3.459077
+  },
+  {
+    "id": 319,
+    "name": "oke afin health centre",
+    "lga": "itesiwaju",
+    "latitude": 8.219767,
+    "longitude": 3.46794
+  },
+  {
+    "id": 320,
+    "name": "oke amu comrehensive health centre",
+    "lga": "itesiwaju",
+    "latitude": 8.126968,
+    "longitude": 3.527862
+  },
+  {
+    "id": 321,
+    "name": "oke-amu primary health centre",
+    "lga": "itesiwaju",
+    "latitude": 8.12585,
+    "longitude": 3.51851
+  },
+  {
+    "id": 322,
+    "name": "opoo okaka health centre",
+    "lga": "itesiwaju",
+    "latitude": 8.30956,
+    "longitude": 3.45821
+  },
+  {
+    "id": 323,
+    "name": "otu ibise primary health centre",
+    "lga": "itesiwaju",
+    "latitude": 8.20669,
+    "longitude": 3.40152
+  },
+  {
+    "id": 324,
+    "name": "otu ilesan comprehensive health centre",
+    "lga": "itesiwaju",
+    "latitude": 8.205078,
+    "longitude": 3.412719
+  },
+  {
+    "id": 325,
+    "name": "owode primary health centre",
+    "lga": "itesiwaju",
+    "latitude": 8.230053,
+    "longitude": 3.564555
+  },
+  {
+    "id": 326,
+    "name": "rogal fulani primary health centre",
+    "lga": "itesiwaju",
+    "latitude": 8.33138,
+    "longitude": 3.23455
+  },
+  {
+    "id": 327,
+    "name": "temidire health centre",
+    "lga": "itesiwaju",
+    "latitude": 8.300588,
+    "longitude": 3.555884
+  },
+  {
+    "id": 328,
+    "name": "ayegun primary health centre",
+    "lga": "iwajowa",
+    "latitude": 8.010477,
+    "longitude": 2.724212
+  },
+  {
+    "id": 329,
+    "name": "egbonron primary health centre",
+    "lga": "iwajowa",
+    "latitude": 8.053397,
+    "longitude": 3.220335
+  },
+  {
+    "id": 330,
+    "name": "elekokan primary health centre",
+    "lga": "iwajowa",
+    "latitude": 7.839551,
+    "longitude": 3.223523
+  },
+  {
+    "id": 331,
+    "name": "gbedu  primary health centre",
+    "lga": "iwajowa",
+    "latitude": 8.059708,
+    "longitude": 2.962722
+  },
+  {
+    "id": 332,
+    "name": "idiko ago primary  health centre",
+    "lga": "iwajowa",
+    "latitude": 7.991172,
+    "longitude": 3.078423
+  },
+  {
+    "id": 333,
+    "name": "idiko ile primary  health centre",
+    "lga": "iwajowa",
+    "latitude": 7.931423,
+    "longitude": 3.018645
+  },
+  {
+    "id": 334,
+    "name": "ijio primary health centre",
+    "lga": "iwajowa",
+    "latitude": 7.94336,
+    "longitude": 2.98102
+  },
+  {
+    "id": 335,
+    "name": "ilaji ile primary  health centre",
+    "lga": "iwajowa",
+    "latitude": 7.98545,
+    "longitude": 3.05299
+  },
+  {
+    "id": 336,
+    "name": "itasa primary health centre",
+    "lga": "iwajowa",
+    "latitude": 8.017835,
+    "longitude": 3.046993
+  },
+  {
+    "id": 337,
+    "name": "iwere ile model primary health centre",
+    "lga": "iwajowa",
+    "latitude": 7.999507,
+    "longitude": 3.105732
+  },
+  {
+    "id": 338,
+    "name": "iwere-ile primary health centre",
+    "lga": "iwajowa",
+    "latitude": 7.997055,
+    "longitude": 3.08107
+  },
+  {
+    "id": 339,
+    "name": "jokolo primary health centre",
+    "lga": "iwajowa",
+    "latitude": 7.843172,
+    "longitude": 3.310277
+  },
+  {
+    "id": 340,
+    "name": "karimu health centre",
+    "lga": "iwajowa",
+    "latitude": 7.90235,
+    "longitude": 3.23283
+  },
+  {
+    "id": 341,
+    "name": "ladoja iganna health centre",
+    "lga": "iwajowa",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 342,
+    "name": "lam adesina primary health centre",
+    "lga": "iwajowa",
+    "latitude": 7.979893,
+    "longitude": 3.235778
+  },
+  {
+    "id": 343,
+    "name": "ofegun health centre",
+    "lga": "iwajowa",
+    "latitude": 7.877055,
+    "longitude": 3.149442
+  },
+  {
+    "id": 344,
+    "name": "olokunola primary health centre",
+    "lga": "iwajowa",
+    "latitude": 7.860768,
+    "longitude": 3.227807
+  },
+  {
+    "id": 345,
+    "name": "agbagi primary health centre",
+    "lga": "kajola",
+    "latitude": 8.09066,
+    "longitude": 3.35643
+  },
+  {
+    "id": 346,
+    "name": "alaapa primary health centre",
+    "lga": "kajola",
+    "latitude": 8.02116,
+    "longitude": 3.34707
+  },
+  {
+    "id": 347,
+    "name": "ayetoro oke primary health centre",
+    "lga": "kajola",
+    "latitude": 8.05151,
+    "longitude": 3.33983
+  },
+  {
+    "id": 348,
+    "name": "bode iba ogan primary health center",
+    "lga": "kajola",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 349,
+    "name": "bode primary health centre",
+    "lga": "kajola",
+    "latitude": 8.03951,
+    "longitude": 3.34872
+  },
+  {
+    "id": 350,
+    "name": "elero maternity centre",
+    "lga": "kajola",
+    "latitude": 8.08951,
+    "longitude": 3.34959
+  },
+  {
+    "id": 351,
+    "name": "elewure primary health centre",
+    "lga": "kajola",
+    "latitude": 8.04119,
+    "longitude": 3.44027
+  },
+  {
+    "id": 352,
+    "name": "gbelekale primary health center",
+    "lga": "kajola",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 353,
+    "name": "gbonje primary health centre",
+    "lga": "kajola",
+    "latitude": 8.03176,
+    "longitude": 3.34639
+  },
+  {
+    "id": 354,
+    "name": "idi ayin primary health centre",
+    "lga": "kajola",
+    "latitude": 8.13236,
+    "longitude": 3.38732
+  },
+  {
+    "id": 355,
+    "name": "igbogaa primary health centre",
+    "lga": "kajola",
+    "latitude": 7.94234,
+    "longitude": 3.43335
+  },
+  {
+    "id": 356,
+    "name": "ijio primary health centre",
+    "lga": "kajola",
+    "latitude": 8.035317,
+    "longitude": 3.343633
+  },
+  {
+    "id": 357,
+    "name": "ijo primary health centre",
+    "lga": "kajola",
+    "latitude": 8.03529,
+    "longitude": 3.34439
+  },
+  {
+    "id": 358,
+    "name": "ilaji oke primary health centre",
+    "lga": "kajola",
+    "latitude": 8.05618,
+    "longitude": 3.33809
+  },
+  {
+    "id": 359,
+    "name": "ilua primary health centre",
+    "lga": "kajola",
+    "latitude": 8.00445,
+    "longitude": 3.40242
+  },
+  {
+    "id": 360,
+    "name": "ilupeju primary health centre",
+    "lga": "kajola",
+    "latitude": 8.03756,
+    "longitude": 3.37304
+  },
+  {
+    "id": 361,
+    "name": "isemi-ile  primary health centre",
+    "lga": "kajola",
+    "latitude": 7.99437,
+    "longitude": 3.36721
+  },
+  {
+    "id": 362,
+    "name": "isemi-ile primary health centre",
+    "lga": "kajola",
+    "latitude": 7.99437,
+    "longitude": 3.36721
+  },
+  {
+    "id": 363,
+    "name": "isia primary  health centre",
+    "lga": "kajola",
+    "latitude": 8.02721,
+    "longitude": 3.35597
+  },
+  {
+    "id": 364,
+    "name": "kajola primary health centre",
+    "lga": "kajola",
+    "latitude": 8.08893,
+    "longitude": 3.3404
+  },
+  {
+    "id": 365,
+    "name": "abidiodan primary health centre",
+    "lga": "lagelu",
+    "latitude": 7.42974,
+    "longitude": 3.96134
+  },
+  {
+    "id": 366,
+    "name": "akinsawe health centre",
+    "lga": "lagelu",
+    "latitude": 7.48167,
+    "longitude": 4.10292
+  },
+  {
+    "id": 367,
+    "name": "alegongo primary health centre",
+    "lga": "lagelu",
+    "latitude": 7.44072,
+    "longitude": 3.95217
+  },
+  {
+    "id": 368,
+    "name": "ejioku primary health centre",
+    "lga": "lagelu",
+    "latitude": 7.47561,
+    "longitude": 4.07171
+  },
+  {
+    "id": 369,
+    "name": "elewi-odo primary health centre",
+    "lga": "lagelu",
+    "latitude": 7.41947,
+    "longitude": 3.94564
+  },
+  {
+    "id": 370,
+    "name": "gbaagi primary health centre",
+    "lga": "lagelu",
+    "latitude": 7.45889,
+    "longitude": 3.95829
+  },
+  {
+    "id": 371,
+    "name": "iyana church primary health centre",
+    "lga": "lagelu",
+    "latitude": 7.42028,
+    "longitude": 3.97051
+  },
+  {
+    "id": 372,
+    "name": "lalupon primary health centre",
+    "lga": "lagelu",
+    "latitude": 7.46167,
+    "longitude": 4.06541
+  },
+  {
+    "id": 373,
+    "name": "monatan primary health centre",
+    "lga": "lagelu",
+    "latitude": 7.41097,
+    "longitude": 3.94549
+  },
+  {
+    "id": 374,
+    "name": "odo -oba  primary  health center",
+    "lga": "lagelu",
+    "latitude": 7.47528076,
+    "longitude": 4.1276855
+  },
+  {
+    "id": 375,
+    "name": "offa igbo primary health centre",
+    "lga": "lagelu",
+    "latitude": 7.50804,
+    "longitude": 4.11276
+  },
+  {
+    "id": 376,
+    "name": "olorunda primary health centre",
+    "lga": "lagelu",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 377,
+    "name": "ore primary health centre",
+    "lga": "lagelu",
+    "latitude": 7.53148,
+    "longitude": 4.08825
+  },
+  {
+    "id": 378,
+    "name": "oyedeji primary health centre",
+    "lga": "lagelu",
+    "latitude": 7.54731,
+    "longitude": 4.04818
+  },
+  {
+    "id": 379,
+    "name": "sagbe health centre",
+    "lga": "lagelu",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 380,
+    "name": "adun-in primary health centre",
+    "lga": "ogbomosho north",
+    "latitude": 8.13419,
+    "longitude": 4.27048
+  },
+  {
+    "id": 381,
+    "name": "aje-ikose primary health centre",
+    "lga": "ogbomosho north",
+    "latitude": 8.19215,
+    "longitude": 4.23092
+  },
+  {
+    "id": 382,
+    "name": "baaki primary health centre",
+    "lga": "ogbomosho north",
+    "latitude": 8.12127,
+    "longitude": 4.25228
+  },
+  {
+    "id": 383,
+    "name": "blind centre primary health centre",
+    "lga": "ogbomosho north",
+    "latitude": 8.13518,
+    "longitude": 4.20942
+  },
+  {
+    "id": 384,
+    "name": "gaa masifa primary health centrre",
+    "lga": "ogbomosho north",
+    "latitude": 8.14016,
+    "longitude": 4.25495
+  },
+  {
+    "id": 385,
+    "name": "ibrahim taiwo primary health centre",
+    "lga": "ogbomosho north",
+    "latitude": 8.13038,
+    "longitude": 4.24754
+  },
+  {
+    "id": 386,
+    "name": "ikose primary  health centre",
+    "lga": "ogbomosho north",
+    "latitude": 8.19198,
+    "longitude": 4.20749
+  },
+  {
+    "id": 387,
+    "name": "ladoke akintola katangua primary health centre",
+    "lga": "ogbomosho north",
+    "latitude": 8.14751,
+    "longitude": 4.26875
+  },
+  {
+    "id": 388,
+    "name": "masifa primary health centre",
+    "lga": "ogbomosho north",
+    "latitude": 8.13555,
+    "longitude": 4.25161
+  },
+  {
+    "id": 389,
+    "name": "okeelerin primary health centre",
+    "lga": "ogbomosho north",
+    "latitude": 8.13422,
+    "longitude": 4.24146
+  },
+  {
+    "id": 390,
+    "name": "osupa health centre",
+    "lga": "ogbomosho north",
+    "latitude": 8.1319,
+    "longitude": 4.23707
+  },
+  {
+    "id": 391,
+    "name": "taraa primary health centre",
+    "lga": "ogbomosho north",
+    "latitude": 8.13843948,
+    "longitude": 4.24217732
+  },
+  {
+    "id": 392,
+    "name": "adebayo alata primary health centre",
+    "lga": "ogbomosho south",
+    "latitude": 8.12395,
+    "longitude": 4.22496
+  },
+  {
+    "id": 393,
+    "name": "alabede primary health centre",
+    "lga": "ogbomosho south",
+    "latitude": 8.10097,
+    "longitude": 4.23427
+  },
+  {
+    "id": 394,
+    "name": "arowomole model primary health centre",
+    "lga": "ogbomosho south",
+    "latitude": 8.11184,
+    "longitude": 4.23566
+  },
+  {
+    "id": 395,
+    "name": "ayetoro primary health centre",
+    "lga": "ogbomosho south",
+    "latitude": 8.11155,
+    "longitude": 4.21405
+  },
+  {
+    "id": 396,
+    "name": "igboyi comm. primary health centre",
+    "lga": "ogbomosho south",
+    "latitude": 8.13831,
+    "longitude": 4.212829
+  },
+  {
+    "id": 397,
+    "name": "ijeru primary health centre",
+    "lga": "ogbomosho south",
+    "latitude": 8.12656,
+    "longitude": 4.24299
+  },
+  {
+    "id": 398,
+    "name": "ilogbo primary health centre",
+    "lga": "ogbomosho south",
+    "latitude": 8.11612,
+    "longitude": 4.24444
+  },
+  {
+    "id": 399,
+    "name": "kajola comprehensive health centre",
+    "lga": "ogbomosho south",
+    "latitude": 8.11298,
+    "longitude": 4.22599
+  },
+  {
+    "id": 400,
+    "name": "model primary health centre",
+    "lga": "ogbomosho south",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 401,
+    "name": "oke olla primary health centre",
+    "lga": "ogbomosho south",
+    "latitude": 8.12733,
+    "longitude": 4.23948
+  },
+  {
+    "id": 402,
+    "name": "ajaawa model comprehensive health centre",
+    "lga": "ogo oluwa",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 403,
+    "name": "ajaawa model primary  health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.92797,
+    "longitude": 4.13631
+  },
+  {
+    "id": 404,
+    "name": "ayede primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.98366,
+    "longitude": 4.13676
+  },
+  {
+    "id": 405,
+    "name": "ayegun yemetu primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 8.01749,
+    "longitude": 4.21959
+  },
+  {
+    "id": 406,
+    "name": "elega primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.93946,
+    "longitude": 4.20135
+  },
+  {
+    "id": 407,
+    "name": "elesade primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.96662,
+    "longitude": 4.20942
+  },
+  {
+    "id": 408,
+    "name": "ibere primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.92818,
+    "longitude": 4.20812
+  },
+  {
+    "id": 409,
+    "name": "idewure primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.86857,
+    "longitude": 4.20547
+  },
+  {
+    "id": 410,
+    "name": "idi ori primary health center",
+    "lga": "ogo oluwa",
+    "latitude": 7.97773,
+    "longitude": 4.11961
+  },
+  {
+    "id": 411,
+    "name": "igboile oje health centre",
+    "lga": "ogo oluwa",
+    "latitude": 8.0591,
+    "longitude": 4.1995
+  },
+  {
+    "id": 412,
+    "name": "iroo primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.99665,
+    "longitude": 4.24227
+  },
+  {
+    "id": 413,
+    "name": "iwo-ate primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.84945,
+    "longitude": 4.10974
+  },
+  {
+    "id": 414,
+    "name": "lagbedu primary  health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.910221,
+    "longitude": 4.15663
+  },
+  {
+    "id": 415,
+    "name": "mowolowo primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.89883,
+    "longitude": 4.10654
+  },
+  {
+    "id": 416,
+    "name": "obanisunwa primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.97126,
+    "longitude": 4.15237
+  },
+  {
+    "id": 417,
+    "name": "odo-oba primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 8.24876,
+    "longitude": 4.85932
+  },
+  {
+    "id": 418,
+    "name": "odofo primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.98389,
+    "longitude": 4.14982
+  },
+  {
+    "id": 419,
+    "name": "ojutaye primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.93606,
+    "longitude": 4.13434
+  },
+  {
+    "id": 420,
+    "name": "olode pontela primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 421,
+    "name": "olokoo primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.97331,
+    "longitude": 4.25418
+  },
+  {
+    "id": 422,
+    "name": "olugusi primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.96282,
+    "longitude": 4.22579
+  },
+  {
+    "id": 423,
+    "name": "opete primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.98711,
+    "longitude": 4.17831
+  },
+  {
+    "id": 424,
+    "name": "orile oje primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 8.07523,
+    "longitude": 4.20733
+  },
+  {
+    "id": 425,
+    "name": "otamokun primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.95478,
+    "longitude": 4.17304
+  },
+  {
+    "id": 426,
+    "name": "pontela akinola primary health centre",
+    "lga": "ogo oluwa",
+    "latitude": 7.92147,
+    "longitude": 4.17091
+  },
+  {
+    "id": 427,
+    "name": "alawa primary health centre",
+    "lga": "olorunsogo",
+    "latitude": 8.83399,
+    "longitude": 4.17508
+  },
+  {
+    "id": 428,
+    "name": "apatalaje primary health centre",
+    "lga": "olorunsogo",
+    "latitude": 8.60374,
+    "longitude": 4.03994
+  },
+  {
+    "id": 429,
+    "name": "asunmode primary health centre",
+    "lga": "olorunsogo",
+    "latitude": 8.74839,
+    "longitude": 4.14273
+  },
+  {
+    "id": 430,
+    "name": "dogo leemp primary health centre",
+    "lga": "olorunsogo",
+    "latitude": 8.706617,
+    "longitude": 4.183483
+  },
+  {
+    "id": 431,
+    "name": "gaa saliu primary health centre",
+    "lga": "olorunsogo",
+    "latitude": 8.83702,
+    "longitude": 4.15728
+  },
+  {
+    "id": 432,
+    "name": "moti primary  health centre",
+    "lga": "olorunsogo",
+    "latitude": 8.64342,
+    "longitude": 4.05417
+  },
+  {
+    "id": 433,
+    "name": "ogundiran primary health centre",
+    "lga": "olorunsogo",
+    "latitude": 8.85352,
+    "longitude": 4.15591
+  },
+  {
+    "id": 434,
+    "name": "ojo-aaro primary health centre",
+    "lga": "olorunsogo",
+    "latitude": 8.68361,
+    "longitude": 4.05514
+  },
+  {
+    "id": 435,
+    "name": "oke-abe primary health centre",
+    "lga": "olorunsogo",
+    "latitude": 8.74218,
+    "longitude": 4.12907
+  },
+  {
+    "id": 436,
+    "name": "oke-ibukun primary health centre",
+    "lga": "olorunsogo",
+    "latitude": 8.75649,
+    "longitude": 4.12503
+  },
+  {
+    "id": 437,
+    "name": "ologbon primary health centre",
+    "lga": "olorunsogo",
+    "latitude": 8.75176,
+    "longitude": 4.12859
+  },
+  {
+    "id": 438,
+    "name": "owode primary health centre",
+    "lga": "olorunsogo",
+    "latitude": 8.74392,
+    "longitude": 4.13839
+  },
+  {
+    "id": 439,
+    "name": "tesi apata leemp health centre",
+    "lga": "olorunsogo",
+    "latitude": 8.78635,
+    "longitude": 4.104586
+  },
+  {
+    "id": 440,
+    "name": "tesi garuba primary health centre",
+    "lga": "olorunsogo",
+    "latitude": 8.86497,
+    "longitude": 4.04018
+  },
+  {
+    "id": 441,
+    "name": "adaramogba olomi primary health centre",
+    "lga": "oluyole",
+    "latitude": 7.34248,
+    "longitude": 3.91649
+  },
+  {
+    "id": 442,
+    "name": "adeyeri primary health centre",
+    "lga": "oluyole",
+    "latitude": 7.32161,
+    "longitude": 3.94569
+  },
+  {
+    "id": 443,
+    "name": "agric general primary health centre",
+    "lga": "oluyole",
+    "latitude": 7.32278,
+    "longitude": 3.92297
+  },
+  {
+    "id": 444,
+    "name": "ajofebo primary health centre",
+    "lga": "oluyole",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 445,
+    "name": "ayegun primary health centre",
+    "lga": "oluyole",
+    "latitude": 7.28958,
+    "longitude": 3.9275
+  },
+  {
+    "id": 446,
+    "name": "bare primary health centre",
+    "lga": "oluyole",
+    "latitude": 7.26821,
+    "longitude": 3.81954
+  },
+  {
+    "id": 447,
+    "name": "crin health centre",
+    "lga": "oluyole",
+    "latitude": 7.22325,
+    "longitude": 3.87365
+  },
+  {
+    "id": 448,
+    "name": "fawole idi obi primary health centre",
+    "lga": "oluyole",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 449,
+    "name": "idi iroko comprehensive health centre",
+    "lga": "oluyole",
+    "latitude": 7.32318,
+    "longitude": 3.82244
+  },
+  {
+    "id": 450,
+    "name": "ifelodun primary health centre",
+    "lga": "oluyole",
+    "latitude": 7.35297,
+    "longitude": 3.92877
+  },
+  {
+    "id": 451,
+    "name": "latunde primary health centre",
+    "lga": "oluyole",
+    "latitude": 7.72596,
+    "longitude": 3.57466
+  },
+  {
+    "id": 452,
+    "name": "mosfala primary health centre",
+    "lga": "oluyole",
+    "latitude": 7.34442,
+    "longitude": 3.92737
+  },
+  {
+    "id": 453,
+    "name": "oba nla primary health centre",
+    "lga": "oluyole",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 454,
+    "name": "odo okun health center",
+    "lga": "oluyole",
+    "latitude": 7.29952807,
+    "longitude": 3.84370292
+  },
+  {
+    "id": 455,
+    "name": "odo okun primary health centre",
+    "lga": "oluyole",
+    "latitude": 7.29928,
+    "longitude": 3.84356
+  },
+  {
+    "id": 456,
+    "name": "oja ibadan primary health centre",
+    "lga": "oluyole",
+    "latitude": 7.91349,
+    "longitude": 3.47287
+  },
+  {
+    "id": 457,
+    "name": "ope agbe health centre",
+    "lga": "oluyole",
+    "latitude": 7.33669,
+    "longitude": 3.92532
+  },
+  {
+    "id": 458,
+    "name": "ope agbe primary health center",
+    "lga": "oluyole",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 459,
+    "name": "aba emu primary health centre",
+    "lga": "ona ara",
+    "latitude": 7.33957,
+    "longitude": 3.96177
+  },
+  {
+    "id": 460,
+    "name": "adigun health centre",
+    "lga": "ona ara",
+    "latitude": 7.273789,
+    "longitude": 4.072598
+  },
+  {
+    "id": 461,
+    "name": "ajia primary health centre",
+    "lga": "ona ara",
+    "latitude": 7.34088,
+    "longitude": 4.03055
+  },
+  {
+    "id": 462,
+    "name": "akanran primary health centre",
+    "lga": "ona ara",
+    "latitude": 7.28037,
+    "longitude": 4.02621
+  },
+  {
+    "id": 463,
+    "name": "alapafon primary health centre",
+    "lga": "ona ara",
+    "latitude": 7.352458,
+    "longitude": 3.959612
+  },
+  {
+    "id": 464,
+    "name": "awotunde olosunde primary health center",
+    "lga": "ona ara",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 465,
+    "name": "badeku primary health centre",
+    "lga": "ona ara",
+    "latitude": 7.350925,
+    "longitude": 4.070353
+  },
+  {
+    "id": 466,
+    "name": "bioku araba health centre",
+    "lga": "ona ara",
+    "latitude": 7.367115,
+    "longitude": 4.003501
+  },
+  {
+    "id": 467,
+    "name": "butubutu primary health centre",
+    "lga": "ona ara",
+    "latitude": 7.28418,
+    "longitude": 4.11924
+  },
+  {
+    "id": 468,
+    "name": "fawole idi obi primary health centre",
+    "lga": "ona ara",
+    "latitude": 7.373641,
+    "longitude": 3.966598
+  },
+  {
+    "id": 469,
+    "name": "gangansi primary health care centre",
+    "lga": "ona ara",
+    "latitude": 7.366918,
+    "longitude": 3.952353
+  },
+  {
+    "id": 470,
+    "name": "gbada primary health centre",
+    "lga": "ona ara",
+    "latitude": 7.307141,
+    "longitude": 4.064248
+  },
+  {
+    "id": 471,
+    "name": "gbaremu primary health centre",
+    "lga": "ona ara",
+    "latitude": 7.373667,
+    "longitude": 3.962426
+  },
+  {
+    "id": 472,
+    "name": "gbede ogun primary health centre",
+    "lga": "ona ara",
+    "latitude": 7.318918,
+    "longitude": 3.961937
+  },
+  {
+    "id": 473,
+    "name": "gbedun primary  health centre",
+    "lga": "ona ara",
+    "latitude": 7.226377,
+    "longitude": 4.025733
+  },
+  {
+    "id": 474,
+    "name": "gelinco primary health centre",
+    "lga": "ona ara",
+    "latitude": 7.340097,
+    "longitude": 3.999573
+  },
+  {
+    "id": 475,
+    "name": "kehinsi primary health centre",
+    "lga": "ona ara",
+    "latitude": 7.371963,
+    "longitude": 3.947905
+  },
+  {
+    "id": 476,
+    "name": "ogidi primary health care centre",
+    "lga": "ona ara",
+    "latitude": 7.314605,
+    "longitude": 3.975487
+  },
+  {
+    "id": 477,
+    "name": "ojoku maternity health centre",
+    "lga": "ona ara",
+    "latitude": 7.333434,
+    "longitude": 4.054231
+  },
+  {
+    "id": 478,
+    "name": "oke imole primary health centre",
+    "lga": "ona ara",
+    "latitude": 7.34354,
+    "longitude": 3.94866
+  },
+  {
+    "id": 479,
+    "name": "olaoluwa primary health centre",
+    "lga": "ona ara",
+    "latitude": 7.356563,
+    "longitude": 4.001888
+  },
+  {
+    "id": 480,
+    "name": "olosunde-awotunde-babarere primary health centre",
+    "lga": "ona ara",
+    "latitude": 7.363806,
+    "longitude": 3.934098
+  },
+  {
+    "id": 481,
+    "name": "oniyefun primary health centre",
+    "lga": "ona ara",
+    "latitude": 7.32914,
+    "longitude": 3.9603
+  },
+  {
+    "id": 482,
+    "name": "oremeji primary health centre",
+    "lga": "ona ara",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 483,
+    "name": "palupo primary health care centre",
+    "lga": "ona ara",
+    "latitude": 7.33569,
+    "longitude": 3.956427
+  },
+  {
+    "id": 484,
+    "name": "sarat adesina primary health centre",
+    "lga": "ona ara",
+    "latitude": 7.377967,
+    "longitude": 3.937335
+  },
+  {
+    "id": 485,
+    "name": "seminbio primary health center",
+    "lga": "ona ara",
+    "latitude": 7.33848,
+    "longitude": 3.9783
+  },
+  {
+    "id": 486,
+    "name": "bonni primary health centre",
+    "lga": "orelope",
+    "latitude": 8.85097,
+    "longitude": 3.76032
+  },
+  {
+    "id": 487,
+    "name": "foomu primary health centre",
+    "lga": "orelope",
+    "latitude": 8.92282,
+    "longitude": 3.87105
+  },
+  {
+    "id": 488,
+    "name": "igbope primary health centre",
+    "lga": "orelope",
+    "latitude": 8.83558,
+    "longitude": 3.78274
+  },
+  {
+    "id": 489,
+    "name": "iya primary health center",
+    "lga": "orelope",
+    "latitude": 8.83268,
+    "longitude": 3.75809
+  },
+  {
+    "id": 490,
+    "name": "kajola primary health centre",
+    "lga": "orelope",
+    "latitude": 8.74727,
+    "longitude": 3.76551
+  },
+  {
+    "id": 491,
+    "name": "mafowaku primary health centre",
+    "lga": "orelope",
+    "latitude": 8.83258,
+    "longitude": 3.75024
+  },
+  {
+    "id": 492,
+    "name": "modeke primary health centre",
+    "lga": "orelope",
+    "latitude": 8.83517,
+    "longitude": 3.75149
+  },
+  {
+    "id": 493,
+    "name": "ologede primary health centre",
+    "lga": "orelope",
+    "latitude": 8.98645,
+    "longitude": 3.63674
+  },
+  {
+    "id": 494,
+    "name": "oloko primary  health centre",
+    "lga": "orelope",
+    "latitude": 8.88596,
+    "longitude": 3.64184
+  },
+  {
+    "id": 495,
+    "name": "owode primary health centre",
+    "lga": "orelope",
+    "latitude": 8.84552,
+    "longitude": 3.75803
+  },
+  {
+    "id": 496,
+    "name": "adafila primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.45669,
+    "longitude": 4.24069
+  },
+  {
+    "id": 497,
+    "name": "adetunji primary health centre",
+    "lga": "ori ire",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 498,
+    "name": "ahoro dada primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.15343,
+    "longitude": 4.00425
+  },
+  {
+    "id": 499,
+    "name": "ajinapa primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.29818,
+    "longitude": 4.24647
+  },
+  {
+    "id": 500,
+    "name": "alapete primary health centre",
+    "lga": "ori ire",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 501,
+    "name": "alaroponla primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.23437,
+    "longitude": 4.06727
+  },
+  {
+    "id": 502,
+    "name": "antete primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.23488,
+    "longitude": 4.13501
+  },
+  {
+    "id": 503,
+    "name": "bosunla primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.10407,
+    "longitude": 4.16006
+  },
+  {
+    "id": 504,
+    "name": "elega primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.00703,
+    "longitude": 4.10358
+  },
+  {
+    "id": 505,
+    "name": "elerukanfila primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.49087,
+    "longitude": 4.22551
+  },
+  {
+    "id": 506,
+    "name": "elesun adeosun primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.16574,
+    "longitude": 4.06436
+  },
+  {
+    "id": 507,
+    "name": "esinele oyo primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.24399,
+    "longitude": 4.01213
+  },
+  {
+    "id": 508,
+    "name": "igbori primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.62434,
+    "longitude": 4.18614
+  },
+  {
+    "id": 509,
+    "name": "ikoyi ile primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.245267,
+    "longitude": 4.175133
+  },
+  {
+    "id": 510,
+    "name": "iluju primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.20761,
+    "longitude": 4.193567
+  },
+  {
+    "id": 511,
+    "name": "ipekun primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.36428,
+    "longitude": 4.314
+  },
+  {
+    "id": 512,
+    "name": "kajola primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.42773,
+    "longitude": 4.26653
+  },
+  {
+    "id": 513,
+    "name": "lapelu primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.09349,
+    "longitude": 4.100535
+  },
+  {
+    "id": 514,
+    "name": "maya  primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.04881,
+    "longitude": 4.10755
+  },
+  {
+    "id": 515,
+    "name": "moleyo primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.06036,
+    "longitude": 4.04226
+  },
+  {
+    "id": 516,
+    "name": "obamo primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.28602,
+    "longitude": 4.11827
+  },
+  {
+    "id": 517,
+    "name": "oko ile primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.19037,
+    "longitude": 4.01317
+  },
+  {
+    "id": 518,
+    "name": "oloka primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.323587,
+    "longitude": 4.057683
+  },
+  {
+    "id": 519,
+    "name": "olokota primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.58154,
+    "longitude": 4.19763
+  },
+  {
+    "id": 520,
+    "name": "olorunda maternity centre",
+    "lga": "ori ire",
+    "latitude": 8.34871,
+    "longitude": 4.24272
+  },
+  {
+    "id": 521,
+    "name": "onilali primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.60916,
+    "longitude": 4.23378
+  },
+  {
+    "id": 522,
+    "name": "oolo primary health centre",
+    "lga": "ori ire",
+    "latitude": 8.02829,
+    "longitude": 4.12387
+  },
+  {
+    "id": 523,
+    "name": "tewure primary health centre",
+    "lga": "ori ire",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 524,
+    "name": "agboye primary health centre",
+    "lga": "oyo east",
+    "latitude": 7.84372,
+    "longitude": 3.94069
+  },
+  {
+    "id": 525,
+    "name": "akoda igbo olosun primary health centre",
+    "lga": "oyo east",
+    "latitude": 7.71717,
+    "longitude": 4.05651
+  },
+  {
+    "id": 526,
+    "name": "alabi olorunda model primary health centre",
+    "lga": "oyo east",
+    "latitude": 7.70855,
+    "longitude": 4.01502
+  },
+  {
+    "id": 527,
+    "name": "alawusa primary health centre",
+    "lga": "oyo east",
+    "latitude": 7.740829,
+    "longitude": 3.95542
+  },
+  {
+    "id": 528,
+    "name": "ayedoyin primary health centre",
+    "lga": "oyo east",
+    "latitude": 7.81618,
+    "longitude": 4.00908
+  },
+  {
+    "id": 529,
+    "name": "idi iya primary health centre",
+    "lga": "oyo east",
+    "latitude": 7.89172,
+    "longitude": 4.05594
+  },
+  {
+    "id": 530,
+    "name": "idode primary  health centre",
+    "lga": "oyo east",
+    "latitude": 7.88124,
+    "longitude": 3.99576
+  },
+  {
+    "id": 531,
+    "name": "ile oba  primary health centre",
+    "lga": "oyo east",
+    "latitude": 7.90053,
+    "longitude": 4.07841
+  },
+  {
+    "id": 532,
+    "name": "imeleke health facility centre",
+    "lga": "oyo east",
+    "latitude": 7.70558,
+    "longitude": 3.9927
+  },
+  {
+    "id": 533,
+    "name": "jabata primary health centre",
+    "lga": "oyo east",
+    "latitude": 7.83988,
+    "longitude": 3.93389
+  },
+  {
+    "id": 534,
+    "name": "modeke primary health centre",
+    "lga": "oyo east",
+    "latitude": 7.84586,
+    "longitude": 3.93181
+  },
+  {
+    "id": 535,
+    "name": "oba adeyemi primary health centre",
+    "lga": "oyo east",
+    "latitude": 7.83169,
+    "longitude": 3.93605
+  },
+  {
+    "id": 536,
+    "name": "oja omo oba primary health centre",
+    "lga": "oyo east",
+    "latitude": 7.69374,
+    "longitude": 4.04039
+  },
+  {
+    "id": 537,
+    "name": "oke-apo maternity centre",
+    "lga": "oyo east",
+    "latitude": 7.83951,
+    "longitude": 3.93587
+  },
+  {
+    "id": 538,
+    "name": "olori primary  health centre",
+    "lga": "oyo east",
+    "latitude": 7.77858,
+    "longitude": 4.07073
+  },
+  {
+    "id": 539,
+    "name": "owode elete primary health centre",
+    "lga": "oyo east",
+    "latitude": 7.96011,
+    "longitude": 4.06943
+  },
+  {
+    "id": 540,
+    "name": "aba ilorin community health centre",
+    "lga": "oyo west",
+    "latitude": 7.70271,
+    "longitude": 3.65289
+  },
+  {
+    "id": 541,
+    "name": "akeetan primary health centre",
+    "lga": "oyo west",
+    "latitude": 7.84116,
+    "longitude": 3.92084
+  },
+  {
+    "id": 542,
+    "name": "ayetoro scheme health centre",
+    "lga": "oyo west",
+    "latitude": 7.86687,
+    "longitude": 3.89418
+  },
+  {
+    "id": 543,
+    "name": "fasola primary  health  centre",
+    "lga": "oyo west",
+    "latitude": 7.90018,
+    "longitude": 3.78403
+  },
+  {
+    "id": 544,
+    "name": "idi iyalode health centre",
+    "lga": "oyo west",
+    "latitude": 7.73926,
+    "longitude": 3.74993
+  },
+  {
+    "id": 545,
+    "name": "iseke primary health centre",
+    "lga": "oyo west",
+    "latitude": 7.83862,
+    "longitude": 3.91737
+  },
+  {
+    "id": 546,
+    "name": "isokun primary health centre",
+    "lga": "oyo west",
+    "latitude": 7.84911,
+    "longitude": 3.91827
+  },
+  {
+    "id": 547,
+    "name": "iyaji primary health centre",
+    "lga": "oyo west",
+    "latitude": 7.84902,
+    "longitude": 3.92767
+  },
+  {
+    "id": 548,
+    "name": "kolobo primary health centre",
+    "lga": "oyo west",
+    "latitude": 7.84896,
+    "longitude": 3.91823
+  },
+  {
+    "id": 549,
+    "name": "ladigbolu health centre",
+    "lga": "oyo west",
+    "latitude": 7.82004,
+    "longitude": 3.91649
+  },
+  {
+    "id": 550,
+    "name": "ladindin health centre ojongbodu",
+    "lga": "oyo west",
+    "latitude": 7.84337,
+    "longitude": 3.92533
+  },
+  {
+    "id": 551,
+    "name": "oluwatedo health centre",
+    "lga": "oyo west",
+    "latitude": 7.81671,
+    "longitude": 3.76323
+  },
+  {
+    "id": 552,
+    "name": "agbonle primary health centre",
+    "lga": "saki east",
+    "latitude": 8.62105,
+    "longitude": 3.61054
+  },
+  {
+    "id": 553,
+    "name": "ago amodu primary health centre",
+    "lga": "saki east",
+    "latitude": 8.621068,
+    "longitude": 3.6099578
+  },
+  {
+    "id": 554,
+    "name": "aladura primary health centre",
+    "lga": "saki east",
+    "latitude": 8.231421,
+    "longitude": 3.421681
+  },
+  {
+    "id": 555,
+    "name": "amukoko primary health centre",
+    "lga": "saki east",
+    "latitude": 8.621095,
+    "longitude": 3.621095
+  },
+  {
+    "id": 556,
+    "name": "araromi primary health care centre",
+    "lga": "saki east",
+    "latitude": 8.71043,
+    "longitude": 3.70913
+  },
+  {
+    "id": 557,
+    "name": "lukutu primary health centre",
+    "lga": "saki east",
+    "latitude": 8.62109,
+    "longitude": 3.61044
+  },
+  {
+    "id": 558,
+    "name": "ogbooro comprehensive health centre",
+    "lga": "saki east",
+    "latitude": 8.621095,
+    "longitude": 3.621095
+  },
+  {
+    "id": 559,
+    "name": "ogbooro model primary health care",
+    "lga": "saki east",
+    "latitude": 8.77325,
+    "longitude": 3.61791
+  },
+  {
+    "id": 560,
+    "name": "ogboro primary health centre",
+    "lga": "saki east",
+    "latitude": 8.621095,
+    "longitude": 3.621095
+  },
+  {
+    "id": 561,
+    "name": "oje owode model primary health centre",
+    "lga": "saki east",
+    "latitude": 8.577113,
+    "longitude": 3.503569
+  },
+  {
+    "id": 562,
+    "name": "oje owode primary health centre",
+    "lga": "saki east",
+    "latitude": 8.590283,
+    "longitude": 3.497783
+  },
+  {
+    "id": 563,
+    "name": "sepeteri primary health care centre",
+    "lga": "saki east",
+    "latitude": 8.62595,
+    "longitude": 3.63747
+  },
+  {
+    "id": 564,
+    "name": "adabo primary health centre",
+    "lga": "saki west",
+    "latitude": 8.66236,
+    "longitude": 3.39881
+  },
+  {
+    "id": 565,
+    "name": "agoluabi primary health center",
+    "lga": "saki west",
+    "latitude": 8.69123,
+    "longitude": 3.38524
+  },
+  {
+    "id": 566,
+    "name": "ajegunle primary health centre",
+    "lga": "saki west",
+    "latitude": 8.65287,
+    "longitude": 3.40492
+  },
+  {
+    "id": 567,
+    "name": "ajelanwa primary health centre",
+    "lga": "saki west",
+    "latitude": 8.71492,
+    "longitude": 3.20287
+  },
+  {
+    "id": 568,
+    "name": "arafat primary health care centre",
+    "lga": "saki west",
+    "latitude": 8.67791,
+    "longitude": 3.39594
+  },
+  {
+    "id": 569,
+    "name": "ayekale primary health centre",
+    "lga": "saki west",
+    "latitude": 8.63674,
+    "longitude": 3.38466
+  },
+  {
+    "id": 570,
+    "name": "baabo primary health centre",
+    "lga": "saki west",
+    "latitude": 8.67761,
+    "longitude": 3.37068
+  },
+  {
+    "id": 571,
+    "name": "challenge primary health centre",
+    "lga": "saki west",
+    "latitude": 8.63675,
+    "longitude": 3.38691
+  },
+  {
+    "id": 572,
+    "name": "ekokan primary health centre",
+    "lga": "saki west",
+    "latitude": 8.75191,
+    "longitude": 3.26624
+  },
+  {
+    "id": 573,
+    "name": "gbepakan primary health center",
+    "lga": "saki west",
+    "latitude": 8.74207,
+    "longitude": 3.14968
+  },
+  {
+    "id": 574,
+    "name": "idera primary health centre",
+    "lga": "saki west",
+    "latitude": 8.68015,
+    "longitude": 3.36748
+  },
+  {
+    "id": 575,
+    "name": "igboologun primary health centre",
+    "lga": "saki west",
+    "latitude": 8.64794,
+    "longitude": 3.38767
+  },
+  {
+    "id": 576,
+    "name": "ilua primary health centre",
+    "lga": "saki west",
+    "latitude": 8.67827,
+    "longitude": 3.36777
+  },
+  {
+    "id": 577,
+    "name": "isale alufa primary health centre",
+    "lga": "saki west",
+    "latitude": 8.68029,
+    "longitude": 3.37218
+  },
+  {
+    "id": 578,
+    "name": "isale efin primary health centre",
+    "lga": "saki west",
+    "latitude": 8.66988,
+    "longitude": 3.39295
+  },
+  {
+    "id": 579,
+    "name": "isale oro primary health centre",
+    "lga": "saki west",
+    "latitude": 8.66686,
+    "longitude": 3.37842
+  },
+  {
+    "id": 580,
+    "name": "isale taba primary health centre",
+    "lga": "saki west",
+    "latitude": 8.66977,
+    "longitude": 3.39251
+  },
+  {
+    "id": 581,
+    "name": "isia primary health centre",
+    "lga": "saki west",
+    "latitude": 8.66382,
+    "longitude": 3.39038
+  },
+  {
+    "id": 582,
+    "name": "iya primary health centre",
+    "lga": "saki west",
+    "latitude": 8.67609,
+    "longitude": 3.39207
+  },
+  {
+    "id": 583,
+    "name": "kininkinni primary health centre",
+    "lga": "saki west",
+    "latitude": 8.66881,
+    "longitude": 3.37087
+  },
+  {
+    "id": 584,
+    "name": "mokola primary health centre",
+    "lga": "saki west",
+    "latitude": 8.68217,
+    "longitude": 3.39185
+  },
+  {
+    "id": 585,
+    "name": "ogidigbo primary health centre",
+    "lga": "saki west",
+    "latitude": 8.66837,
+    "longitude": 3.38089
+  },
+  {
+    "id": 586,
+    "name": "oke odo primary health centre",
+    "lga": "saki west",
+    "latitude": 8.64948,
+    "longitude": 3.8877
+  },
+  {
+    "id": 587,
+    "name": "okerete modern primary health centre",
+    "lga": "saki west",
+    "latitude": 8.56241,
+    "longitude": 2.76322
+  },
+  {
+    "id": 588,
+    "name": "onigbongbo primary health centre",
+    "lga": "saki west",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 589,
+    "name": "otun primary health centre",
+    "lga": "saki west",
+    "latitude": 8.65706,
+    "longitude": 3.39119
+  },
+  {
+    "id": 590,
+    "name": "salam salam primary health centre",
+    "lga": "saki west",
+    "latitude": 8.70766,
+    "longitude": 3.40154
+  },
+  {
+    "id": 591,
+    "name": "sango primary health centre",
+    "lga": "saki west",
+    "latitude": 8.68295,
+    "longitude": 3.40111
+  },
+  {
+    "id": 592,
+    "name": "sangote primary health centre",
+    "lga": "saki west",
+    "latitude": 8.67548,
+    "longitude": 3.37404
+  },
+  {
+    "id": 593,
+    "name": "sanni-sala primary health centre",
+    "lga": "saki west",
+    "latitude": 8.73775,
+    "longitude": 3.07896
+  },
+  {
+    "id": 594,
+    "name": "wasangare alabafe primary health centre",
+    "lga": "saki west",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 595,
+    "name": "wasangare oja primary health center",
+    "lga": "saki west",
+    "latitude": 8.82384,
+    "longitude": 3.41229
+  },
+  {
+    "id": 596,
+    "name": "abogunde primary heath centre",
+    "lga": "surulere",
+    "latitude": 8.362401,
+    "longitude": 4.416804
+  },
+  {
+    "id": 597,
+    "name": "aganyan health centre",
+    "lga": "surulere",
+    "latitude": 8.128302,
+    "longitude": 4.395627
+  },
+  {
+    "id": 598,
+    "name": "ajase health centre",
+    "lga": "surulere",
+    "latitude": 8.210148,
+    "longitude": 4.40446
+  },
+  {
+    "id": 599,
+    "name": "amosa primary health centre",
+    "lga": "surulere",
+    "latitude": 8.004165,
+    "longitude": 4.271787
+  },
+  {
+    "id": 600,
+    "name": "arolu primary health  centre",
+    "lga": "surulere",
+    "latitude": 7.997942,
+    "longitude": 4.433383
+  },
+  {
+    "id": 601,
+    "name": "baale oba primary health centre",
+    "lga": "surulere",
+    "latitude": 7.89929199,
+    "longitude": 4.422729492
+  },
+  {
+    "id": 602,
+    "name": "baaya oje primary health centre",
+    "lga": "surulere",
+    "latitude": 8.152701,
+    "longitude": 4.338749
+  },
+  {
+    "id": 603,
+    "name": "comprehensive primary health centre iresaadu",
+    "lga": "surulere",
+    "latitude": 8.085869,
+    "longitude": 4.390115
+  },
+  {
+    "id": 604,
+    "name": "gambari primary health centre",
+    "lga": "surulere",
+    "latitude": 8.270607,
+    "longitude": 4.318812
+  },
+  {
+    "id": 605,
+    "name": "gbede primary health centre",
+    "lga": "surulere",
+    "latitude": 8.296232,
+    "longitude": 4.345457
+  },
+  {
+    "id": 606,
+    "name": "iranyin primary health centre",
+    "lga": "surulere",
+    "latitude": 7.968548,
+    "longitude": 4.44221
+  },
+  {
+    "id": 607,
+    "name": "iregba primary health centre",
+    "lga": "surulere",
+    "latitude": 8.051253,
+    "longitude": 4.489267
+  },
+  {
+    "id": 608,
+    "name": "iresaapa primary health centre",
+    "lga": "surulere",
+    "latitude": 8.076985,
+    "longitude": 4.3511178
+  },
+  {
+    "id": 609,
+    "name": "iwofin primary health centre",
+    "lga": "surulere",
+    "latitude": 8.162033,
+    "longitude": 4.395633
+  },
+  {
+    "id": 610,
+    "name": "jabata primary health centre",
+    "lga": "surulere",
+    "latitude": 8.24386,
+    "longitude": 4.394625
+  },
+  {
+    "id": 611,
+    "name": "laege primary health centre",
+    "lga": "surulere",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 612,
+    "name": "mayin primary health centre",
+    "lga": "surulere",
+    "latitude": 8.1526,
+    "longitude": 4.29498
+  },
+  {
+    "id": 613,
+    "name": "oko  market primary health centre",
+    "lga": "surulere",
+    "latitude": 7.955297,
+    "longitude": 4.342338
+  },
+  {
+    "id": 614,
+    "name": "oko model primary health centre",
+    "lga": "surulere",
+    "latitude": 7.961615,
+    "longitude": 4.347317
+  },
+  {
+    "id": 615,
+    "name": "olode primary health centre",
+    "lga": "surulere",
+    "latitude": 8.051033,
+    "longitude": 4.551613
+  },
+  {
+    "id": 616,
+    "name": "aged and widow clinic",
+    "lga": "afijio",
+    "latitude": 7.767072,
+    "longitude": 3.91923
+  },
+  {
+    "id": 617,
+    "name": "akinmorin europian economic clinic",
+    "lga": "afijio",
+    "latitude": 7.78431,
+    "longitude": 3.93948
+  },
+  {
+    "id": 618,
+    "name": "eleekara health clinic",
+    "lga": "afijio",
+    "latitude": 7.79589,
+    "longitude": 3.91993
+  },
+  {
+    "id": 619,
+    "name": "ilora farm settlement",
+    "lga": "afijio",
+    "latitude": 7.78462,
+    "longitude": 3.79725
+  },
+  {
+    "id": 620,
+    "name": "tb l clinic",
+    "lga": "afijio",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 621,
+    "name": "aged and widow mini clinic",
+    "lga": "akinyele",
+    "latitude": 7.53298,
+    "longitude": 3.91142
+  },
+  {
+    "id": 622,
+    "name": "mele health clinic",
+    "lga": "akinyele",
+    "latitude": 7.53546,
+    "longitude": 3.85441
+  },
+  {
+    "id": 623,
+    "name": "moniya tuberculosis and leprosy control clinic",
+    "lga": "akinyele",
+    "latitude": 7.53017,
+    "longitude": 3.91375
+  },
+  {
+    "id": 624,
+    "name": "orogun health clinic",
+    "lga": "akinyele",
+    "latitude": 7.45746,
+    "longitude": 3.91215
+  },
+  {
+    "id": 625,
+    "name": "aged and widow clinic",
+    "lga": "atiba",
+    "latitude": 7.8557834,
+    "longitude": 3.93410157
+  },
+  {
+    "id": 626,
+    "name": "arinkinkin primary health clinic",
+    "lga": "atiba",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 627,
+    "name": "atiba staff clinic",
+    "lga": "atiba",
+    "latitude": 7.8592525,
+    "longitude": 3.96593302
+  },
+  {
+    "id": 628,
+    "name": "ilowagbade health clinic",
+    "lga": "atiba",
+    "latitude": 8.14612,
+    "longitude": 3.90675
+  },
+  {
+    "id": 629,
+    "name": "state health office",
+    "lga": "atiba",
+    "latitude": 7.854166,
+    "longitude": 3.956551
+  },
+  {
+    "id": 630,
+    "name": "tb, leprosy and buruli ulcer clinic",
+    "lga": "atiba",
+    "latitude": 7.854181,
+    "longitude": 3.956282
+  },
+  {
+    "id": 631,
+    "name": "aged and widow clinic",
+    "lga": "atisbo",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 632,
+    "name": "ago are tuberculusis and leprosy clinic",
+    "lga": "atisbo",
+    "latitude": 8.50867,
+    "longitude": 3.41882
+  },
+  {
+    "id": 633,
+    "name": "tede mini widow and aged clinic",
+    "lga": "atisbo",
+    "latitude": 8.54495,
+    "longitude": 3.44029
+  },
+  {
+    "id": 634,
+    "name": "aged and widow mini clinic",
+    "lga": "egbeda",
+    "latitude": 7.37915,
+    "longitude": 4.04723
+  },
+  {
+    "id": 635,
+    "name": "oremeji tuberculosis and leprocy",
+    "lga": "egbeda",
+    "latitude": 7.39738,
+    "longitude": 3.95164
+  },
+  {
+    "id": 636,
+    "name": "osegere health clinic",
+    "lga": "egbeda",
+    "latitude": 7.31695,
+    "longitude": 4.06293
+  },
+  {
+    "id": 637,
+    "name": "ajose health clinic",
+    "lga": "ibadan north",
+    "latitude": 7.39384,
+    "longitude": 3.89524
+  },
+  {
+    "id": 638,
+    "name": "goverment house clinic",
+    "lga": "ibadan north",
+    "latitude": 7.40155,
+    "longitude": 3.91668
+  },
+  {
+    "id": 639,
+    "name": "ibadan north staff clinic",
+    "lga": "ibadan north",
+    "latitude": 7.39676,
+    "longitude": 3.91949
+  },
+  {
+    "id": 640,
+    "name": "ibadan university health service clinic jaja",
+    "lga": "ibadan north",
+    "latitude": 7.44289,
+    "longitude": 3.90034
+  },
+  {
+    "id": 641,
+    "name": "kola daisi foundation clinic",
+    "lga": "ibadan north",
+    "latitude": 7.39614,
+    "longitude": 3.89887
+  },
+  {
+    "id": 642,
+    "name": "polytechnic clinic",
+    "lga": "ibadan north",
+    "latitude": 7.34727,
+    "longitude": 3.88506
+  },
+  {
+    "id": 643,
+    "name": "secretariat staff clinic",
+    "lga": "ibadan north",
+    "latitude": 7.41148,
+    "longitude": 3.90822
+  },
+  {
+    "id": 644,
+    "name": "aged and widow mini- clinic",
+    "lga": "ibadan north east",
+    "latitude": 7.40481,
+    "longitude": 3.93384
+  },
+  {
+    "id": 645,
+    "name": "alafara tuberculusis and leprosy",
+    "lga": "ibadan north east",
+    "latitude": 7.38264,
+    "longitude": 3.90521
+  },
+  {
+    "id": 646,
+    "name": "lagelu youth friendly clinic",
+    "lga": "ibadan north east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 647,
+    "name": "oyo state broadcasting coporation",
+    "lga": "ibadan north east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 648,
+    "name": "aged and widow clinic",
+    "lga": "ibadan north west",
+    "latitude": 7.39274,
+    "longitude": 3.87872
+  },
+  {
+    "id": 649,
+    "name": "mokola army barrack hospital",
+    "lga": "ibadan north west",
+    "latitude": 7.41503,
+    "longitude": 3.88542
+  },
+  {
+    "id": 650,
+    "name": "onireke health clinic",
+    "lga": "ibadan north west",
+    "latitude": 7.39235,
+    "longitude": 3.87908
+  },
+  {
+    "id": 651,
+    "name": "school of hygiene eleyele",
+    "lga": "ibadan north west",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 652,
+    "name": "school of nursing eleyele",
+    "lga": "ibadan north west",
+    "latitude": 7.41071,
+    "longitude": 3.87437
+  },
+  {
+    "id": 653,
+    "name": "orita challenge primary health clinic",
+    "lga": "ibadan south east",
+    "latitude": 7.339199,
+    "longitude": 3.87206
+  },
+  {
+    "id": 654,
+    "name": "adifase tuberculusis and leprosy clinic",
+    "lga": "ibadan south west",
+    "latitude": 7.38692,
+    "longitude": 3.82908
+  },
+  {
+    "id": 655,
+    "name": "aged & widow clinic",
+    "lga": "ibadan south west",
+    "latitude": 7.36623,
+    "longitude": 3.85571
+  },
+  {
+    "id": 656,
+    "name": "estate primary  health care clinic",
+    "lga": "ibadan south west",
+    "latitude": 7.36639,
+    "longitude": 3.85586
+  },
+  {
+    "id": 657,
+    "name": "molete  tuberculosis and leprosy clinic",
+    "lga": "ibadan south west",
+    "latitude": 7.36009,
+    "longitude": 3.88933
+  },
+  {
+    "id": 658,
+    "name": "akeroro health clinc",
+    "lga": "ibarapa central",
+    "latitude": 7.48564,
+    "longitude": 3.35719
+  },
+  {
+    "id": 659,
+    "name": "idere health clinic",
+    "lga": "ibarapa central",
+    "latitude": 7.49306,
+    "longitude": 3.24842
+  },
+  {
+    "id": 660,
+    "name": "royal hospital and maternity",
+    "lga": "ibarapa central",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 661,
+    "name": "sekere health clinic",
+    "lga": "ibarapa central",
+    "latitude": 7.36665,
+    "longitude": 3.30913
+  },
+  {
+    "id": 662,
+    "name": "women and widow  hospital",
+    "lga": "ibarapa central",
+    "latitude": 7.43996,
+    "longitude": 3.30073
+  },
+  {
+    "id": 663,
+    "name": "aged and widow clinic",
+    "lga": "ibarapa east",
+    "latitude": 7.5324,
+    "longitude": 3.42712
+  },
+  {
+    "id": 664,
+    "name": "anko health clinic",
+    "lga": "ibarapa east",
+    "latitude": 7.53716,
+    "longitude": 3.41948
+  },
+  {
+    "id": 665,
+    "name": "ilado health clinic",
+    "lga": "ibarapa east",
+    "latitude": 7.62131,
+    "longitude": 3.32147
+  },
+  {
+    "id": 666,
+    "name": "isaba health clinic",
+    "lga": "ibarapa east",
+    "latitude": 7.53121,
+    "longitude": 3.41558
+  },
+  {
+    "id": 667,
+    "name": "itabo family support programme clinic",
+    "lga": "ibarapa east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 668,
+    "name": "oke-imale health clinic",
+    "lga": "ibarapa east",
+    "latitude": 7.54903,
+    "longitude": 3.44449
+  },
+  {
+    "id": 669,
+    "name": "polytechnic clinic",
+    "lga": "ibarapa east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 670,
+    "name": "tbl clinic",
+    "lga": "ibarapa east",
+    "latitude": 7.53716,
+    "longitude": 3.41996
+  },
+  {
+    "id": 671,
+    "name": "tapa 6 bed hospital",
+    "lga": "ibarapa north",
+    "latitude": 7.55841,
+    "longitude": 3.23372
+  },
+  {
+    "id": 672,
+    "name": "tapa six bed hospital",
+    "lga": "ibarapa north",
+    "latitude": 7.5225,
+    "longitude": 3.22325
+  },
+  {
+    "id": 673,
+    "name": "tapa tuberculusis and leprocy clinic",
+    "lga": "ibarapa north",
+    "latitude": 7.55548,
+    "longitude": 3.22832
+  },
+  {
+    "id": 674,
+    "name": "aba panu health clinic",
+    "lga": "ido",
+    "latitude": 7.36078,
+    "longitude": 3.81633
+  },
+  {
+    "id": 675,
+    "name": "aged and widow clinic",
+    "lga": "ido",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 676,
+    "name": "ado-awaye eec general hospital",
+    "lga": "iseyin",
+    "latitude": 7.835656,
+    "longitude": 3.435468
+  },
+  {
+    "id": 677,
+    "name": "akinwumi health clinic",
+    "lga": "iseyin",
+    "latitude": 7.757942,
+    "longitude": 3.542858
+  },
+  {
+    "id": 678,
+    "name": "alayin health clinic",
+    "lga": "iseyin",
+    "latitude": 8.203073,
+    "longitude": 3.689799
+  },
+  {
+    "id": 679,
+    "name": "apenpe primary health clinic",
+    "lga": "iseyin",
+    "latitude": 7.802917,
+    "longitude": 3.694511
+  },
+  {
+    "id": 680,
+    "name": "idi  ayin primary health clinic",
+    "lga": "iseyin",
+    "latitude": 7.93235,
+    "longitude": 3.661376
+  },
+  {
+    "id": 681,
+    "name": "isalu tuberculusis and leprosy clinic",
+    "lga": "iseyin",
+    "latitude": 7.992548,
+    "longitude": 3.593818
+  },
+  {
+    "id": 682,
+    "name": "millenium development goal health clinic ode oba",
+    "lga": "iseyin",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 683,
+    "name": "ode oba aged and widow clinic",
+    "lga": "iseyin",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 684,
+    "name": "ogboolasa health clinic",
+    "lga": "iseyin",
+    "latitude": 7.74633,
+    "longitude": 3.50107
+  },
+  {
+    "id": 685,
+    "name": "ilesan otu aged and widow clinic",
+    "lga": "itesiwaju",
+    "latitude": 8.204882,
+    "longitude": 3.412968
+  },
+  {
+    "id": 686,
+    "name": "otu tuberculosis leprosy clinic",
+    "lga": "itesiwaju",
+    "latitude": 8.205447,
+    "longitude": 3.412858
+  },
+  {
+    "id": 687,
+    "name": "abule tapa health clinic",
+    "lga": "iwajowa",
+    "latitude": 7.805697,
+    "longitude": 3.214885
+  },
+  {
+    "id": 688,
+    "name": "eleru primary health clinic",
+    "lga": "iwajowa",
+    "latitude": 7.871633,
+    "longitude": 3.195408
+  },
+  {
+    "id": 689,
+    "name": "iganna staff clinic",
+    "lga": "iwajowa",
+    "latitude": 7.980118,
+    "longitude": 3.235425
+  },
+  {
+    "id": 690,
+    "name": "iganna tuberculusis and leprosy",
+    "lga": "iwajowa",
+    "latitude": 7.979617,
+    "longitude": 3.235797
+  },
+  {
+    "id": 691,
+    "name": "iwere ile dispensary",
+    "lga": "iwajowa",
+    "latitude": 7.998278,
+    "longitude": 3.090673
+  },
+  {
+    "id": 692,
+    "name": "ijo tuberculosis and leprosy  clinic",
+    "lga": "kajola",
+    "latitude": 8.03529,
+    "longitude": 3.34439
+  },
+  {
+    "id": 693,
+    "name": "ilero maternity centre",
+    "lga": "kajola",
+    "latitude": 8.08952,
+    "longitude": 3.34959
+  },
+  {
+    "id": 694,
+    "name": "isia aged and widow clinic okeho",
+    "lga": "kajola",
+    "latitude": 8.03315,
+    "longitude": 3.35883
+  },
+  {
+    "id": 695,
+    "name": "abudoro health clinic",
+    "lga": "lagelu",
+    "latitude": 7.49976,
+    "longitude": 4.02533
+  },
+  {
+    "id": 696,
+    "name": "air force comprehensive school hospital",
+    "lga": "lagelu",
+    "latitude": 7.49773,
+    "longitude": 4.07435
+  },
+  {
+    "id": 697,
+    "name": "alape primary health clinic",
+    "lga": "lagelu",
+    "latitude": 7.57206,
+    "longitude": 4.07709
+  },
+  {
+    "id": 698,
+    "name": "fakeye primary health clinic",
+    "lga": "lagelu",
+    "latitude": 7.57647,
+    "longitude": 4.0639
+  },
+  {
+    "id": 699,
+    "name": "lalupon health  clinic",
+    "lga": "lagelu",
+    "latitude": 7.46159,
+    "longitude": 4.06559
+  },
+  {
+    "id": 700,
+    "name": "ogunremi primary health clinic",
+    "lga": "lagelu",
+    "latitude": 7.59568,
+    "longitude": 4.05705
+  },
+  {
+    "id": 701,
+    "name": "widow and aged clinic",
+    "lga": "lagelu",
+    "latitude": 7.50014,
+    "longitude": 4.08185
+  },
+  {
+    "id": 702,
+    "name": "isale afon primary health clinic",
+    "lga": "ogbomosho north",
+    "latitude": 8.13055,
+    "longitude": 4.24747
+  },
+  {
+    "id": 703,
+    "name": "t.b.l clinic",
+    "lga": "ogbomosho north",
+    "latitude": 8.12739,
+    "longitude": 4.24607
+  },
+  {
+    "id": 704,
+    "name": "tuberculusis and leprosy control clinic",
+    "lga": "ogbomosho south",
+    "latitude": 8.12656,
+    "longitude": 4.242299
+  },
+  {
+    "id": 705,
+    "name": "ajawa aged &widow clinic",
+    "lga": "ogo oluwa",
+    "latitude": 7.92917,
+    "longitude": 4.13334
+  },
+  {
+    "id": 706,
+    "name": "alaruru health clinic",
+    "lga": "ogo oluwa",
+    "latitude": 7.98564,
+    "longitude": 4.19601
+  },
+  {
+    "id": 707,
+    "name": "tuberculosis and leprosy clinic",
+    "lga": "ogo oluwa",
+    "latitude": 7.92927,
+    "longitude": 4.13004
+  },
+  {
+    "id": 708,
+    "name": "aboke health is wealth clinic",
+    "lga": "olorunsogo",
+    "latitude": 8.74663,
+    "longitude": 4.14214
+  },
+  {
+    "id": 709,
+    "name": "oju oja primary health clinic",
+    "lga": "olorunsogo",
+    "latitude": 8.74204,
+    "longitude": 4.12907
+  },
+  {
+    "id": 710,
+    "name": "owode aged and widow clinic",
+    "lga": "olorunsogo",
+    "latitude": 8.74348,
+    "longitude": 4.13723
+  },
+  {
+    "id": 711,
+    "name": "aba afa primary health clinic",
+    "lga": "oluyole",
+    "latitude": 7.32509,
+    "longitude": 3.91306
+  },
+  {
+    "id": 712,
+    "name": "aba nla primary health clinic",
+    "lga": "oluyole",
+    "latitude": 7.22564,
+    "longitude": 3.83849
+  },
+  {
+    "id": 713,
+    "name": "aba ode primary health clinic",
+    "lga": "oluyole",
+    "latitude": 7.29228,
+    "longitude": 3.88862
+  },
+  {
+    "id": 714,
+    "name": "adewole idirok primary health clinic",
+    "lga": "oluyole",
+    "latitude": 7.33947,
+    "longitude": 3.76652
+  },
+  {
+    "id": 715,
+    "name": "agbale-panu primary health clinic",
+    "lga": "oluyole",
+    "latitude": 7.33578,
+    "longitude": 3.86242
+  },
+  {
+    "id": 716,
+    "name": "ayegun oleyoprimary  health clinic",
+    "lga": "oluyole",
+    "latitude": 7.31264,
+    "longitude": 3.81027
+  },
+  {
+    "id": 717,
+    "name": "ayetoro primary health clinic",
+    "lga": "oluyole",
+    "latitude": 7.19663,
+    "longitude": 3.95343
+  },
+  {
+    "id": 718,
+    "name": "busogboro primart health clinic",
+    "lga": "oluyole",
+    "latitude": 7.17097,
+    "longitude": 3.87805
+  },
+  {
+    "id": 719,
+    "name": "egbeda tuba primary health clinic",
+    "lga": "oluyole",
+    "latitude": 7.31958,
+    "longitude": 3.95336
+  },
+  {
+    "id": 720,
+    "name": "idi-ayunre primary health clinic",
+    "lga": "oluyole",
+    "latitude": 7.23341,
+    "longitude": 3.86042
+  },
+  {
+    "id": 721,
+    "name": "imole oluwa maternity home",
+    "lga": "oluyole",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 722,
+    "name": "ire akari primary health clinic",
+    "lga": "oluyole",
+    "latitude": 7.19357,
+    "longitude": 3.53295
+  },
+  {
+    "id": 723,
+    "name": "irepodun primary health clinic",
+    "lga": "oluyole",
+    "latitude": 7.35617,
+    "longitude": 3.92654
+  },
+  {
+    "id": 724,
+    "name": "maje primary health clinic",
+    "lga": "oluyole",
+    "latitude": 7.31396,
+    "longitude": 3.69144
+  },
+  {
+    "id": 725,
+    "name": "odo ona access basic foundation clinic",
+    "lga": "oluyole",
+    "latitude": 7.32832,
+    "longitude": 3.86833
+  },
+  {
+    "id": 726,
+    "name": "odo ona elewe primary health clinic",
+    "lga": "oluyole",
+    "latitude": 7.33316,
+    "longitude": 3.85767
+  },
+  {
+    "id": 727,
+    "name": "odo ona kekere primary health clinic",
+    "lga": "oluyole",
+    "latitude": 7.26821,
+    "longitude": 3.81964
+  },
+  {
+    "id": 728,
+    "name": "oloode primary  health clinic",
+    "lga": "oluyole",
+    "latitude": 7.20686,
+    "longitude": 3.94657
+  },
+  {
+    "id": 729,
+    "name": "onipe primary health clinic",
+    "lga": "oluyole",
+    "latitude": 7.11561,
+    "longitude": 3.5372
+  },
+  {
+    "id": 730,
+    "name": "pegba primary health clinic",
+    "lga": "oluyole",
+    "latitude": 7.34234,
+    "longitude": 3.94021
+  },
+  {
+    "id": 731,
+    "name": "police clinic",
+    "lga": "oluyole",
+    "latitude": 7.33435,
+    "longitude": 3.86694
+  },
+  {
+    "id": 732,
+    "name": "aged and widow clinic",
+    "lga": "orelope",
+    "latitude": 8.83268,
+    "longitude": 3.75809
+  },
+  {
+    "id": 733,
+    "name": "owode dispensary",
+    "lga": "orelope",
+    "latitude": 8.84552,
+    "longitude": 3.75803
+  },
+  {
+    "id": 734,
+    "name": "aged and widow health clinic",
+    "lga": "ori ire",
+    "latitude": 8.23436,
+    "longitude": 4.17533
+  },
+  {
+    "id": 735,
+    "name": "eleruwa primary health clinic",
+    "lga": "ori ire",
+    "latitude": 8.29086,
+    "longitude": 4.18509
+  },
+  {
+    "id": 736,
+    "name": "iporin primary health clinic",
+    "lga": "ori ire",
+    "latitude": 8.18891,
+    "longitude": 4.07275
+  },
+  {
+    "id": 737,
+    "name": "tbl clinic",
+    "lga": "ori ire",
+    "latitude": 7.9292,
+    "longitude": 4.1299
+  },
+  {
+    "id": 738,
+    "name": "ajagba maternity centre",
+    "lga": "oyo east",
+    "latitude": 7.76904,
+    "longitude": 4.02324
+  },
+  {
+    "id": 739,
+    "name": "oba adeyemi tuberculusis leprosy",
+    "lga": "oyo east",
+    "latitude": 7.83201,
+    "longitude": 3.93627
+  },
+  {
+    "id": 740,
+    "name": "oko oba maternity centre",
+    "lga": "oyo east",
+    "latitude": 7.81501,
+    "longitude": 3.94291
+  },
+  {
+    "id": 741,
+    "name": "oyo east staff clinic",
+    "lga": "oyo east",
+    "latitude": 7.83664,
+    "longitude": 3.94242
+  },
+  {
+    "id": 742,
+    "name": "oyo state hospital",
+    "lga": "oyo east",
+    "latitude": 8.3188,
+    "longitude": 3.92914
+  },
+  {
+    "id": 743,
+    "name": "aged and widow clinic,ojongbodu,oyo",
+    "lga": "oyo west",
+    "latitude": 7.85011,
+    "longitude": 3.91063
+  },
+  {
+    "id": 744,
+    "name": "iseke tuberculosis and leprosy clinic",
+    "lga": "oyo west",
+    "latitude": 7.83901,
+    "longitude": 3.91742
+  },
+  {
+    "id": 745,
+    "name": "olorunda  health clinic",
+    "lga": "oyo west",
+    "latitude": 7.92618,
+    "longitude": 3.85197
+  },
+  {
+    "id": 746,
+    "name": "oyo west local government staff clinic",
+    "lga": "oyo west",
+    "latitude": 7.85193,
+    "longitude": 3.90979
+  },
+  {
+    "id": 747,
+    "name": "soku primary  health clinic",
+    "lga": "oyo west",
+    "latitude": 7.90024,
+    "longitude": 3.74883
+  },
+  {
+    "id": 748,
+    "name": "access basic centre",
+    "lga": "saki east",
+    "latitude": 8.621068,
+    "longitude": 3.621095
+  },
+  {
+    "id": 749,
+    "name": "aged and widow clinic",
+    "lga": "saki east",
+    "latitude": 8.631388,
+    "longitude": 3.611678
+  },
+  {
+    "id": 750,
+    "name": "ago amodu primary health care clinic",
+    "lga": "saki east",
+    "latitude": 8.621112,
+    "longitude": 3.609823
+  },
+  {
+    "id": 751,
+    "name": "ogboro clinic",
+    "lga": "saki east",
+    "latitude": 8.621095,
+    "longitude": 3.6210958
+  },
+  {
+    "id": 752,
+    "name": "244 battalion medical reception station",
+    "lga": "saki west",
+    "latitude": 8.62859,
+    "longitude": 3.44588
+  },
+  {
+    "id": 753,
+    "name": "adabo tuberculosis leprosy",
+    "lga": "saki west",
+    "latitude": 8.67173,
+    "longitude": 3.38408
+  },
+  {
+    "id": 754,
+    "name": "saki west aged and widow mini clinic",
+    "lga": "saki west",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 755,
+    "name": "aged and widow clinic",
+    "lga": "surulere",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 756,
+    "name": "alate  health clinic",
+    "lga": "surulere",
+    "latitude": 8.309978,
+    "longitude": 4.379583
+  },
+  {
+    "id": 757,
+    "name": "igbon health clinic",
+    "lga": "surulere",
+    "latitude": 8.2473145,
+    "longitude": 4.305908203
+  },
+  {
+    "id": 758,
+    "name": "ige memorial convalescent and maternity home",
+    "lga": "surulere",
+    "latitude": 8.2111206,
+    "longitude": 4.334899902
+  },
+  {
+    "id": 759,
+    "name": "maya health clinic",
+    "lga": "surulere",
+    "latitude": 8.046753,
+    "longitude": 4.396475
+  },
+  {
+    "id": 760,
+    "name": "ogele health clinic",
+    "lga": "surulere",
+    "latitude": 7.948538,
+    "longitude": 4.307073
+  },
+  {
+    "id": 761,
+    "name": "t.b.l clinic",
+    "lga": "surulere",
+    "latitude": 8.085862,
+    "longitude": 4.310132
+  },
+  {
+    "id": 762,
+    "name": "jariya/ sangobo health post",
+    "lga": "akinyele",
+    "latitude": 7.63699,
+    "longitude": 3.8218
+  },
+  {
+    "id": 763,
+    "name": "oretu health post",
+    "lga": "akinyele",
+    "latitude": 7.92336,
+    "longitude": 3.8889
+  },
+  {
+    "id": 764,
+    "name": "otefon health post",
+    "lga": "atiba",
+    "latitude": 8.146,
+    "longitude": 3.90708
+  },
+  {
+    "id": 765,
+    "name": "ayede health post",
+    "lga": "egbeda",
+    "latitude": 7.44467,
+    "longitude": 4.38883
+  },
+  {
+    "id": 766,
+    "name": "ashi health post",
+    "lga": "ibadan north",
+    "latitude": 7.41321,
+    "longitude": 3.94251
+  },
+  {
+    "id": 767,
+    "name": "agugu health post",
+    "lga": "ibadan north east",
+    "latitude": 7.38447,
+    "longitude": 3.92208
+  },
+  {
+    "id": 768,
+    "name": "irefin babasale health post",
+    "lga": "ibadan north east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 769,
+    "name": "koloko health centre",
+    "lga": "ibadan north east",
+    "latitude": 7.37259,
+    "longitude": 3.9247
+  },
+  {
+    "id": 770,
+    "name": "odo osun health post",
+    "lga": "ibadan north east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 771,
+    "name": "felele health post, felele",
+    "lga": "ibadan south east",
+    "latitude": 7.34509,
+    "longitude": 3.88884
+  },
+  {
+    "id": 772,
+    "name": "omiyale health post",
+    "lga": "ibadan south east",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 773,
+    "name": "oriaje health post",
+    "lga": "ibadan south east",
+    "latitude": 7.35811,
+    "longitude": 3.90017
+  },
+  {
+    "id": 774,
+    "name": "ilaju health post",
+    "lga": "ido",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 775,
+    "name": "koguo health post",
+    "lga": "ido",
+    "latitude": 7.50883,
+    "longitude": 3.72123
+  },
+  {
+    "id": 776,
+    "name": "odetola health post",
+    "lga": "ido",
+    "latitude": 7.438165,
+    "longitude": 3.730124
+  },
+  {
+    "id": 777,
+    "name": "ebedi health post",
+    "lga": "iseyin",
+    "latitude": 7.957793,
+    "longitude": 3.614328
+  },
+  {
+    "id": 778,
+    "name": "odo ogun health post",
+    "lga": "iseyin",
+    "latitude": 7.902915,
+    "longitude": 3.504559
+  },
+  {
+    "id": 779,
+    "name": "otiri health post",
+    "lga": "iseyin",
+    "latitude": 8.068456,
+    "longitude": 3.535532
+  },
+  {
+    "id": 780,
+    "name": "imoba / oke ogun health post",
+    "lga": "kajola",
+    "latitude": 8.02967,
+    "longitude": 3.34671
+  },
+  {
+    "id": 781,
+    "name": "agric health post",
+    "lga": "ogbomosho south",
+    "latitude": 8.09584505,
+    "longitude": 4.19936104
+  },
+  {
+    "id": 782,
+    "name": "akata health post",
+    "lga": "ogbomosho south",
+    "latitude": 8.12478,
+    "longitude": 4.23579
+  },
+  {
+    "id": 783,
+    "name": "alabede health post",
+    "lga": "ogbomosho south",
+    "latitude": 8.10097,
+    "longitude": 4.23427
+  },
+  {
+    "id": 784,
+    "name": "alapata health post",
+    "lga": "ogbomosho south",
+    "latitude": 8.12458,
+    "longitude": 4.23099
+  },
+  {
+    "id": 785,
+    "name": "ijeru health post",
+    "lga": "ogbomosho south",
+    "latitude": 8.12426,
+    "longitude": 4.24328
+  },
+  {
+    "id": 786,
+    "name": "isoko health post",
+    "lga": "ogbomosho south",
+    "latitude": 8.12639,
+    "longitude": 4.23631
+  },
+  {
+    "id": 787,
+    "name": "iyawo ogun health post",
+    "lga": "ogbomosho south",
+    "latitude": 8.11798,
+    "longitude": 4.22143
+  },
+  {
+    "id": 788,
+    "name": "randa health post",
+    "lga": "ogbomosho south",
+    "latitude": 8.13469,
+    "longitude": 4.23093
+  },
+  {
+    "id": 789,
+    "name": "surulere health post",
+    "lga": "ogbomosho south",
+    "latitude": 8.12823,
+    "longitude": 4.21531
+  },
+  {
+    "id": 790,
+    "name": "opo health post",
+    "lga": "orelope",
+    "latitude": 8.73958,
+    "longitude": 3.72192
+  },
+  {
+    "id": 791,
+    "name": "biiro health post",
+    "lga": "ori ire",
+    "latitude": 8.13378,
+    "longitude": 4.03409
+  },
+  {
+    "id": 792,
+    "name": "aguo health post",
+    "lga": "oyo east",
+    "latitude": 7.74791,
+    "longitude": 3.91566
+  },
+  {
+    "id": 793,
+    "name": "araromi health post",
+    "lga": "oyo east",
+    "latitude": 7.81799,
+    "longitude": 3.94051
+  },
+  {
+    "id": 794,
+    "name": "gudugbu orile health post",
+    "lga": "oyo east",
+    "latitude": 7.80367,
+    "longitude": 4.04063
+  },
+  {
+    "id": 795,
+    "name": "ona aka health post",
+    "lga": "oyo east",
+    "latitude": 7.93618,
+    "longitude": 4.06754
+  },
+  {
+    "id": 796,
+    "name": "ajokidero health post",
+    "lga": "oyo west",
+    "latitude": 7.85271,
+    "longitude": 3.93135
+  },
+  {
+    "id": 797,
+    "name": "lakonu health post",
+    "lga": "oyo west",
+    "latitude": 7.85804,
+    "longitude": 3.85678
+  },
+  {
+    "id": 798,
+    "name": "pakoyi health post",
+    "lga": "oyo west",
+    "latitude": 7.85079,
+    "longitude": 3.92635
+  },
+  {
+    "id": 799,
+    "name": "imodi health post",
+    "lga": "saki east",
+    "latitude": 8.621095,
+    "longitude": 3.621095
+  },
+  {
+    "id": 800,
+    "name": "isale ola health post sepeteri.",
+    "lga": "saki east",
+    "latitude": 8.621068,
+    "longitude": 3.637353
+  },
+  {
+    "id": 801,
+    "name": "yikiyiki health post",
+    "lga": "saki east",
+    "latitude": 8.621068,
+    "longitude": 3.621095
+  },
+  {
+    "id": 802,
+    "name": "kooko health post",
+    "lga": "saki west",
+    "latitude": 8.66308,
+    "longitude": 3.39869
+  },
+  {
+    "id": 803,
+    "name": "atapa health post",
+    "lga": "surulere",
+    "latitude": 8.069477,
+    "longitude": 4.420713
+  },
+  {
+    "id": 804,
+    "name": "babanifa health post",
+    "lga": "surulere",
+    "latitude": 8.180997,
+    "longitude": 4.438512
+  },
+  {
+    "id": 805,
+    "name": "egbeda health post",
+    "lga": "surulere",
+    "latitude": 8.213061,
+    "longitude": 4.285673
+  },
+  {
+    "id": 806,
+    "name": "ijado health post",
+    "lga": "surulere",
+    "latitude": 8.24389649,
+    "longitude": 4.394714355
+  },
+  {
+    "id": 807,
+    "name": "ijado health post",
+    "lga": "surulere",
+    "latitude": 7.9362793,
+    "longitude": 4.366699219
+  },
+  {
+    "id": 808,
+    "name": "iyelu health post",
+    "lga": "surulere",
+    "latitude": "",
+    "longitude": ""
+  },
+  {
+    "id": 809,
+    "name": "ogojo health post",
+    "lga": "surulere",
+    "latitude": 8.120077,
+    "longitude": 4.31789
+  },
+  {
+    "id": 810,
+    "name": "okin health post",
+    "lga": "surulere",
+    "latitude": 8.047025,
+    "longitude": 4.28604
+  },
+  {
+    "id": 811,
+    "name": "poro health post",
+    "lga": "surulere",
+    "latitude": 8.47402,
+    "longitude": 4.361852
+  },
+  {
+    "id": 812,
+    "name": "sekengbede health post",
+    "lga": "surulere",
+    "latitude": 8.115118,
+    "longitude": 4.374817
+  }
+]

@@ -1,0 +1,3290 @@
+[
+  {
+    "id": 1,
+    "name": "ajibode grammar school ajibode ibadan"
+  },
+  {
+    "id": 2,
+    "name": "aroro community grammar school ibadan"
+  },
+  {
+    "id": 3,
+    "name": "orogun grammar school orogun ibadan"
+  },
+  {
+    "id": 4,
+    "name": "community high school otunagbaakin"
+  },
+  {
+    "id": 5,
+    "name": "community high school arulogun"
+  },
+  {
+    "id": 6,
+    "name": "army day secondary school odogbo ibadan"
+  },
+  {
+    "id": 7,
+    "name": "community high school apapa odan"
+  },
+  {
+    "id": 8,
+    "name": "anglican grammar school agbirigidi"
+  },
+  {
+    "id": 9,
+    "name": "ikereku community grammar school ikereku"
+  },
+  {
+    "id": 10,
+    "name": "community high school alabataajibade"
+  },
+  {
+    "id": 11,
+    "name": "community high school laleye ibadan"
+  },
+  {
+    "id": 12,
+    "name": "oyo state school of science pade"
+  },
+  {
+    "id": 13,
+    "name": "command day secondary school odogbo ibadan"
+  },
+  {
+    "id": 14,
+    "name": "community high school olanla"
+  },
+  {
+    "id": 15,
+    "name": "community high school atapa"
+  },
+  {
+    "id": 16,
+    "name": "ojoo high school alaka ibadan"
+  },
+  {
+    "id": 17,
+    "name": "aponmodemoniya high school moniya"
+  },
+  {
+    "id": 18,
+    "name": "community high school pade"
+  },
+  {
+    "id": 19,
+    "name": "yinbol college orogun ibadan"
+  },
+  {
+    "id": 20,
+    "name": "iwokoto community secondary school olubo"
+  },
+  {
+    "id": 21,
+    "name": "islamic comprehensive high school olope"
+  },
+  {
+    "id": 22,
+    "name": "the gospel faith mission international compr high sch ibadan"
+  },
+  {
+    "id": 23,
+    "name": "king's international college moniya ibadan"
+  },
+  {
+    "id": 24,
+    "name": "posit college ojoo ibadan"
+  },
+  {
+    "id": 25,
+    "name": "crown heights college ibadan"
+  },
+  {
+    "id": 26,
+    "name": "christ victory college moniya"
+  },
+  {
+    "id": 27,
+    "name": "trinity home college ojoo"
+  },
+  {
+    "id": 28,
+    "name": "praise model college sasaibadan"
+  },
+  {
+    "id": 29,
+    "name": "holy mountain college moniya ibadan"
+  },
+  {
+    "id": 30,
+    "name": "imperial international college sasa ojoo ibadan"
+  },
+  {
+    "id": 31,
+    "name": "great diplomats college ibadan"
+  },
+  {
+    "id": 32,
+    "name": "glory academy intl college orogun ibadan"
+  },
+  {
+    "id": 33,
+    "name": "ogunsanya girls science academy ibadan"
+  },
+  {
+    "id": 34,
+    "name": "community grammar school kajorepo"
+  },
+  {
+    "id": 35,
+    "name": "community grammar school seniorsasa ibadan"
+  },
+  {
+    "id": 36,
+    "name": "distinct jubilee international college ibadan"
+  },
+  {
+    "id": 37,
+    "name": "honeycomb unique college ibadan"
+  },
+  {
+    "id": 38,
+    "name": "graceland college moniya ibadan"
+  },
+  {
+    "id": 39,
+    "name": "community grammar school moniya"
+  },
+  {
+    "id": 40,
+    "name": "amazing grace comprehensive college arulogun rd ibadan"
+  },
+  {
+    "id": 41,
+    "name": "community sec school meleokegbemi moniya ibadan"
+  },
+  {
+    "id": 42,
+    "name": "emmanuel alayande jnr seminary moyede akobo ibadan"
+  },
+  {
+    "id": 43,
+    "name": "federal government girls college oyo"
+  },
+  {
+    "id": 44,
+    "name": "oranyan grammar school oyo"
+  },
+  {
+    "id": 45,
+    "name": "otefon grammar school otefon oyo"
+  },
+  {
+    "id": 46,
+    "name": "isale oyo community grammar school oyo"
+  },
+  {
+    "id": 47,
+    "name": "alaafin high school oyo"
+  },
+  {
+    "id": 48,
+    "name": "community secondary school ijawaye  asipa oyo"
+  },
+  {
+    "id": 49,
+    "name": "community secondary school lagunna oyo"
+  },
+  {
+    "id": 50,
+    "name": "isale oyo commercial secondary school oyo"
+  },
+  {
+    "id": 51,
+    "name": "okeolola community secondary school oyo"
+  },
+  {
+    "id": 52,
+    "name": "bodethomas memorial grammar school oyo"
+  },
+  {
+    "id": 53,
+    "name": "school of science oyo"
+  },
+  {
+    "id": 54,
+    "name": "aatan baptist comprehensive high school koro"
+  },
+  {
+    "id": 55,
+    "name": "anwarulislam college oyo"
+  },
+  {
+    "id": 56,
+    "name": "winners international college oyo"
+  },
+  {
+    "id": 57,
+    "name": "gods mercy comprehensive college agunpopo oyo"
+  },
+  {
+    "id": 58,
+    "name": "community high school oke olola oyo"
+  },
+  {
+    "id": 59,
+    "name": "happy day secondary school okeoroki oyo"
+  },
+  {
+    "id": 60,
+    "name": "adejare oloyede high school koso oyo"
+  },
+  {
+    "id": 61,
+    "name": "comprehensive high school irawo"
+  },
+  {
+    "id": 62,
+    "name": "baptist secondary grammar school agoare"
+  },
+  {
+    "id": 63,
+    "name": "progressive secondary grammar school tede"
+  },
+  {
+    "id": 64,
+    "name": "ansaruddeen society high school agoare"
+  },
+  {
+    "id": 65,
+    "name": "ofiki grammar school ofiki"
+  },
+  {
+    "id": 66,
+    "name": "owo community grammar school owo"
+  },
+  {
+    "id": 67,
+    "name": "ads comprehensive secondary school tede"
+  },
+  {
+    "id": 68,
+    "name": "community grammar school owode irawo"
+  },
+  {
+    "id": 69,
+    "name": "christ comprehensive high school agoare ibadan"
+  },
+  {
+    "id": 70,
+    "name": "bishop philips academy iwo road ibadan"
+  },
+  {
+    "id": 71,
+    "name": "urban day grammar school old ife road ibadan"
+  },
+  {
+    "id": 72,
+    "name": "idiito high school erunmu"
+  },
+  {
+    "id": 73,
+    "name": "community high school egbeda"
+  },
+  {
+    "id": 74,
+    "name": "kumapayi community high school kumapayi ibadan"
+  },
+  {
+    "id": 75,
+    "name": "osegere olukeye community high school osegere"
+  },
+  {
+    "id": 76,
+    "name": "community high school ogungbade ibadan"
+  },
+  {
+    "id": 77,
+    "name": "ilupeju community grammar school alugbo"
+  },
+  {
+    "id": 78,
+    "name": "community high school kasumuajia"
+  },
+  {
+    "id": 79,
+    "name": "olodo community grammar school olodo ibadan"
+  },
+  {
+    "id": 80,
+    "name": "community commercial high school ayede"
+  },
+  {
+    "id": 81,
+    "name": "community high school owobale"
+  },
+  {
+    "id": 82,
+    "name": "providence high school ibadan"
+  },
+  {
+    "id": 83,
+    "name": "makehay international comprehensive college ibadan"
+  },
+  {
+    "id": 84,
+    "name": "sow the seed model college ibadan"
+  },
+  {
+    "id": 85,
+    "name": "achievers comprehensive high school old ife rd"
+  },
+  {
+    "id": 86,
+    "name": "amazing grace international college ibadan"
+  },
+  {
+    "id": 87,
+    "name": "stars comprehensive college old ife road"
+  },
+  {
+    "id": 88,
+    "name": "ibadan city model college iyana church ibadan"
+  },
+  {
+    "id": 89,
+    "name": "samuel memorial college oke koto sawmill ibadan"
+  },
+  {
+    "id": 90,
+    "name": "living stone college of arts and science akobo ibadan"
+  },
+  {
+    "id": 91,
+    "name": "de ayo international college oldife road ibadan"
+  },
+  {
+    "id": 92,
+    "name": "deril academy old ife road ibadan"
+  },
+  {
+    "id": 93,
+    "name": "educational legacy college ibadan"
+  },
+  {
+    "id": 94,
+    "name": "tin carol college ibadan"
+  },
+  {
+    "id": 95,
+    "name": "alhayyu model college ibadan"
+  },
+  {
+    "id": 96,
+    "name": "god is able college ibadan"
+  },
+  {
+    "id": 97,
+    "name": "global school of science ibadan"
+  },
+  {
+    "id": 98,
+    "name": "oreofe oluwa college jagunibadan"
+  },
+  {
+    "id": 99,
+    "name": "bethel comprehensive college alakia iseboibadan"
+  },
+  {
+    "id": 100,
+    "name": "thywill college alakia ibadan"
+  },
+  {
+    "id": 101,
+    "name": "the jewels college ibadan"
+  },
+  {
+    "id": 102,
+    "name": "community senior high school alakia isebo ibadan"
+  },
+  {
+    "id": 103,
+    "name": "community grammar school erumu"
+  },
+  {
+    "id": 104,
+    "name": "community secondary school olaogun old ife road"
+  },
+  {
+    "id": 105,
+    "name": "urban day grammar school iii old ife road ibadan"
+  },
+  {
+    "id": 106,
+    "name": "steadfast comprehensive college egbeda ibadan"
+  },
+  {
+    "id": 107,
+    "name": "bishop philips high school"
+  },
+  {
+    "id": 108,
+    "name": "springs of wisdom high school egbeda"
+  },
+  {
+    "id": 109,
+    "name": "david joel model college oki egbeda ibadan"
+  },
+  {
+    "id": 110,
+    "name": "victop college eleyele iyana church ibadan"
+  },
+  {
+    "id": 111,
+    "name": "morning star comprehensive college olode ibadan"
+  },
+  {
+    "id": 112,
+    "name": "blessed comprehensive college alakia ibadan"
+  },
+  {
+    "id": 113,
+    "name": "olive branch college ibadan"
+  },
+  {
+    "id": 114,
+    "name": "community secondary school ogungbade"
+  },
+  {
+    "id": 115,
+    "name": "gods vision academy igem rd ibadan"
+  },
+  {
+    "id": 116,
+    "name": "temidire oxford college monatan ibadan"
+  },
+  {
+    "id": 117,
+    "name": "wakajaye community high school ajagba ibadan"
+  },
+  {
+    "id": 118,
+    "name": "de lords model college molade ibadan"
+  },
+  {
+    "id": 119,
+    "name": "christ life college new ife rd ibadan"
+  },
+  {
+    "id": 120,
+    "name": "olatundun model college alakia ibadan"
+  },
+  {
+    "id": 121,
+    "name": "regina james academy ibadan"
+  },
+  {
+    "id": 122,
+    "name": "lasting glory comprehensive college ibadan"
+  },
+  {
+    "id": 123,
+    "name": "community high school alarere ibadan"
+  },
+  {
+    "id": 124,
+    "name": "todebim college egbeda"
+  },
+  {
+    "id": 125,
+    "name": "divine acumen global college monatan ibadan"
+  },
+  {
+    "id": 126,
+    "name": "mount sinai college adegbayi ibadan"
+  },
+  {
+    "id": 127,
+    "name": "goshen high school ibadan ife expressway ibadan"
+  },
+  {
+    "id": 128,
+    "name": "excellers comprehensive college iyana church ibadan"
+  },
+  {
+    "id": 129,
+    "name": "triumph college kl  new ife road ibadan"
+  },
+  {
+    "id": 130,
+    "name": "saint annes school molete ibadan"
+  },
+  {
+    "id": 131,
+    "name": "ibadan grammar school molete ibadan"
+  },
+  {
+    "id": 132,
+    "name": "ibadan city academy ibadan"
+  },
+  {
+    "id": 133,
+    "name": "yejide girls grammar school molete ibadan"
+  },
+  {
+    "id": 134,
+    "name": "ibadan christ apostolic grammar school aperin ibadan"
+  },
+  {
+    "id": 135,
+    "name": "adelagun memorial grammar school odinjo ibadan"
+  },
+  {
+    "id": 136,
+    "name": "adekile goodwill grammar school ibadan"
+  },
+  {
+    "id": 137,
+    "name": "anglican grammar school molete ibadan"
+  },
+  {
+    "id": 138,
+    "name": "saint david high school kudeti ibadan"
+  },
+  {
+    "id": 139,
+    "name": "eyinni high school orita challenge ibadan"
+  },
+  {
+    "id": 140,
+    "name": "eleta high school ibadan"
+  },
+  {
+    "id": 141,
+    "name": "olubi memorial grammar school kedeti ibadan"
+  },
+  {
+    "id": 142,
+    "name": "methodist secondary grammar school elekuro ibadan"
+  },
+  {
+    "id": 143,
+    "name": "aperin oniyere commercial grammar school aperin ibadan"
+  },
+  {
+    "id": 144,
+    "name": "aperin boys high school oritaaperin ibadan"
+  },
+  {
+    "id": 145,
+    "name": "urban day grammar school elekuro ibadan"
+  },
+  {
+    "id": 146,
+    "name": "community grammar school kedeti ibadan"
+  },
+  {
+    "id": 147,
+    "name": "wesley college of science ibadan"
+  },
+  {
+    "id": 148,
+    "name": "saint lukes college molete ibadan"
+  },
+  {
+    "id": 149,
+    "name": "george and duke international college felele"
+  },
+  {
+    "id": 150,
+    "name": "bolade model college owode"
+  },
+  {
+    "id": 151,
+    "name": "debby international college olorunsogo"
+  },
+  {
+    "id": 152,
+    "name": "varsity high school scout camp challenge ibadan"
+  },
+  {
+    "id": 153,
+    "name": "calvary international college felele ibadan"
+  },
+  {
+    "id": 154,
+    "name": "ibadan grammar school senior school il ibadan"
+  },
+  {
+    "id": 155,
+    "name": "yejide girls grammar school senior school il ibadan"
+  },
+  {
+    "id": 156,
+    "name": "st annes senior school ll ibadan"
+  },
+  {
+    "id": 157,
+    "name": "ibadan christ apostolic grammar school il ibadan"
+  },
+  {
+    "id": 158,
+    "name": "st lukes college senior school ll molete"
+  },
+  {
+    "id": 159,
+    "name": "adelagun senior grammar school il odinjo ibadan"
+  },
+  {
+    "id": 160,
+    "name": "scores college scout camp challenge ibadan"
+  },
+  {
+    "id": 161,
+    "name": "abayomi international college ibadan"
+  },
+  {
+    "id": 162,
+    "name": "fountain international private secondary school"
+  },
+  {
+    "id": 163,
+    "name": "periscope college aperin ibadan"
+  },
+  {
+    "id": 164,
+    "name": "idikan baptist comprehensive college ibadan"
+  },
+  {
+    "id": 165,
+    "name": "patimo college adesola ibadan"
+  },
+  {
+    "id": 166,
+    "name": "ayobami comprehensive high school odooba ibadan"
+  },
+  {
+    "id": 167,
+    "name": "rubies international college felele ibadan"
+  },
+  {
+    "id": 168,
+    "name": "sheikh ibrahim model college ibadan"
+  },
+  {
+    "id": 169,
+    "name": "benevolent college molete ibadan"
+  },
+  {
+    "id": 170,
+    "name": "government senior secondary school oritaaperin ibadan"
+  },
+  {
+    "id": 171,
+    "name": "emerald laurel comprehensive college felele ibadan"
+  },
+  {
+    "id": 172,
+    "name": "omolola wisdom college odinjo ibadan"
+  },
+  {
+    "id": 173,
+    "name": "st davids cathedral college kudeti ibadan"
+  },
+  {
+    "id": 174,
+    "name": "apel model college adesola area ibadan"
+  },
+  {
+    "id": 175,
+    "name": "loyola college ibadan"
+  },
+  {
+    "id": 176,
+    "name": "lagelu grammar school ibadan"
+  },
+  {
+    "id": 177,
+    "name": "holy trinity grammar school ibadan"
+  },
+  {
+    "id": 178,
+    "name": "renascent high school aremo ibadan"
+  },
+  {
+    "id": 179,
+    "name": "queen of apostles secondary commercial grammar school oluyoro ibadan"
+  },
+  {
+    "id": 180,
+    "name": "united secondary school agugu ibadan"
+  },
+  {
+    "id": 181,
+    "name": "oke ibadan high school ibadan"
+  },
+  {
+    "id": 182,
+    "name": "olubadan high school aperin ibadan"
+  },
+  {
+    "id": 183,
+    "name": "basorun high school bode wasimi ibadan"
+  },
+  {
+    "id": 184,
+    "name": "army barracks grammar school iwo road ibadan"
+  },
+  {
+    "id": 185,
+    "name": "mufutau lanihun comprehensive high school ibadan"
+  },
+  {
+    "id": 186,
+    "name": "royal college ibadan"
+  },
+  {
+    "id": 187,
+    "name": "kings  queens college ibadan"
+  },
+  {
+    "id": 188,
+    "name": "best brain college basorun ibadan"
+  },
+  {
+    "id": 189,
+    "name": "racheal international school basorun ibadan"
+  },
+  {
+    "id": 190,
+    "name": "headquaters international college adekule ibadan"
+  },
+  {
+    "id": 191,
+    "name": "bloom heights secondary school idiape ibadan"
+  },
+  {
+    "id": 192,
+    "name": "frontliners college ibadan"
+  },
+  {
+    "id": 193,
+    "name": "excellence model college ibadan"
+  },
+  {
+    "id": 194,
+    "name": "hizbu lahialgalib hla grammar school agodi"
+  },
+  {
+    "id": 195,
+    "name": "lagelu senior grammar school  ibadan"
+  },
+  {
+    "id": 196,
+    "name": "loyola college senior school il"
+  },
+  {
+    "id": 197,
+    "name": "renascent senior high school ibadan"
+  },
+  {
+    "id": 198,
+    "name": "queens of apostles high school oluyoro"
+  },
+  {
+    "id": 199,
+    "name": "olubadan senior high school ill ibadan"
+  },
+  {
+    "id": 200,
+    "name": "olubadan grammar school aperin"
+  },
+  {
+    "id": 201,
+    "name": "love foundation high school iwo road ibadan"
+  },
+  {
+    "id": 202,
+    "name": "toyosi model college basorun ibadan"
+  },
+  {
+    "id": 203,
+    "name": "aanuolu college oluyoro alaadorin rd ibadan"
+  },
+  {
+    "id": 204,
+    "name": "omoladun comprehensive college ibadan"
+  },
+  {
+    "id": 205,
+    "name": "comfort standard secondary school e yidi area agodi ibadan"
+  },
+  {
+    "id": 206,
+    "name": "foundation college idiobi agugu ibadan"
+  },
+  {
+    "id": 207,
+    "name": "marvellous greatness college yidi agodi ibadan"
+  },
+  {
+    "id": 208,
+    "name": "saint patricks grammar school basorun ibadan"
+  },
+  {
+    "id": 209,
+    "name": "abadina college university of ibadan ibadan"
+  },
+  {
+    "id": 210,
+    "name": "saint louis grammar school mokola ibadan"
+  },
+  {
+    "id": 211,
+    "name": "anglican commercial grammar school oritamefa ibadan"
+  },
+  {
+    "id": 212,
+    "name": "islamic high school basorun ibadan"
+  },
+  {
+    "id": 213,
+    "name": "immanuel college high school ibadan"
+  },
+  {
+    "id": 214,
+    "name": "bishop onabanjo high school ibadan"
+  },
+  {
+    "id": 215,
+    "name": "saint gabriels secondary commercial school mokola ibadan"
+  },
+  {
+    "id": 216,
+    "name": "mount olivet grammar school bodija ibadan"
+  },
+  {
+    "id": 217,
+    "name": "methodist grammar school bodija ibadan"
+  },
+  {
+    "id": 218,
+    "name": "oba akinyele memorial high school basorun ibadan"
+  },
+  {
+    "id": 219,
+    "name": "basorunojoo high school ibadan"
+  },
+  {
+    "id": 220,
+    "name": "oba akinbiyi high school  mokola ibadan"
+  },
+  {
+    "id": 221,
+    "name": "ikolaba high school agodi gra ibadan"
+  },
+  {
+    "id": 222,
+    "name": "humani alaga high school sango ibadan"
+  },
+  {
+    "id": 223,
+    "name": "ikolaba grammar school agodi gra ibadan"
+  },
+  {
+    "id": 224,
+    "name": "oba akinbiyi high school  mokola ibadan"
+  },
+  {
+    "id": 225,
+    "name": "saint theresas seminary okeaare ibadan"
+  },
+  {
+    "id": 226,
+    "name": "community grammar school mokola ibadan"
+  },
+  {
+    "id": 227,
+    "name": "ijokodo high school ijokodo ibadan"
+  },
+  {
+    "id": 228,
+    "name": "united secondary school ijokodo ibadan"
+  },
+  {
+    "id": 229,
+    "name": "cheshire high school ibadan"
+  },
+  {
+    "id": 230,
+    "name": "poly high school ijokodo ibadan"
+  },
+  {
+    "id": 231,
+    "name": "the international school university of ibadan ibadan"
+  },
+  {
+    "id": 232,
+    "name": "bodija international college ibadan"
+  },
+  {
+    "id": 233,
+    "name": "reliance international high school ijokodo"
+  },
+  {
+    "id": 234,
+    "name": "walbrook college ibadan"
+  },
+  {
+    "id": 235,
+    "name": "lifeforte international high school ibadan"
+  },
+  {
+    "id": 236,
+    "name": "iseoluwa montessori high school ibadan"
+  },
+  {
+    "id": 237,
+    "name": "oritamefa baptist model school ibadan"
+  },
+  {
+    "id": 238,
+    "name": "lead city high school bodija ibadan"
+  },
+  {
+    "id": 239,
+    "name": "moret comprehensive college ibadan"
+  },
+  {
+    "id": 240,
+    "name": "all souls high school bodija ibadan"
+  },
+  {
+    "id": 241,
+    "name": "bishop akinyele grammar school okeare ibadan"
+  },
+  {
+    "id": 242,
+    "name": "ade royal comprehensive college okeitunu ibadan"
+  },
+  {
+    "id": 243,
+    "name": "marella international college kongibodija ibadan"
+  },
+  {
+    "id": 244,
+    "name": "nawairuddeen high school inalende ibadan"
+  },
+  {
+    "id": 245,
+    "name": "shiloh high school total garden ibadan"
+  },
+  {
+    "id": 246,
+    "name": "maverick college ibadan"
+  },
+  {
+    "id": 247,
+    "name": "starlite college eleyele road ijokodo ibadan"
+  },
+  {
+    "id": 248,
+    "name": "achiever high school bodija ibadan"
+  },
+  {
+    "id": 249,
+    "name": "cenfex high school mokola ibadan"
+  },
+  {
+    "id": 250,
+    "name": "ikolaba high senior school ii ikolaba"
+  },
+  {
+    "id": 251,
+    "name": "immanuel college senior school ii ui"
+  },
+  {
+    "id": 252,
+    "name": "samchris international model college ashi ibadan"
+  },
+  {
+    "id": 253,
+    "name": "gods blessing comprehensive college yemetu"
+  },
+  {
+    "id": 254,
+    "name": "city of faith comprehensive college ibadan"
+  },
+  {
+    "id": 255,
+    "name": "kolmor metropolitan college n bodija ibadan"
+  },
+  {
+    "id": 256,
+    "name": "christ the king college basorun ibadan"
+  },
+  {
+    "id": 257,
+    "name": "sedepo international college oke itunu"
+  },
+  {
+    "id": 258,
+    "name": "kings gate college ibadan"
+  },
+  {
+    "id": 259,
+    "name": "img grammar school yemetu aladorin"
+  },
+  {
+    "id": 260,
+    "name": "community high school senior agbowo bodija ibadan"
+  },
+  {
+    "id": 261,
+    "name": "command day secondary school letmauck barrack mokola"
+  },
+  {
+    "id": 262,
+    "name": "royal gems high school ashi ibadan"
+  },
+  {
+    "id": 263,
+    "name": "ikolaba international college ibadan"
+  },
+  {
+    "id": 264,
+    "name": "baptist high school agbowo ibadan"
+  },
+  {
+    "id": 265,
+    "name": "francis m college bodija ibadan"
+  },
+  {
+    "id": 266,
+    "name": "josabig high school okoro okeitun ibadan"
+  },
+  {
+    "id": 267,
+    "name": "ebenezer baptist high school okoro okeitunu ibadan"
+  },
+  {
+    "id": 268,
+    "name": "the apostolic church model college ijokodo ibadan"
+  },
+  {
+    "id": 269,
+    "name": "graceville college new bodija ibadan"
+  },
+  {
+    "id": 270,
+    "name": "anwarulislam grammar school ibadan"
+  },
+  {
+    "id": 271,
+    "name": "urban day secondary school jericho ibadan"
+  },
+  {
+    "id": 272,
+    "name": "eleyele high school eleyele ibadan"
+  },
+  {
+    "id": 273,
+    "name": "eleyele secondary school ibadan"
+  },
+  {
+    "id": 274,
+    "name": "oba abass alesinloye grammar school ibadan"
+  },
+  {
+    "id": 275,
+    "name": "jericho high school eleyele ibadan"
+  },
+  {
+    "id": 276,
+    "name": "onireke girls high school ibadan"
+  },
+  {
+    "id": 277,
+    "name": "all saints college ibadan"
+  },
+  {
+    "id": 278,
+    "name": "winfield high school ibadan"
+  },
+  {
+    "id": 279,
+    "name": "seed of life college onireke ibadan"
+  },
+  {
+    "id": 280,
+    "name": "shalom christian college idiisin ibadan"
+  },
+  {
+    "id": 281,
+    "name": "allahussamad model college ijokodo ibadan"
+  },
+  {
+    "id": 282,
+    "name": "olayomi highview international college arometa ibadan"
+  },
+  {
+    "id": 283,
+    "name": "army day high school letmauck mokola"
+  },
+  {
+    "id": 284,
+    "name": "beechford high school ibadan"
+  },
+  {
+    "id": 285,
+    "name": "ansaruddeen high school sango ibadan"
+  },
+  {
+    "id": 286,
+    "name": "andrew foster memorial college gra ibadan"
+  },
+  {
+    "id": 287,
+    "name": "st isabel comprehensive model college eleyele ibadan"
+  },
+  {
+    "id": 288,
+    "name": "fowebs college eleyele ibadan"
+  },
+  {
+    "id": 289,
+    "name": "army barracks grammar school letmauck barracks mokola ibadan"
+  },
+  {
+    "id": 290,
+    "name": "sacred heart secondary school ode ooloibadan"
+  },
+  {
+    "id": 291,
+    "name": "the crown college ibadan"
+  },
+  {
+    "id": 292,
+    "name": "glorious height college eleyele ibadan"
+  },
+  {
+    "id": 293,
+    "name": "government college apata ibadan"
+  },
+  {
+    "id": 294,
+    "name": "saint theresas college okeado ibadan"
+  },
+  {
+    "id": 295,
+    "name": "ibadan boys high school okebola ibadan"
+  },
+  {
+    "id": 296,
+    "name": "queens school apata ibadan"
+  },
+  {
+    "id": 297,
+    "name": "african church grammar school apata ibadan"
+  },
+  {
+    "id": 298,
+    "name": "apata grammar school apata ibadan"
+  },
+  {
+    "id": 299,
+    "name": "odoona girls grammar school ibadan"
+  },
+  {
+    "id": 300,
+    "name": "ibadan municipal government grammar school okeado ibadan"
+  },
+  {
+    "id": 301,
+    "name": "okebola comprehensive high school ibadan"
+  },
+  {
+    "id": 302,
+    "name": "oluyole estate grammar school ibadan"
+  },
+  {
+    "id": 303,
+    "name": "basorun ogunmola high school ring road ibadan"
+  },
+  {
+    "id": 304,
+    "name": "celestial church of christ high school okeado ibadan"
+  },
+  {
+    "id": 305,
+    "name": "oluyole extension high school ring road ibadan"
+  },
+  {
+    "id": 306,
+    "name": "oluyole high school ringroad ibadan"
+  },
+  {
+    "id": 307,
+    "name": "baptist secondary school liberty road ibadan"
+  },
+  {
+    "id": 308,
+    "name": "baptist grammar school idiisin ibadan"
+  },
+  {
+    "id": 309,
+    "name": "people girls grammar school molete ibadan"
+  },
+  {
+    "id": 310,
+    "name": "apata community grammar school ibadan"
+  },
+  {
+    "id": 311,
+    "name": "community grammar school ringroad ibadan"
+  },
+  {
+    "id": 312,
+    "name": "okeado high school ibadan"
+  },
+  {
+    "id": 313,
+    "name": "adifase high school ibadan"
+  },
+  {
+    "id": 314,
+    "name": "urban day grammar school ringroad ibadan"
+  },
+  {
+    "id": 315,
+    "name": "community grammar school elewura ibadan"
+  },
+  {
+    "id": 316,
+    "name": "our lady of apostles secondary commercial grammar school ibadan"
+  },
+  {
+    "id": 317,
+    "name": "ansaruddeen high school okeado ibadan"
+  },
+  {
+    "id": 318,
+    "name": "school of science okebola ibadan"
+  },
+  {
+    "id": 319,
+    "name": "atanda international high school oluyole estate ibadan"
+  },
+  {
+    "id": 320,
+    "name": "the vale college ibadan"
+  },
+  {
+    "id": 321,
+    "name": "united missionary comprehensive college molete ibadan"
+  },
+  {
+    "id": 322,
+    "name": "bambo academy ibadan"
+  },
+  {
+    "id": 323,
+    "name": "fola model college ibadan"
+  },
+  {
+    "id": 324,
+    "name": "sacred heart college akinyemi way ibadan"
+  },
+  {
+    "id": 325,
+    "name": "victory christian college ibadan"
+  },
+  {
+    "id": 326,
+    "name": "pislib de varsity international high school ibadan"
+  },
+  {
+    "id": 327,
+    "name": "christ ambassadors college ibadan"
+  },
+  {
+    "id": 328,
+    "name": "the immaculate model college ibadan"
+  },
+  {
+    "id": 329,
+    "name": "genius royal academy"
+  },
+  {
+    "id": 330,
+    "name": "grace private school secondary ibadan"
+  },
+  {
+    "id": 331,
+    "name": "omoniyi international college aba elesin apata ibadan"
+  },
+  {
+    "id": 332,
+    "name": "ecwa model college challenge ibadan"
+  },
+  {
+    "id": 333,
+    "name": "olapade agoro leaders high school apata ibadan"
+  },
+  {
+    "id": 334,
+    "name": "muslim model college okeado ibadan"
+  },
+  {
+    "id": 335,
+    "name": "kambridge comprehensive college ibadan"
+  },
+  {
+    "id": 336,
+    "name": "sunshine international high school ibadan"
+  },
+  {
+    "id": 337,
+    "name": "st catherines college alesinloye ibadan"
+  },
+  {
+    "id": 338,
+    "name": "baptist senior secondary school ii ibadan"
+  },
+  {
+    "id": 339,
+    "name": "foremost international secondary school adeoyo"
+  },
+  {
+    "id": 340,
+    "name": "st teresas college senior school ii ibadan"
+  },
+  {
+    "id": 341,
+    "name": "oluyole private international college ibadan"
+  },
+  {
+    "id": 342,
+    "name": "rhema chapel international college ibadan"
+  },
+  {
+    "id": 343,
+    "name": "concord college ring road ibadan"
+  },
+  {
+    "id": 344,
+    "name": "mighty miracle college okebola ibadan"
+  },
+  {
+    "id": 345,
+    "name": "bevy high school college crescent ibadan"
+  },
+  {
+    "id": 346,
+    "name": "rochas foundation college ntc rd ibadan"
+  },
+  {
+    "id": 347,
+    "name": "st james cathedral college okebola ibadan"
+  },
+  {
+    "id": 348,
+    "name": "stand hope international college okeado ibadan"
+  },
+  {
+    "id": 349,
+    "name": "apostolic faith secondary school okeado ibadan"
+  },
+  {
+    "id": 350,
+    "name": "the amazing grace high school anfani lout ibadan"
+  },
+  {
+    "id": 351,
+    "name": "atanda neighbourhood private secondary school ibadan"
+  },
+  {
+    "id": 352,
+    "name": "abbey standard college oke ado ibadan"
+  },
+  {
+    "id": 353,
+    "name": "praise academy akinyemi way ring road ibadan"
+  },
+  {
+    "id": 354,
+    "name": "igboora high school igboora"
+  },
+  {
+    "id": 355,
+    "name": "methodist grammar school igboora"
+  },
+  {
+    "id": 356,
+    "name": "lasogba high school idofin igboora"
+  },
+  {
+    "id": 357,
+    "name": "lajorun high school okeiserin"
+  },
+  {
+    "id": 358,
+    "name": "ogboja grammar school igboora"
+  },
+  {
+    "id": 359,
+    "name": "igboora grammar school igboora"
+  },
+  {
+    "id": 360,
+    "name": "aiyelogun grammar school idere ibadan"
+  },
+  {
+    "id": 361,
+    "name": "oyo state school of science idere"
+  },
+  {
+    "id": 362,
+    "name": "ansarudeen grammar school igboora"
+  },
+  {
+    "id": 363,
+    "name": "nawairuddeen grammar igoora"
+  },
+  {
+    "id": 364,
+    "name": "ingenious comprehensive academy igboora"
+  },
+  {
+    "id": 365,
+    "name": "okedere high school idere ibadan"
+  },
+  {
+    "id": 366,
+    "name": "kastad royal secondary school igbole igboora"
+  },
+  {
+    "id": 367,
+    "name": "adegoke college igboora"
+  },
+  {
+    "id": 368,
+    "name": "obaseeku high school eruwa"
+  },
+  {
+    "id": 369,
+    "name": "baptist grammar school eruwa"
+  },
+  {
+    "id": 370,
+    "name": "lanlate high school lanlate"
+  },
+  {
+    "id": 371,
+    "name": "eruwa high school eruwa"
+  },
+  {
+    "id": 372,
+    "name": "akolu grammar school eruwa"
+  },
+  {
+    "id": 373,
+    "name": "bioku grammar school lanlate"
+  },
+  {
+    "id": 374,
+    "name": "apode high school eruwa"
+  },
+  {
+    "id": 375,
+    "name": "muslim high school sango eruwa"
+  },
+  {
+    "id": 376,
+    "name": "baptist model high school eruwa"
+  },
+  {
+    "id": 377,
+    "name": "ifelodun comprehensive high school eruwa"
+  },
+  {
+    "id": 378,
+    "name": "onitabo high school itabo lanlate"
+  },
+  {
+    "id": 379,
+    "name": "goodness and mercy college lanlate"
+  },
+  {
+    "id": 380,
+    "name": "rockview model college lanlate"
+  },
+  {
+    "id": 381,
+    "name": "ayete grammar school ayete"
+  },
+  {
+    "id": 382,
+    "name": "igangan high school igangan"
+  },
+  {
+    "id": 383,
+    "name": "tapa community high school tapa"
+  },
+  {
+    "id": 384,
+    "name": "okeaako high school igangan"
+  },
+  {
+    "id": 385,
+    "name": "baptist high school ayete"
+  },
+  {
+    "id": 386,
+    "name": "maku grammar school tapa"
+  },
+  {
+    "id": 387,
+    "name": "maja academy senior secondary school igangan"
+  },
+  {
+    "id": 388,
+    "name": "muslim model college igangan oyo state"
+  },
+  {
+    "id": 389,
+    "name": "angels height college ayete"
+  },
+  {
+    "id": 390,
+    "name": "adegun asake grammar school igangan"
+  },
+  {
+    "id": 391,
+    "name": "united christian secondary school omiadio ibadan"
+  },
+  {
+    "id": 392,
+    "name": "akufo high school akufo"
+  },
+  {
+    "id": 393,
+    "name": "saint michaels african church grammar school owode"
+  },
+  {
+    "id": 394,
+    "name": "command secondary school bodeigbo ibadan"
+  },
+  {
+    "id": 395,
+    "name": "community high school awotan araromi"
+  },
+  {
+    "id": 396,
+    "name": "community high school ogundele alaho"
+  },
+  {
+    "id": 397,
+    "name": "community high school elenusonso"
+  },
+  {
+    "id": 398,
+    "name": "community high school ido"
+  },
+  {
+    "id": 399,
+    "name": "community high school batakeidiiya"
+  },
+  {
+    "id": 400,
+    "name": "christ national model college idi awun apata"
+  },
+  {
+    "id": 401,
+    "name": "community high school eleshinfunfun ibadan"
+  },
+  {
+    "id": 402,
+    "name": "prospect comprehensive college apata ibadan"
+  },
+  {
+    "id": 403,
+    "name": "brilliant stars college ibadan"
+  },
+  {
+    "id": 404,
+    "name": "bibiire international comprehensive college bembo apata ibadan"
+  },
+  {
+    "id": 405,
+    "name": "dway college apete ibadan"
+  },
+  {
+    "id": 406,
+    "name": "st micheals african church model snr grammar schl ii ibadan"
+  },
+  {
+    "id": 407,
+    "name": "st john senior secondary school omionigbagbo"
+  },
+  {
+    "id": 408,
+    "name": "taas college bodeigbo ibadan"
+  },
+  {
+    "id": 409,
+    "name": "funmilayo comprehensive college owode ibadan"
+  },
+  {
+    "id": 410,
+    "name": "royal people college lakoto apete ibadan"
+  },
+  {
+    "id": 411,
+    "name": "the gift high school apete ibadan"
+  },
+  {
+    "id": 412,
+    "name": "community high school ologuneru ibadan"
+  },
+  {
+    "id": 413,
+    "name": "apeteayegun community grammar school ariyibi ibadan"
+  },
+  {
+    "id": 414,
+    "name": "leo community high school apata ibadan"
+  },
+  {
+    "id": 415,
+    "name": "bakatari community high school abeokuta rd ibadan"
+  },
+  {
+    "id": 416,
+    "name": "elizabeth college apata ibadan"
+  },
+  {
+    "id": 417,
+    "name": "lariken college abysam estate ibadan"
+  },
+  {
+    "id": 418,
+    "name": "marks comprehensive high school gbopa ibadan"
+  },
+  {
+    "id": 419,
+    "name": "jesus glory college akuru elebuarea ibadan"
+  },
+  {
+    "id": 420,
+    "name": "marianne college ekerin ologuneru ibadan"
+  },
+  {
+    "id": 421,
+    "name": "omega international college bembo loguda apata"
+  },
+  {
+    "id": 422,
+    "name": "diadem college nnpc area apata ibadan"
+  },
+  {
+    "id": 423,
+    "name": "victory college jankata apata ibadan"
+  },
+  {
+    "id": 424,
+    "name": "kisi community grammar school kisi"
+  },
+  {
+    "id": 425,
+    "name": "lagbulu memorial high school kisi"
+  },
+  {
+    "id": 426,
+    "name": "iba high school kisi"
+  },
+  {
+    "id": 427,
+    "name": "olanipekun memorial college kisi"
+  },
+  {
+    "id": 428,
+    "name": "progressive islamic and arabic college kisi"
+  },
+  {
+    "id": 429,
+    "name": "muslim academy kisi"
+  },
+  {
+    "id": 430,
+    "name": "baptist heritage high school kisi"
+  },
+  {
+    "id": 431,
+    "name": "nybrosis college kisi ibadan"
+  },
+  {
+    "id": 432,
+    "name": "ansarudeen society high school kisi"
+  },
+  {
+    "id": 433,
+    "name": "iseyin district grammar school iseyin"
+  },
+  {
+    "id": 434,
+    "name": "progressive secondary grammar school adoawaye"
+  },
+  {
+    "id": 435,
+    "name": "bishop samuel ajayi crowther memorial high school osoogun"
+  },
+  {
+    "id": 436,
+    "name": "anwarulislam high school iseyin"
+  },
+  {
+    "id": 437,
+    "name": "muslim secondary grammar school iseyin"
+  },
+  {
+    "id": 438,
+    "name": "ekunle high school iseyin"
+  },
+  {
+    "id": 439,
+    "name": "baptist secondary grammar school koso iseyin"
+  },
+  {
+    "id": 440,
+    "name": "koso community grammar school iseyin"
+  },
+  {
+    "id": 441,
+    "name": "saint johns catholic grammar school iseyin"
+  },
+  {
+    "id": 442,
+    "name": "faramora grammar school iseyin"
+  },
+  {
+    "id": 443,
+    "name": "aseyin high school iseyin"
+  },
+  {
+    "id": 444,
+    "name": "kelani college iseyin"
+  },
+  {
+    "id": 445,
+    "name": "akinwumi methodist high school akinwumi"
+  },
+  {
+    "id": 446,
+    "name": "ansaruddeen grammar school iseyin"
+  },
+  {
+    "id": 447,
+    "name": "st thomas catholic college iseyin"
+  },
+  {
+    "id": 448,
+    "name": "blue crescent international college iseyin"
+  },
+  {
+    "id": 449,
+    "name": "st johns catholic senior grammar school il iseyin"
+  },
+  {
+    "id": 450,
+    "name": "iseyin district senior grammar school il iseyin"
+  },
+  {
+    "id": 451,
+    "name": "muslim high school iseyin"
+  },
+  {
+    "id": 452,
+    "name": "baptist high school iseyin"
+  },
+  {
+    "id": 453,
+    "name": "iladosagbo community grammar school iseyin"
+  },
+  {
+    "id": 454,
+    "name": "community grammar school ado awaye"
+  },
+  {
+    "id": 455,
+    "name": "ekunle grammar school iseyin"
+  },
+  {
+    "id": 456,
+    "name": "anwarulislam college iseyin"
+  },
+  {
+    "id": 457,
+    "name": "islamic girls high school iseyin"
+  },
+  {
+    "id": 458,
+    "name": "double major college iseyin"
+  },
+  {
+    "id": 459,
+    "name": "the pen model college amukoro iseyin"
+  },
+  {
+    "id": 460,
+    "name": "first baptist church model college iseyin"
+  },
+  {
+    "id": 461,
+    "name": "rehoboth college oremoje iseyin"
+  },
+  {
+    "id": 462,
+    "name": "okaka community grammar school okaka"
+  },
+  {
+    "id": 463,
+    "name": "ipapo community grammar school ipapo"
+  },
+  {
+    "id": 464,
+    "name": "komubabaode high school komu"
+  },
+  {
+    "id": 465,
+    "name": "baptist grammar school otu"
+  },
+  {
+    "id": 466,
+    "name": "igbojaye community high school igbojaye"
+  },
+  {
+    "id": 467,
+    "name": "okeamu community college okeamu"
+  },
+  {
+    "id": 468,
+    "name": "otu community grammar school otu"
+  },
+  {
+    "id": 469,
+    "name": "muslim grammar school otu"
+  },
+  {
+    "id": 470,
+    "name": "babaode community college babaode"
+  },
+  {
+    "id": 471,
+    "name": "first baptist college otu"
+  },
+  {
+    "id": 472,
+    "name": "iganna high school iganna"
+  },
+  {
+    "id": 473,
+    "name": "iwajowa community high school ijio"
+  },
+  {
+    "id": 474,
+    "name": "community grammar school idikoago"
+  },
+  {
+    "id": 475,
+    "name": "ilupeju community grammar school iwereile"
+  },
+  {
+    "id": 476,
+    "name": "community grammar school iganna"
+  },
+  {
+    "id": 477,
+    "name": "community high school elelokan"
+  },
+  {
+    "id": 478,
+    "name": "adeayo international college iganna"
+  },
+  {
+    "id": 479,
+    "name": "itile comprehensive high school itasa"
+  },
+  {
+    "id": 480,
+    "name": "st joseph catholic college iwereile"
+  },
+  {
+    "id": 481,
+    "name": "ansarudeen society high school iwereile"
+  },
+  {
+    "id": 482,
+    "name": "okeho iganna grammar school okeho"
+  },
+  {
+    "id": 483,
+    "name": "baptist high school ilero"
+  },
+  {
+    "id": 484,
+    "name": "awoyemi commercial high school okeho"
+  },
+  {
+    "id": 485,
+    "name": "ansaruddeen comprehensive high school ilero"
+  },
+  {
+    "id": 486,
+    "name": "community grammar school ilua"
+  },
+  {
+    "id": 487,
+    "name": "ansaruddeen society high school okeho"
+  },
+  {
+    "id": 488,
+    "name": "iwa community grammar school ayetorookeho"
+  },
+  {
+    "id": 489,
+    "name": "isemiile grammar school isemiile"
+  },
+  {
+    "id": 490,
+    "name": "baptist high school okeho"
+  },
+  {
+    "id": 491,
+    "name": "school of science okeho"
+  },
+  {
+    "id": 492,
+    "name": "ismog community grammar school okeho"
+  },
+  {
+    "id": 493,
+    "name": "gegun high school ayetorooke"
+  },
+  {
+    "id": 494,
+    "name": "ads gammar school okeho"
+  },
+  {
+    "id": 495,
+    "name": "onjo senior high school okeho"
+  },
+  {
+    "id": 496,
+    "name": "irepodun community high school ilero"
+  },
+  {
+    "id": 497,
+    "name": "muslim community high school ayetoro oke"
+  },
+  {
+    "id": 498,
+    "name": "victoria comprehensive college sawmill okeho"
+  },
+  {
+    "id": 499,
+    "name": "omolewu academy bucksman height okeho"
+  },
+  {
+    "id": 500,
+    "name": "okeogun ogbinte community grammar school okeho"
+  },
+  {
+    "id": 501,
+    "name": "igbo elerin grammar school ibadan"
+  },
+  {
+    "id": 502,
+    "name": "no idowu comprehensive high school olorundaabaa"
+  },
+  {
+    "id": 503,
+    "name": "estate high school basorun akobo ibadan"
+  },
+  {
+    "id": 504,
+    "name": "monatan high school ibadan"
+  },
+  {
+    "id": 505,
+    "name": "isabatudeen girls grammar school basorun ibadan"
+  },
+  {
+    "id": 506,
+    "name": "anglican grammar school oyedeji"
+  },
+  {
+    "id": 507,
+    "name": "community high school ejioku"
+  },
+  {
+    "id": 508,
+    "name": "community grammar school lalupon ibadan"
+  },
+  {
+    "id": 509,
+    "name": "lagun community grammar school lagun"
+  },
+  {
+    "id": 510,
+    "name": "anglican grammar school kutayi"
+  },
+  {
+    "id": 511,
+    "name": "community high school alegongo ibadan"
+  },
+  {
+    "id": 512,
+    "name": "abudoro community high school abudoroibadan"
+  },
+  {
+    "id": 513,
+    "name": "olosunde community high school olosunde"
+  },
+  {
+    "id": 514,
+    "name": "ofaadedokun community high school ofatedo"
+  },
+  {
+    "id": 515,
+    "name": "community grammar school apatere"
+  },
+  {
+    "id": 516,
+    "name": "airforce comprehensive school iyana offa"
+  },
+  {
+    "id": 517,
+    "name": "nickdel college ibadan"
+  },
+  {
+    "id": 518,
+    "name": "community high school ogunjana"
+  },
+  {
+    "id": 519,
+    "name": "alapataonireke community grammar school alapataonireke"
+  },
+  {
+    "id": 520,
+    "name": "graceland heights wofun ibadan"
+  },
+  {
+    "id": 521,
+    "name": "unique college ibadan"
+  },
+  {
+    "id": 522,
+    "name": "adetunjiolowode community high school lagelu"
+  },
+  {
+    "id": 523,
+    "name": "goodnews international high school ibadan"
+  },
+  {
+    "id": 524,
+    "name": "jnissi college okebadan estate akobo alegongo ibadan"
+  },
+  {
+    "id": 525,
+    "name": "de overcomers college akobo ojurin ibadan"
+  },
+  {
+    "id": 526,
+    "name": "adesina college ibadan"
+  },
+  {
+    "id": 527,
+    "name": "tl oyesina model secondary school senior ibadan"
+  },
+  {
+    "id": 528,
+    "name": "isabatudeen girls high school"
+  },
+  {
+    "id": 529,
+    "name": "atorise comprehensive college olorundaabaa"
+  },
+  {
+    "id": 530,
+    "name": "hope college ejioku ibadan"
+  },
+  {
+    "id": 531,
+    "name": "escas college ibadan"
+  },
+  {
+    "id": 532,
+    "name": "rosebud college alao akala way ibadan"
+  },
+  {
+    "id": 533,
+    "name": "baptist comprehensive high school ejioku ibadan"
+  },
+  {
+    "id": 534,
+    "name": "ifesowapo community high school kute"
+  },
+  {
+    "id": 535,
+    "name": "community high school ajara lagelu"
+  },
+  {
+    "id": 536,
+    "name": "valiants havilan international college ejioku ibadan"
+  },
+  {
+    "id": 537,
+    "name": "ogbomoso grammar school ogbomoso"
+  },
+  {
+    "id": 538,
+    "name": "federal government college ogbomoso"
+  },
+  {
+    "id": 539,
+    "name": "adeniran memorial grammar school ogbomoso"
+  },
+  {
+    "id": 540,
+    "name": "nurudeen grammar school ogbomoso"
+  },
+  {
+    "id": 541,
+    "name": "ogbomoso girls high school ogbomoso"
+  },
+  {
+    "id": 542,
+    "name": "anglican grammar school ogbomoso"
+  },
+  {
+    "id": 543,
+    "name": "orioke community high school orioke ogbomoso"
+  },
+  {
+    "id": 544,
+    "name": "soun high school ogbomoso"
+  },
+  {
+    "id": 545,
+    "name": "areago high school ogbomoso"
+  },
+  {
+    "id": 546,
+    "name": "the school of science ogbomoso"
+  },
+  {
+    "id": 547,
+    "name": "best legacy international high school ogbomoso"
+  },
+  {
+    "id": 548,
+    "name": "akhbaruddeen college ogbomoso"
+  },
+  {
+    "id": 549,
+    "name": "adebolu comprehensive college ogbomoso"
+  },
+  {
+    "id": 550,
+    "name": "victory model college ogbomoso"
+  },
+  {
+    "id": 551,
+    "name": "womens league secondary school ogbomoso"
+  },
+  {
+    "id": 552,
+    "name": "fasal college onipanu ogbomoso"
+  },
+  {
+    "id": 553,
+    "name": "ajogbe comprehensive college kuye"
+  },
+  {
+    "id": 554,
+    "name": "attaoheed international coll owoade ogbomoso"
+  },
+  {
+    "id": 555,
+    "name": "lautech international college ogbomoso"
+  },
+  {
+    "id": 556,
+    "name": "soun secondary school ogbomoso"
+  },
+  {
+    "id": 557,
+    "name": "anglican high school"
+  },
+  {
+    "id": 558,
+    "name": "nurudeen high school ogbomoso"
+  },
+  {
+    "id": 559,
+    "name": "millenium secondary model school ogbomoso"
+  },
+  {
+    "id": 560,
+    "name": "owode community grammar school ogbomoso"
+  },
+  {
+    "id": 561,
+    "name": "orioke community high school  ogbomoso"
+  },
+  {
+    "id": 562,
+    "name": "community grammar school orioke ogbomoso"
+  },
+  {
+    "id": 563,
+    "name": "great city senior secondary school obenite ogbomoso"
+  },
+  {
+    "id": 564,
+    "name": "anglican grammar school ii senior ogbomoso"
+  },
+  {
+    "id": 565,
+    "name": "kings international college ogbomoso"
+  },
+  {
+    "id": 566,
+    "name": "george green baptist college ogbomoso"
+  },
+  {
+    "id": 567,
+    "name": "ansaruddeen high school senior oke adun"
+  },
+  {
+    "id": 568,
+    "name": "reg comprehensive college igbo agbanni area ogbomoso"
+  },
+  {
+    "id": 569,
+    "name": "king of kings baptist collegekinnira ogbomoso"
+  },
+  {
+    "id": 570,
+    "name": "anglican model college ogbomoso"
+  },
+  {
+    "id": 571,
+    "name": "mergo baptist college ogbomoso"
+  },
+  {
+    "id": 572,
+    "name": "morenike comprehensive high school ogbomoso"
+  },
+  {
+    "id": 573,
+    "name": "premier baptist academy pakiotan estate ogbomoso"
+  },
+  {
+    "id": 574,
+    "name": "ogbomoso high school ogbomoso"
+  },
+  {
+    "id": 575,
+    "name": "christ apostolic church grammar school ogbomoso"
+  },
+  {
+    "id": 576,
+    "name": "ogbomoso baptist high school ogbomoso"
+  },
+  {
+    "id": 577,
+    "name": "methodist secondary grammar school ogbomoso"
+  },
+  {
+    "id": 578,
+    "name": "muslim comprehensive high school ogbomoso"
+  },
+  {
+    "id": 579,
+    "name": "the apostolic church grammar school ogbomoso"
+  },
+  {
+    "id": 580,
+    "name": "saint ferdinard grammar school osuuru ogbomoso"
+  },
+  {
+    "id": 581,
+    "name": "baptist secondary grammar school ogbomoso"
+  },
+  {
+    "id": 582,
+    "name": "molete community high school ogbomoso"
+  },
+  {
+    "id": 583,
+    "name": "caretaker community high school ogbomoso"
+  },
+  {
+    "id": 584,
+    "name": "laogun adeoye memorial high school ogbomoso"
+  },
+  {
+    "id": 585,
+    "name": "ayegun baptist church college ogbomoso"
+  },
+  {
+    "id": 586,
+    "name": "maryland catholic grammar school akataogbomoso"
+  },
+  {
+    "id": 587,
+    "name": "smith international baptist academy ogbomoso"
+  },
+  {
+    "id": 588,
+    "name": "royal international college odo alalubosa ogbomoso"
+  },
+  {
+    "id": 589,
+    "name": "gomal baptist college ogbomoso"
+  },
+  {
+    "id": 590,
+    "name": "wesley comprehensive high school arowomole ogbomoso"
+  },
+  {
+    "id": 591,
+    "name": "aitch american model collegeogbomoso"
+  },
+  {
+    "id": 592,
+    "name": "jesco college ogbomoso"
+  },
+  {
+    "id": 593,
+    "name": "jaf comprehensive college ogbomoso"
+  },
+  {
+    "id": 594,
+    "name": "the apostolic church senior grammar school ii ogbomoso"
+  },
+  {
+    "id": 595,
+    "name": "molete community senior high school ii"
+  },
+  {
+    "id": 596,
+    "name": "muslim grammar school saanuaje ogbomoso"
+  },
+  {
+    "id": 597,
+    "name": "ogbomoso senior high school ii ogbomoso"
+  },
+  {
+    "id": 598,
+    "name": "ogbomoso high school iii ogbomoso"
+  },
+  {
+    "id": 599,
+    "name": "baptist grammar school susun ogbomoso"
+  },
+  {
+    "id": 600,
+    "name": "emmanuel agboola grammar school kajola"
+  },
+  {
+    "id": 601,
+    "name": "baptist comprehensive high school okeonisuru"
+  },
+  {
+    "id": 602,
+    "name": "baptist secondary grammar schoo ii ogbomoso"
+  },
+  {
+    "id": 603,
+    "name": "bethel baptist college ijeru ogbomoso"
+  },
+  {
+    "id": 604,
+    "name": "divine favour college ogbomoso"
+  },
+  {
+    "id": 605,
+    "name": "olafunmi comprehensive college ogbomoso"
+  },
+  {
+    "id": 606,
+    "name": "amicable high school ogbomoso"
+  },
+  {
+    "id": 607,
+    "name": "gods time college odokoto ogbomoso"
+  },
+  {
+    "id": 608,
+    "name": "baptist grammar school ajaawa"
+  },
+  {
+    "id": 609,
+    "name": "obada community high school obada ogbomoso"
+  },
+  {
+    "id": 610,
+    "name": "idiaraba community high school idiaraba"
+  },
+  {
+    "id": 611,
+    "name": "community high school otamokun"
+  },
+  {
+    "id": 612,
+    "name": "community high school iwoate"
+  },
+  {
+    "id": 613,
+    "name": "lagbedu orile community high school lagbedu orile"
+  },
+  {
+    "id": 614,
+    "name": "community high school idewure"
+  },
+  {
+    "id": 615,
+    "name": "obandi community high school odooba"
+  },
+  {
+    "id": 616,
+    "name": "community high school ajaawa"
+  },
+  {
+    "id": 617,
+    "name": "united missionary church of africa sec grammar school igbeti"
+  },
+  {
+    "id": 618,
+    "name": "muslim community high school igbeti"
+  },
+  {
+    "id": 619,
+    "name": "ogunbode memorial grammar school igbeti"
+  },
+  {
+    "id": 620,
+    "name": "gbadamosi memorial royal academy igbeti"
+  },
+  {
+    "id": 621,
+    "name": "st marys catholic college igbeti"
+  },
+  {
+    "id": 622,
+    "name": "islamic senior grammar school igbeti"
+  },
+  {
+    "id": 623,
+    "name": "prospect high school abanla"
+  },
+  {
+    "id": 624,
+    "name": "abe secondary technical school ibadan"
+  },
+  {
+    "id": 625,
+    "name": "liberty secondary commercial academy ibadan"
+  },
+  {
+    "id": 626,
+    "name": "moslem grammar school odinjo ibadan"
+  },
+  {
+    "id": 627,
+    "name": "methodist high school express road ibadan"
+  },
+  {
+    "id": 628,
+    "name": "ifesowapo community secondary school onigambari"
+  },
+  {
+    "id": 629,
+    "name": "christ high school oleyo ibadan"
+  },
+  {
+    "id": 630,
+    "name": "community secondary school onipe"
+  },
+  {
+    "id": 631,
+    "name": "molete high school ibadan"
+  },
+  {
+    "id": 632,
+    "name": "olojuoro grammar school olojuoro ibadan"
+  },
+  {
+    "id": 633,
+    "name": "addin international college ibadan"
+  },
+  {
+    "id": 634,
+    "name": "alaho community grammar school alaho"
+  },
+  {
+    "id": 635,
+    "name": "community grammar school bare"
+  },
+  {
+    "id": 636,
+    "name": "ariyo international college sango ibadan"
+  },
+  {
+    "id": 637,
+    "name": "hill top high school olundeolomi"
+  },
+  {
+    "id": 638,
+    "name": "peace international college ogundepo area mosfala ibadan"
+  },
+  {
+    "id": 639,
+    "name": "merit comprehensive high school ibadan"
+  },
+  {
+    "id": 640,
+    "name": "methodist senior high school ii ibadan"
+  },
+  {
+    "id": 641,
+    "name": "st annes comprehensive college ibadan"
+  },
+  {
+    "id": 642,
+    "name": "moslem secondary school odinjo"
+  },
+  {
+    "id": 643,
+    "name": "oasis international high school ibadan"
+  },
+  {
+    "id": 644,
+    "name": "community senior secondary school abafa olomi ibadan"
+  },
+  {
+    "id": 645,
+    "name": "community secondary school senior olomi ibadan"
+  },
+  {
+    "id": 646,
+    "name": "pace setter comprehensive college ibadan"
+  },
+  {
+    "id": 647,
+    "name": "hallmark college odoona elewe rd ibadan"
+  },
+  {
+    "id": 648,
+    "name": "cty model college ajao village ibadan"
+  },
+  {
+    "id": 649,
+    "name": "olunde secondary school  olunde ibadan"
+  },
+  {
+    "id": 650,
+    "name": "moslem senior grammar school  odinjo ibadan"
+  },
+  {
+    "id": 651,
+    "name": "methodist high school   lagos ibadan exp rd ibadan"
+  },
+  {
+    "id": 652,
+    "name": "ifelodun community grammar school moslem ibadan"
+  },
+  {
+    "id": 653,
+    "name": "summit comprehensive college ayegun ibadan"
+  },
+  {
+    "id": 654,
+    "name": "atagba community grammar shool boluwaji ibadan"
+  },
+  {
+    "id": 655,
+    "name": "dominion college ayegun ibadan"
+  },
+  {
+    "id": 656,
+    "name": "community grammar school ibadan"
+  },
+  {
+    "id": 657,
+    "name": "ayegun community grammar school ibadan"
+  },
+  {
+    "id": 658,
+    "name": "icreti model college oloola idi mango ibadan"
+  },
+  {
+    "id": 659,
+    "name": "lanfams advance comprehensive college ayegun ibadan"
+  },
+  {
+    "id": 660,
+    "name": "ibukunolu model college soka sanyo ibadan"
+  },
+  {
+    "id": 661,
+    "name": "anglican grammar school ojebode"
+  },
+  {
+    "id": 662,
+    "name": "zumatul hujaj community grammar school olorunsogo ibadan"
+  },
+  {
+    "id": 663,
+    "name": "ajia secondary grammar school ajia ibadan"
+  },
+  {
+    "id": 664,
+    "name": "community secondary school araromi aperin ibadan"
+  },
+  {
+    "id": 665,
+    "name": "elekuro high school oke ogbere ibadan"
+  },
+  {
+    "id": 666,
+    "name": "community grammar school akanran"
+  },
+  {
+    "id": 667,
+    "name": "olorunda ogunsola community grammar school ibadan"
+  },
+  {
+    "id": 668,
+    "name": "community secondary school gbedun via ibadan"
+  },
+  {
+    "id": 669,
+    "name": "community secondary school badeku"
+  },
+  {
+    "id": 670,
+    "name": "ogbere community high school idiosan ibadan"
+  },
+  {
+    "id": 671,
+    "name": "sucess high school akilapa"
+  },
+  {
+    "id": 672,
+    "name": "asegun comprehensive high school ibadan"
+  },
+  {
+    "id": 673,
+    "name": "tunmise comprehensive model college ibadan"
+  },
+  {
+    "id": 674,
+    "name": "jesus the rock college jegede akanran road ibadan"
+  },
+  {
+    "id": 675,
+    "name": "abundant model college orita merin ibadan"
+  },
+  {
+    "id": 676,
+    "name": "ummulqura high school amuloko area ibadan"
+  },
+  {
+    "id": 677,
+    "name": "adura international model college ibadan"
+  },
+  {
+    "id": 678,
+    "name": "goodwill comprehensive high school ibadan"
+  },
+  {
+    "id": 679,
+    "name": "methodist secondary school gangansi ogbere"
+  },
+  {
+    "id": 680,
+    "name": "abonde community grammar school"
+  },
+  {
+    "id": 681,
+    "name": "zumuratul hujaj community grammar school ii ibadan"
+  },
+  {
+    "id": 682,
+    "name": "zumuratul hujaj secondary school olorunsogo ibadan"
+  },
+  {
+    "id": 683,
+    "name": "airport community senior high school ii ogbere"
+  },
+  {
+    "id": 684,
+    "name": "community high school sawia"
+  },
+  {
+    "id": 685,
+    "name": "help line college gbaremu oremeji ibadan"
+  },
+  {
+    "id": 686,
+    "name": "tender care college amuloko ibadan"
+  },
+  {
+    "id": 687,
+    "name": "zumratul hujaj high school oke ogbere"
+  },
+  {
+    "id": 688,
+    "name": "zumratul hujaj community senior grammar school v oke ogbere"
+  },
+  {
+    "id": 689,
+    "name": "bioku alaadun community grammar school ibadan"
+  },
+  {
+    "id": 690,
+    "name": "community high school alaadun area ibadan"
+  },
+  {
+    "id": 691,
+    "name": "glorious college amuloko ibadan"
+  },
+  {
+    "id": 692,
+    "name": "glory comprehensive college olorunsogo nepa exp ibadan"
+  },
+  {
+    "id": 693,
+    "name": "baptist high school igboho"
+  },
+  {
+    "id": 694,
+    "name": "irepo grammar school igboho"
+  },
+  {
+    "id": 695,
+    "name": "ifelodun grammar school igboho"
+  },
+  {
+    "id": 696,
+    "name": "igboho more community grammar school igboho"
+  },
+  {
+    "id": 697,
+    "name": "faith immaculate academy igboho"
+  },
+  {
+    "id": 698,
+    "name": "comprehensive high school igbope"
+  },
+  {
+    "id": 699,
+    "name": "muslim grammar school igboho"
+  },
+  {
+    "id": 700,
+    "name": "ooreoluwa baptist academy igboho"
+  },
+  {
+    "id": 701,
+    "name": "c  s model college igboho"
+  },
+  {
+    "id": 702,
+    "name": "ireti ogo baptist college igboho"
+  },
+  {
+    "id": 703,
+    "name": "muslim high school bonni igboho"
+  },
+  {
+    "id": 704,
+    "name": "igbehin  adun college igboho"
+  },
+  {
+    "id": 705,
+    "name": "shining stars model college igboho"
+  },
+  {
+    "id": 706,
+    "name": "tewure grammar school tewure ogbomoso"
+  },
+  {
+    "id": 707,
+    "name": "ikoyi grammar school ikoyiile"
+  },
+  {
+    "id": 708,
+    "name": "community grammar school oolo"
+  },
+  {
+    "id": 709,
+    "name": "community secondary school ahorodada"
+  },
+  {
+    "id": 710,
+    "name": "community high school ahoro esinele"
+  },
+  {
+    "id": 711,
+    "name": "community grammar school iluju"
+  },
+  {
+    "id": 712,
+    "name": "olokoto c grammar school olokoto ogbomoso"
+  },
+  {
+    "id": 713,
+    "name": "lasubualada community grammar school lasubu"
+  },
+  {
+    "id": 714,
+    "name": "eso comprehensive college ikoyiile"
+  },
+  {
+    "id": 715,
+    "name": "community grammar school alaroponla oriire local govt ikoyi ile"
+  },
+  {
+    "id": 716,
+    "name": "ajinapa community senior school ajinapa"
+  },
+  {
+    "id": 717,
+    "name": "holy comprehensive college orile aipo"
+  },
+  {
+    "id": 718,
+    "name": "olorunda community grammar school guguru"
+  },
+  {
+    "id": 719,
+    "name": "jehovah shammah baptist college araromi"
+  },
+  {
+    "id": 720,
+    "name": "community grammar school ayekale"
+  },
+  {
+    "id": 721,
+    "name": "community grammar school adafila via ikoyiile"
+  },
+  {
+    "id": 722,
+    "name": "olivet baptist high school oyo"
+  },
+  {
+    "id": 723,
+    "name": "saint bernardine girls grammar school oyo"
+  },
+  {
+    "id": 724,
+    "name": "durbar grammar school oyo"
+  },
+  {
+    "id": 725,
+    "name": "anglicanmethodist secondary school ajagba oyo"
+  },
+  {
+    "id": 726,
+    "name": "abiodun atiba memorial institute oyo"
+  },
+  {
+    "id": 727,
+    "name": "oba adeyemi high school oyo"
+  },
+  {
+    "id": 728,
+    "name": "nesto college oyo"
+  },
+  {
+    "id": 729,
+    "name": "saint francis catholic college oyo"
+  },
+  {
+    "id": 730,
+    "name": "jimade comprehensive college araromi oyo"
+  },
+  {
+    "id": 731,
+    "name": "rock of ages comprehensive high school oyo"
+  },
+  {
+    "id": 732,
+    "name": "afolabi memorial comprehensive high school oyo"
+  },
+  {
+    "id": 733,
+    "name": "durbar senior grammar school ii oyo"
+  },
+  {
+    "id": 734,
+    "name": "abiodun atiba memorial institute senior school ii oyo"
+  },
+  {
+    "id": 735,
+    "name": "olivet baptist senior high school ii oyo"
+  },
+  {
+    "id": 736,
+    "name": "anglicanmethodist high school oyo"
+  },
+  {
+    "id": 737,
+    "name": "alameen comprehensive high school agbogangan"
+  },
+  {
+    "id": 738,
+    "name": "liberty college oyo"
+  },
+  {
+    "id": 739,
+    "name": "faith international college oyo"
+  },
+  {
+    "id": 740,
+    "name": "overcomers college oyo"
+  },
+  {
+    "id": 741,
+    "name": "olivet baptist academy oyo"
+  },
+  {
+    "id": 742,
+    "name": "ladigbolu grammar school oyo"
+  },
+  {
+    "id": 743,
+    "name": "ojongbodu grammar school oyo"
+  },
+  {
+    "id": 744,
+    "name": "ansaruddeen grammar school opapa oyo"
+  },
+  {
+    "id": 745,
+    "name": "fasola grammar school oyo"
+  },
+  {
+    "id": 746,
+    "name": "taiwo memorial secondary school oluwatedo oyo"
+  },
+  {
+    "id": 747,
+    "name": "maradesa memorial comprehensive college isokun"
+  },
+  {
+    "id": 748,
+    "name": "salamat olaniyan memorial model college oyo"
+  },
+  {
+    "id": 749,
+    "name": "oyo state college of education model high school oyo"
+  },
+  {
+    "id": 750,
+    "name": "bright stars international high school oyo"
+  },
+  {
+    "id": 751,
+    "name": "ads high school opapa oyo"
+  },
+  {
+    "id": 752,
+    "name": "ladigbolu senior grammar school ii oyo"
+  },
+  {
+    "id": 753,
+    "name": "first baptist academy isokun oyo"
+  },
+  {
+    "id": 754,
+    "name": "premier college ojongbodu oyo"
+  },
+  {
+    "id": 755,
+    "name": "shepherdsfield international college off iseyin road oyo"
+  },
+  {
+    "id": 756,
+    "name": "christ the cornerstone model college new iyaji layout oyo"
+  },
+  {
+    "id": 757,
+    "name": "goodnews college alagbon owode oyo"
+  },
+  {
+    "id": 758,
+    "name": "bamdek high school oyo"
+  },
+  {
+    "id": 759,
+    "name": "crescent heights odo arin oyo"
+  },
+  {
+    "id": 760,
+    "name": "community high school idiemi sepeteri"
+  },
+  {
+    "id": 761,
+    "name": "community grammar school ogbooro"
+  },
+  {
+    "id": 762,
+    "name": "oje grammar school aha"
+  },
+  {
+    "id": 763,
+    "name": "adu grammar school okeinanfo agoamodu"
+  },
+  {
+    "id": 764,
+    "name": "obalufon grammar school sepeteri"
+  },
+  {
+    "id": 765,
+    "name": "muslim grammar school agoamodu"
+  },
+  {
+    "id": 766,
+    "name": "muslim grammar school sepeteri"
+  },
+  {
+    "id": 767,
+    "name": "muslim grammar school ojeowode"
+  },
+  {
+    "id": 768,
+    "name": "muslim comprehensive grammar school ogbooro"
+  },
+  {
+    "id": 769,
+    "name": "arolu community grammar school agbonle"
+  },
+  {
+    "id": 770,
+    "name": "ansaruddeen society high school saki"
+  },
+  {
+    "id": 771,
+    "name": "baptist high school saki"
+  },
+  {
+    "id": 772,
+    "name": "saki parapo community grammar school saki"
+  },
+  {
+    "id": 773,
+    "name": "community high school ayekale saki"
+  },
+  {
+    "id": 774,
+    "name": "asabari grammar school saki"
+  },
+  {
+    "id": 775,
+    "name": "community high school otun saki"
+  },
+  {
+    "id": 776,
+    "name": "community secondary school army barracks saki"
+  },
+  {
+    "id": 777,
+    "name": "okere secondary grammar school saki"
+  },
+  {
+    "id": 778,
+    "name": "baptist medical centre secondary school saki"
+  },
+  {
+    "id": 779,
+    "name": "elam baptist secondary school saki"
+  },
+  {
+    "id": 780,
+    "name": "ansaruddeen society comprehensive college saki"
+  },
+  {
+    "id": 781,
+    "name": "sharon rose college saki"
+  },
+  {
+    "id": 782,
+    "name": "primerose model private college saki"
+  },
+  {
+    "id": 783,
+    "name": "benefit comprehensive college saki"
+  },
+  {
+    "id": 784,
+    "name": "aisha model college saki"
+  },
+  {
+    "id": 785,
+    "name": "international muslim college saki"
+  },
+  {
+    "id": 786,
+    "name": "christ the king catholic college saki"
+  },
+  {
+    "id": 787,
+    "name": "ads college saki"
+  },
+  {
+    "id": 788,
+    "name": "okere senior secondary grammar school ii saki"
+  },
+  {
+    "id": 789,
+    "name": "baptist secondary school saki"
+  },
+  {
+    "id": 790,
+    "name": "islamic senior high school saki"
+  },
+  {
+    "id": 791,
+    "name": "muslim senior secondary school saki"
+  },
+  {
+    "id": 792,
+    "name": "gboro muslim senior college saki"
+  },
+  {
+    "id": 793,
+    "name": "faith college saki"
+  },
+  {
+    "id": 794,
+    "name": "christ grammar school gedu estate saki"
+  },
+  {
+    "id": 795,
+    "name": "ahmadiyya muslim grammar school saki"
+  },
+  {
+    "id": 796,
+    "name": "better care secondary school saki"
+  },
+  {
+    "id": 797,
+    "name": "iresaadu high school iresaadu"
+  },
+  {
+    "id": 798,
+    "name": "arolu community high school arolu"
+  },
+  {
+    "id": 799,
+    "name": "baptist secondary grammar school oko"
+  },
+  {
+    "id": 800,
+    "name": "olumayin high school mayin"
+  },
+  {
+    "id": 801,
+    "name": "irepodun community high school alagbedeonikeke"
+  },
+  {
+    "id": 802,
+    "name": "community high school alayin"
+  },
+  {
+    "id": 803,
+    "name": "igbon gambari community high school igbongambari"
+  },
+  {
+    "id": 804,
+    "name": "community high school gbede"
+  },
+  {
+    "id": 805,
+    "name": "community high school orieran"
+  },
+  {
+    "id": 806,
+    "name": "ifelodun grammar school ilajue"
+  },
+  {
+    "id": 807,
+    "name": "community high school iregba"
+  },
+  {
+    "id": 808,
+    "name": "muslim comprehensive high school oko"
+  },
+  {
+    "id": 809,
+    "name": "baptist comprehensive college gambari"
+  },
+  {
+    "id": 810,
+    "name": "arayin high school iranyin"
+  },
+  {
+    "id": 811,
+    "name": "united comprehensive college ogbomoso"
+  },
+  {
+    "id": 812,
+    "name": "juli standard college oko"
+  },
+  {
+    "id": 813,
+    "name": "iresaapa community high school iresaapa"
+  },
+  {
+    "id": 814,
+    "name": "sheperd academy iresaadu"
+  },
+  {
+    "id": 815,
+    "name": "ikunsin community high school ikunsin"
+  },
+  {
+    "id": 816,
+    "name": "baptist senior grammar school oko"
+  },
+  {
+    "id": 817,
+    "name": "community high school ajasejabata ogbomoso"
+  },
+  {
+    "id": 818,
+    "name": "community high school iyaoje ogbomoso"
+  },
+  {
+    "id": 819,
+    "name": "first baptist church academy oko"
+  },
+  {
+    "id": 820,
+    "name": "arojeabaa community high school aroje village"
+  },
+  {
+    "id": 821,
+    "name": "remak high school iresa pupa via ogbomoso"
+  },
+  {
+    "id": 822,
+    "name": "gloria comprehensive college iresa adu"
+  }
+]

@@ -1,8 +1,44 @@
-.centered-heading {
-    text-align: center;
-    margin-top: 1rem; 
-    margin-bottom: 1.5rem; 
-    color: green; /* Change this to your desired color */
-    text-transform: uppercase;
-    font-weight: 1000;
-}
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card-footer {
+    padding: 1rem;
+  }
+  
+  .map-container {
+    height: 70vh;
+    min-height: 400px;
+  }
+  
+  @media (max-width: 992px) {
+    .map-container {
+      height: 50vh;
+    }
+  }
+  
+  /* Ensure this doesn't conflict with your existing Button styles */
+  .btn-group {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .btn-group .btn {
+    flex: 1;
+  }
