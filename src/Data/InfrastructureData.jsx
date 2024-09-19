@@ -37,11 +37,13 @@ export const generateMockData = () => {
           ? parseFloat(hospital.lng)
           : getRandomInRange(3.0, 5.0),
       lga: hospital.lga || "Unknown",
+      geolocationcordinates: hospital.geolocationcordinates || "Not available",
     }))
     .filter((hospital) => !isNaN(hospital.lat) && !isNaN(hospital.lng));
 
   console.log("Processed Schools:", schools.length);
   console.log("Processed Hospitals:", hospitals.length);
+  console.log("Sample Hospital:", hospitals[0]);
 
   return [...schools, ...hospitals];
 };
