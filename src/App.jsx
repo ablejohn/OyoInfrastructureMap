@@ -10,23 +10,27 @@ import "./Styles/App.css";
 const App = () => {
   const [activeLayer, setActiveLayer] = useState("all");
   const [infrastructureData, setInfrastructureData] = useState([]);
-  const [mapCenter, setMapCenter] = useState([8.1574, 3.6147]);
+  const [mapCenter, setMapCenter] = useState([8.1574, 3.6147]); // Center of Oyo State
   const [mapZoom, setMapZoom] = useState(8);
 
   useEffect(() => {
     const generatedData = generateMockData();
     setInfrastructureData(generatedData);
+    console.log("Generated Data:", generatedData);
   }, []);
 
-  const filteredData = activeLayer === "all"
-    ? infrastructureData
-    : infrastructureData.filter((item) => item.type === activeLayer);
+  const filteredData =
+    activeLayer === "all"
+      ? infrastructureData
+      : infrastructureData.filter((item) => item.type === activeLayer);
 
   const comparisonData = getStatistics(infrastructureData);
 
   return (
     <div className="app-container">
-      <h1 style={{ textAlign: 'center', color: 'green' }}>OYO STATE INFRASTRUCTURE MAP</h1>
+      <h1 style={{ textAlign: "center", color: "green" }}>
+        OYO STATE INFRASTRUCTURE MAP
+      </h1>
 
       <div className="container-fluid mt-4">
         <div className="row">

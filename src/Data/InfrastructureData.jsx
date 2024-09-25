@@ -1,49 +1,82 @@
 import hospitalsData from "./Hospitals.json";
 import schoolsData from "./Schools.json";
 
-const getRandomInRange = (min, max) => {
-  return Math.random() * (max - min) + min;
+// Approximate boundaries for Oyo State
+const OYO_STATE_BOUNDS = {
+  minLat: 7.0,
+  maxLat: 9.0,
+  minLng: 2.7,
+  maxLng: 4.6,
+};
+
+const isWithinOyoState = (lat, lng) => {
+  return (
+    lat >= OYO_STATE_BOUNDS.minLat &&
+    lat <= OYO_STATE_BOUNDS.maxLat &&
+    lng >= OYO_STATE_BOUNDS.minLng &&
+    lng <= OYO_STATE_BOUNDS.maxLng
+  );
+};
+
+const getRandomCoordinateInOyo = () => {
+  const lat =
+    Math.random() * (OYO_STATE_BOUNDS.maxLat - OYO_STATE_BOUNDS.minLat) +
+    OYO_STATE_BOUNDS.minLat;
+  const lng =
+    Math.random() * (OYO_STATE_BOUNDS.maxLng - OYO_STATE_BOUNDS.minLng) +
+    OYO_STATE_BOUNDS.minLng;
+  return { lat, lng };
 };
 
 export const generateMockData = () => {
   const schools = schoolsData
-    .map((school, index) => ({
-      id: `school_${index}`,
-      type: "school",
-      name: school.name,
-      lat:
-        school.lat !== undefined
-          ? parseFloat(school.lat)
-          : getRandomInRange(7.0, 9.0),
-      lng:
-        school.lng !== undefined
-          ? parseFloat(school.lng)
-          : getRandomInRange(3.0, 5.0),
-      lga: school.lga || "Unknown",
-    }))
+    .map((school, index) => {
+      let lat = school.lat !== undefined ? parseFloat(school.lat) : null;
+      let lng = school.lng !== undefined ? parseFloat(school.lng) : null;
+
+      if (lat === null || lng === null || !isWithinOyoState(lat, lng)) {
+        const newCoords = getRandomCoordinateInOyo();
+        lat = newCoords.lat;
+        lng = newCoords.lng;
+      }
+
+      return {
+        id: `school_${index}`,
+        type: "school",
+        name: school.name,
+        lat,
+        lng,
+        lga: school.lga || "Unknown",
+      };
+    })
     .filter((school) => !isNaN(school.lat) && !isNaN(school.lng));
 
   const hospitals = hospitalsData
-    .map((hospital, index) => ({
-      id: `hospital_${index}`,
-      type: "hospital",
-      name: hospital.name,
-      lat:
-        hospital.lat !== undefined
-          ? parseFloat(hospital.lat)
-          : getRandomInRange(7.0, 9.0),
-      lng:
-        hospital.lng !== undefined
-          ? parseFloat(hospital.lng)
-          : getRandomInRange(3.0, 5.0),
-      lga: hospital.lga || "Unknown",
-      geolocationcordinates: hospital.geolocationcordinates || "Not available",
-    }))
+    .map((hospital) => {
+      let lat = parseFloat(hospital.latitude);
+      let lng = parseFloat(hospital.longitude);
+
+      if (!isWithinOyoState(lat, lng)) {
+        const newCoords = getRandomCoordinateInOyo();
+        lat = newCoords.lat;
+        lng = newCoords.lng;
+      }
+
+      return {
+        id: `hospital_${hospital.id}`,
+        type: "hospital",
+        name: hospital.name,
+        lat,
+        lng,
+        lga: hospital.lga || "Unknown",
+      };
+    })
     .filter((hospital) => !isNaN(hospital.lat) && !isNaN(hospital.lng));
 
   console.log("Processed Schools:", schools.length);
   console.log("Processed Hospitals:", hospitals.length);
   console.log("Sample Hospital:", hospitals[0]);
+  console.log("Sample School:", schools[0]);
 
   return [...schools, ...hospitals];
 };

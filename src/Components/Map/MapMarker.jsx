@@ -88,11 +88,10 @@ const MapMarker = ({ item, handleMarkerClick, map }) => {
             {item.type.charAt(0).toUpperCase() + item.type.slice(1)}
           </p>
           <p>
-            <strong>lga:</strong> {item.lga}
+            <strong>LGA:</strong> {item.lga || "Not available"}
           </p>
           <p>
-            <strong>Coordinates:</strong>{" "}
-            {item.geolocationcordinates || "Not available"}
+            <strong>Coordinates:</strong> {item.lat.toFixed(6)}, {item.lng.toFixed(6)}
           </p>
         </div>
       </Popup>
