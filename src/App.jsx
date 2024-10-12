@@ -1,23 +1,32 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import MapComponent from "./Components/Map/Map";
 import StatisticsCard from "./Components/Charts/StatisticsCard";
 import { ButtonGroup } from "./Components/UI/Button";
-import { generateMockData } from "./Data/InfrastructureData";
-import { getStatistics } from "./Data/StatsData";
+import {
+  useInfrastructureData,
+  getStatistics,
+} from "./Data/InfrastructureData";
 import "./Styles/App.css";
 
 const App = () => {
   const [activeLayer, setActiveLayer] = useState("all");
-  const [infrastructureData, setInfrastructureData] = useState([]);
-  const [mapCenter, setMapCenter] = useState([8.1574, 3.6147]); // Center of Oyo State
-  const [mapZoom, setMapZoom] = useState(8);
+  const [mapCenter, setMapCenter] = useState([9.0765, 7.3986]); // Center of Nigeria
+  const [mapZoom, setMapZoom] = useState(6);
+  const [progress, setProgress] = useState(0);
 
-  useEffect(() => {
-    const generatedData = generateMockData();
-    setInfrastructureData(generatedData);
-    console.log("Generated Data:", generatedData);
-  }, []);
+  const {
+    data: infrastructureData,
+    loading,
+    error,
+  } = useInfrastructureData(
+    activeLayer,
+    (processedCount) => {
+      setProgress(processedCount);
+    },
+    1000,
+    200000 // Increased maxItems to 200,000
+  );
 
   const filteredData =
     activeLayer === "all"
@@ -26,10 +35,32 @@ const App = () => {
 
   const comparisonData = getStatistics(infrastructureData);
 
+  if (loading) {
+    return (
+      <div className="loading-screen">
+        <h2>Loading data... {progress} items processed</h2>
+        <div className="progress">
+          <div
+            className="progress-bar"
+            role="progressbar"
+            style={{ width: `${(progress / 200000) * 100}%` }}
+            aria-valuenow={progress}
+            aria-valuemin="0"
+            aria-valuemax="200000"
+          ></div>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
+
   return (
     <div className="app-container">
       <h1 style={{ textAlign: "center", color: "green" }}>
-        OYO STATE INFRASTRUCTURE MAP
+        NIGERIA INFRASTRUCTURE MAP
       </h1>
 
       <div className="container-fluid mt-4">
