@@ -5,7 +5,7 @@ import {
 } from 'recharts';
 
 const InfrastructureAnalysisDashboard = ({ data, comparisonData }) => {
-  const totalPopulation = 7840864; // Oyo State population (2020 estimate)
+  const totalPopulation = 223800000; // Nigeria's population estimate (2024)
 
   const CustomTooltip = ({ active, payload, label }) => {
     if (active && payload && payload.length) {
@@ -40,8 +40,9 @@ const InfrastructureAnalysisDashboard = ({ data, comparisonData }) => {
     };
   };
 
-  const hospitalGap = calculateGap(hospitals, Math.ceil(totalPopulation / 100000));
-  const schoolGap = calculateGap(schools, Math.ceil(totalPopulation / 3000));
+  // Updated required infrastructure calculations for Nigeria
+  const hospitalGap = calculateGap(hospitals, Math.ceil(totalPopulation / 100000)); // 1 hospital per 100,000 people
+  const schoolGap = calculateGap(schools, Math.ceil(totalPopulation / 4000)); // 1 school per 4,000 people
 
   const pieData = [
     { name: 'Hospitals', value: hospitals, color: '#4CAF50' },
@@ -58,7 +59,7 @@ const InfrastructureAnalysisDashboard = ({ data, comparisonData }) => {
     }}>
       <div className="card-body" style={{ color: "#33691E" }}>
         <h5 className="card-title" style={{ fontWeight: "bold", color: "#689F38", marginBottom: '20px' }}>
-          Comprehensive Infrastructure Analysis
+          Comprehensive Infrastructure Analysis for Nigeria
         </h5>
 
         <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '20px' }}>
@@ -108,7 +109,7 @@ const InfrastructureAnalysisDashboard = ({ data, comparisonData }) => {
           <h6 style={{ color: '#33691E', marginBottom: '10px', fontWeight: 'bold' }}>Detailed Infrastructure Analysis</h6>
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             <div style={{ width: '48%' }}>
-              <h7 style={{ color: '#33691E', fontWeight: 'bold' }}>Hospitals</h7>
+              <h6 style={{ color: '#33691E', fontWeight: 'bold' }}>Hospitals</h6>
               <ul style={{ color: '#1B5E20', paddingLeft: '20px' }}>
                 <li>Current: {hospitals}</li>
                 <li>Required: {Math.ceil(totalPopulation / 100000)}</li>
@@ -117,10 +118,10 @@ const InfrastructureAnalysisDashboard = ({ data, comparisonData }) => {
               </ul>
             </div>
             <div style={{ width: '48%' }}>
-              <h7 style={{ color: '#33691E', fontWeight: 'bold' }}>Schools</h7>
+              <h6 style={{ color: '#33691E', fontWeight: 'bold' }}>Schools</h6>
               <ul style={{ color: '#1B5E20', paddingLeft: '20px' }}>
                 <li>Current: {schools}</li>
-                <li>Required: {Math.ceil(totalPopulation / 3000)}</li>
+                <li>Required: {Math.ceil(totalPopulation / 4000)}</li>
                 <li>Gap: {schoolGap.absolute}</li>
                 <li>Percentage Met: {schoolGap.percentage}%</li>
               </ul>
@@ -143,7 +144,7 @@ const InfrastructureAnalysisDashboard = ({ data, comparisonData }) => {
           <br />
           Hospitals: 1 per 100,000 people
           <br />
-          Schools: 1 per 3,000 people
+          Schools: 1 per 4,000 people
         </p>
       </div>
     </div>
