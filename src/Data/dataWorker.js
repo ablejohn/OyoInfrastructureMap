@@ -27,38 +27,29 @@ const majorCities = [
   { name: "Akure", state: "Ondo", lat: 7.25, lng: 5.195 },
 ];
 
-// Function to add a random offset to coordinates to avoid overlap
 const getRandomOffset = () => (Math.random() - 0.5) * 0.5;
 
-// Get city coordinates based on state
 const getCityCoordinates = (state) => {
   const city = majorCities.find(
     (city) => city.state.toLowerCase() === state.toLowerCase()
   );
-  if (city) {
-    return {
-      lat: city.lat + getRandomOffset(),
-      lng: city.lng + getRandomOffset(),
-    };
-  }
-  // Default coordinates for Abuja if city not found
-  return { lat: 9.0765 + getRandomOffset(), lng: 7.3986 + getRandomOffset() };
+
+  return {
+    lat: (city ? city.lat : 9.0765) + getRandomOffset(),
+    lng: (city ? city.lng : 7.3986) + getRandomOffset(),
+  };
 };
 
-// Utility function to convert strings to lowercase
 const toLowerCase = (value) =>
   typeof value === "string" ? value.toLowerCase() : "";
 
-// Process a chunk of data for either schools or hospitals
 const processDataChunk = (data, startIndex, chunkSize, isSchool) => {
   return data.slice(startIndex, startIndex + chunkSize).map((item, index) => {
     const coords = getCityCoordinates(isSchool ? item.state : item.State);
     return {
       id: `${isSchool ? "school" : "hospital"}_${startIndex + index}`,
       type: isSchool ? "school" : "hospital",
-      name: isSchool
-        ? toLowerCase(item.school_name)
-        : toLowerCase(item["Facility Name"]),
+      name: isSchool ? toLowerCase(item.school_name) : toLowerCase(item["Facility Name"]),
       state: toLowerCase(isSchool ? item.state : item.State),
       lga: toLowerCase(isSchool ? item.lga : item.LGA),
       town: isSchool ? toLowerCase(item.town) : "",
@@ -75,11 +66,7 @@ self.addEventListener("message", async (e) => {
   let totalProcessed = 0;
 
   const processChunk = async (data, isSchool) => {
-    for (
-      let i = 0;
-      i < data.length && totalProcessed < maxItems;
-      i += pageSize
-    ) {
+    for (let i = 0; i < data.length && totalProcessed < maxItems; i += pageSize) {
       const chunk = processDataChunk(
         data,
         i,
@@ -100,10 +87,7 @@ self.addEventListener("message", async (e) => {
     await processChunk(publicSchools, true);
   }
 
-  if (
-    (activeLayer === "hospital" || activeLayer === "all") &&
-    totalProcessed < maxItems
-  ) {
+  if ((activeLayer === "hospital" || activeLayer === "all") && totalProcessed < maxItems) {
     await processChunk(hospitalsData, false);
   }
 

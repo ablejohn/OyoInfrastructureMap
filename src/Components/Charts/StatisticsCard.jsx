@@ -3,21 +3,26 @@ import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
 import InfrastructureAnalysisDashboard from './InfrastructureBarChart';
 
 const StatisticsCard = ({ data, comparisonData }) => {
-  const totalPopulation = 7840864; // Oyo State population (2020 estimate)
+  const totalPopulation = 223804632; // Nigeria population (2023 estimate)
   const [hoveredStat, setHoveredStat] = useState(null);
 
-  const hospitals = data.filter((item) => item.type === "hospital").length;
-  const schools = data.filter((item) => item.type === "school").length;
+  // Calculate the number of hospitals and schools
+  const hospitals = data.filter(item => item.type === "hospital").length;
+  const schools = data.filter(item => item.type === "school").length;
 
+  // Prepare data for the pie chart
   const pieData = [
     { name: 'Hospitals', value: hospitals, color: '#4CAF50' },
     { name: 'Schools', value: schools, color: '#8BC34A' },
   ];
 
+  // Format number for better readability
   const formatNumber = (num) => num.toLocaleString();
 
+  // Calculate ratio based on population
   const calculateRatio = (count, divisor) => (count / (totalPopulation / divisor)).toFixed(2);
 
+  // Individual statistic item component
   const StatItem = ({ label, value, ratio, basis }) => (
     <div 
       className="card-text" 
@@ -40,7 +45,7 @@ const StatisticsCard = ({ data, comparisonData }) => {
 
   return (
     <>
-      {/* Oyo State Infrastructure Statistics */}
+      {/* Nigeria Infrastructure Statistics */}
       <div
         className="card mb-4"
         style={{
@@ -54,7 +59,7 @@ const StatisticsCard = ({ data, comparisonData }) => {
             className="card-title"
             style={{ fontWeight: "bold", color: "#388E3C", marginBottom: '20px' }}
           >
-            Oyo State Infrastructure Statistics
+            Nigeria Infrastructure Statistics
           </h5>
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             <div style={{ flex: 1 }}>
