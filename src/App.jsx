@@ -16,20 +16,38 @@ const App = () => {
   const [offset, setOffset] = useState(0);
   const [limit] = useState(100);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const data = await loadInfrastructureData(offset, limit);
-        setInfrastructureData((prevData) => [...prevData, ...data]);
-      } catch (err) {
-        setError(err.message || "An error occurred while loading the data.");
-      } finally {
-        setLoading(false);
-      }
-    };
+  const fetchData = async () => {
+    try {
+      const data = await loadInfrastructureData(offset, limit);
+      setInfrastructureData((prevData) => [...prevData, ...data]);
+    } catch (err) {
+      setError(err.message || "An error occurred while loading the data.");
+    } finally {
+      setLoading(false);
+    }
+  };
 
+  useEffect(() => {
     fetchData();
   }, [offset, limit]);
+
+  const loadMoreData = () => {
+    setOffset((prevOffset) => prevOffset + limit);
+  };
+
+  // Define getStatistics function inline
+  const getStatistics = (data) => {
+    // This is a placeholder implementation. Adjust according to your needs.
+    const types = data.reduce((acc, item) => {
+      acc[item.type] = (acc[item.type] || 0) + 1;
+      return acc;
+    }, {});
+
+    return {
+      total: data.length,
+      types: types,
+    };
+  };
 
   // Filter data based on the active layer
   const filteredData =
@@ -39,14 +57,14 @@ const App = () => {
 
   const comparisonData = getStatistics(infrastructureData);
 
-  if (loading) {
+  if (loading && infrastructureData.length === 0) {
     return (
       <div
-        class="spinner-grow"
-        style="width: 3rem; height: 3rem;"
+        className="spinner-grow"
+        style={{ width: "3rem", height: "3rem" }}
         role="status"
       >
-        <span class="sr-only">Loading...</span>
+        <span className="sr-only">Loading...</span>
       </div>
     );
   }
@@ -65,18 +83,14 @@ const App = () => {
           <div className="col-lg-8 mb-4">
             <div className="card shadow">
               <div className="card-body p-0">
-                {loading ? (
-                  <div className="text-center p-4">Loading data...</div>
-                ) : (
-                  <MapComponent
-                    mapCenter={mapCenter}
-                    mapZoom={mapZoom}
-                    filteredData={filteredData}
-                    setMapCenter={setMapCenter}
-                    setMapZoom={setMapZoom}
-                    loadMoreData={loadMoreData} // Pass function to load more data
-                  />
-                )}
+                <MapComponent
+                  mapCenter={mapCenter}
+                  mapZoom={mapZoom}
+                  filteredData={filteredData}
+                  setMapCenter={setMapCenter}
+                  setMapZoom={setMapZoom}
+                  loadMoreData={loadMoreData}
+                />
               </div>
               <div className="card-footer bg-white border-top-0">
                 <ButtonGroup
