@@ -37,18 +37,12 @@ const App = () => {
 
   if (loading) {
     return (
-      <div className="loading-screen">
-        <h2>Loading data... {progress} items processed</h2>
-        <div className="progress">
-          <div
-            className="progress-bar"
-            role="progressbar"
-            style={{ width: `${(progress / 200000) * 100}%` }}
-            aria-valuenow={progress}
-            aria-valuemin="0"
-            aria-valuemax="200000"
-          ></div>
-        </div>
+      <div
+        class="spinner-grow"
+        style="width: 3rem; height: 3rem;"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
       </div>
     );
   }
