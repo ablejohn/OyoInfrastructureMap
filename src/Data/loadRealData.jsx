@@ -12,7 +12,7 @@ export const loadRealData = () => {
     state: item.state,
     lga: item.lga,
     ownership: item.ownership,
-    coordinates: assignMockCoordinates(item.state),
+    coordinates: assignMockCoordinates(item.state), // Assign mock coordinates
   }));
 
   // Process schools
@@ -23,7 +23,7 @@ export const loadRealData = () => {
     state: item.state,
     lga: item.lga,
     ownership: item.ownership,
-    coordinates: assignMockCoordinates(item.state),
+    coordinates: assignMockCoordinates(item.state), // Assign mock coordinates
   }));
 
   // Combine all data into one array

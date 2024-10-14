@@ -5,6 +5,20 @@ import L from "leaflet";
 const MapMarker = ({ item, handleMarkerClick, map }) => {
   const popupRef = useRef();
 
+  // Ensure item has all necessary properties
+  if (
+    !item ||
+    typeof item !== "object" ||
+    !item.lat ||
+    !item.lng ||
+    !item.type
+  ) {
+    console.error("Invalid item prop passed to MapMarker:", item);
+    return null;
+  }
+
+  const { lat, lng, type, name, lga, state } = item;
+
   const handlePopupClose = () => {
     if (map) {
       map.setZoom(8);
@@ -12,28 +26,28 @@ const MapMarker = ({ item, handleMarkerClick, map }) => {
   };
 
   const getMarkerIcon = (type) => {
-    switch (type) {
+    switch (type.toLowerCase()) {
       case "hospital":
-        return "🏥"; // Unicode for hospital
+        return "🏥";
       case "school":
-        return "🏫"; // Unicode for school
+        return "🏫";
       case "road":
-        return "🛣"; // Unicode for road
+        return "🛣";
       default:
-        return "📍"; // Default map marker icon
+        return "📍";
     }
   };
 
   const getMarkerColor = (type) => {
-    switch (type) {
+    switch (type.toLowerCase()) {
       case "hospital":
-        return "#FF4136"; // A more vibrant red
+        return "#FF4136";
       case "school":
-        return "#2ECC40"; // A more vibrant green
+        return "#2ECC40";
       case "road":
-        return "#0074D9"; // A vibrant blue
+        return "#0074D9";
       default:
-        return "#FF851B"; // Orange for other types
+        return "#FF851B";
     }
   };
 
@@ -42,7 +56,7 @@ const MapMarker = ({ item, handleMarkerClick, map }) => {
       className: "custom-div-icon",
       html: `
         <div style="
-          background-color: ${getMarkerColor(item.type)};
+          background-color: ${getMarkerColor(type)};
           width: 40px;
           height: 40px;
           border-radius: 50%;
@@ -54,23 +68,22 @@ const MapMarker = ({ item, handleMarkerClick, map }) => {
           color: white;
           font-size: 18px;
         ">
-          ${getMarkerIcon(item.type)}
+          ${getMarkerIcon(type)}
         </div>
       `,
       iconSize: [40, 40],
       iconAnchor: [20, 40],
     });
-  }, [item.type]);
+  }, [type]);
 
   return (
     <Marker
-      key={item.id}
-      position={[item.lat, item.lng]} // Ensure lat and lng are present
+      position={[lat, lng]}
       icon={customIcon}
       eventHandlers={{
         click: () => {
-          handleMarkerClick(item); // Pass the whole item
-          if (popupRef.current) {
+          handleMarkerClick(item);
+          if (popupRef.current && map) {
             popupRef.current.openOn(map);
           }
         },
@@ -78,21 +91,22 @@ const MapMarker = ({ item, handleMarkerClick, map }) => {
     >
       <Popup ref={popupRef} onClose={handlePopupClose}>
         <div style={{ fontFamily: "Arial, sans-serif", fontSize: "14px" }}>
-          <h3
-            style={{ margin: "0 0 10px 0", color: getMarkerColor(item.type) }}
-          >
-            {item.name}
+          <h3 style={{ margin: "0 0 10px 0", color: getMarkerColor(type) }}>
+            {name}
           </h3>
           <p>
             <strong>Type:</strong>{" "}
-            {item.type.charAt(0).toUpperCase() + item.type.slice(1)}
+            {type.charAt(0).toUpperCase() + type.slice(1)}
           </p>
           <p>
-            <strong>LGA:</strong> {item.lga || "Not available"}
+            <strong>LGA:</strong> {lga || "Not available"}
           </p>
           <p>
-            <strong>Coordinates:</strong> {item.lat.toFixed(6)},{" "}
-            {item.lng.toFixed(6)}
+            <strong>State:</strong> {state || "Not available"}
+          </p>
+          <p>
+            <strong>Coordinates:</strong> {parseFloat(lat).toFixed(6)},{" "}
+            {parseFloat(lng).toFixed(6)}
           </p>
         </div>
       </Popup>
