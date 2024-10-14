@@ -1,18 +1,26 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo, Suspense } from "react";
 import { MapContainer, TileLayer, ZoomControl, useMap } from "react-leaflet";
-import MarkerClusterGroup from "react-leaflet-cluster";
 import "leaflet/dist/leaflet.css";
-import MapMarker from "./MapMarker";
+import MarkerClusterGroup from "react-leaflet-cluster";
 import { ButtonGroup } from "../UI/Button";
 import { loadRealData } from "../../Data/loadRealData";
+import MapMarker from "./MapMarker";
 
-const MapComponent = ({ mapCenter, mapZoom }) => {
+const DEFAULT_CENTER = [9.082, 8.6753];
+const DEFAULT_ZOOM = 6;
+
+const MapComponent = ({
+  mapCenter = DEFAULT_CENTER,
+  mapZoom = DEFAULT_ZOOM,
+}) => {
   const [activeLayer, setActiveLayer] = useState("all");
   const [viewMode, setViewMode] = useState("markers");
   const [filteredData, setFilteredData] = useState([]);
 
+  // Load data once when the component mounts
   useEffect(() => {
     const data = loadRealData();
+    console.log("Loaded data:", data);
     setFilteredData(data);
   }, []);
 
@@ -24,41 +32,19 @@ const MapComponent = ({ mapCenter, mapZoom }) => {
     return null;
   };
 
-  const filteredMarkers = useMemo(
+  const filteredMarkers = useMemo(() => {
+    const filtered = filteredData.filter(
+      (item) => activeLayer === "all" || item.type === activeLayer
+    );
+    console.log("Filtered markers:", filtered);
+    return filtered;
+  }, [filteredData, activeLayer]);
+
+  const renderMarkers = useMemo(
     () =>
-      filteredData.filter(
-        (item) => activeLayer === "all" || item.type === activeLayer
-      ),
-    [filteredData, activeLayer]
+      filteredMarkers.map((item) => <MapMarker key={item.id} item={item} />),
+    [filteredMarkers]
   );
-
-  const MapContent = () => {
-    const map = useMap();
-
-    const handleMarkerClick = (item) => {
-      console.log("Marker clicked:", item);
-      // Add any additional click handling logic here
-    };
-
-    const markers = useMemo(
-      () =>
-        filteredMarkers.map((item) => (
-          <MapMarker
-            key={item.id}
-            item={item}
-            handleMarkerClick={() => handleMarkerClick(item)}
-            map={map}
-          />
-        )),
-      [filteredMarkers, map]
-    );
-
-    return viewMode === "cluster" ? (
-      <MarkerClusterGroup>{markers}</MarkerClusterGroup>
-    ) : (
-      markers
-    );
-  };
 
   return (
     <div style={{ height: "600px", width: "100%" }}>
@@ -76,6 +62,7 @@ const MapComponent = ({ mapCenter, mapZoom }) => {
           <option value="cluster">Clustered</option>
         </select>
       </div>
+
       <MapContainer
         center={mapCenter}
         zoom={mapZoom}
@@ -88,7 +75,14 @@ const MapComponent = ({ mapCenter, mapZoom }) => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         />
         <ZoomControl position="bottomright" />
-        <MapContent />
+
+        <Suspense fallback={<div>Loading markers...</div>}>
+          {viewMode === "cluster" ? (
+            <MarkerClusterGroup>{renderMarkers}</MarkerClusterGroup>
+          ) : (
+            renderMarkers
+          )}
+        </Suspense>
       </MapContainer>
     </div>
   );
