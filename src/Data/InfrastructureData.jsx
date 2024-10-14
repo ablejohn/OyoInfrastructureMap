@@ -1,6 +1,7 @@
 import hospitalsData from "./Hospital.json";
 import schoolsData from "./School.json";
-
+console.log("Hospitals Data Loaded:", hospitalsData); // Check if hospitalsData is loaded
+console.log("Filtered data passed to Map:", filteredData);
 // Approximate boundaries for Nigeria
 const NIGERIA_BOUNDS = {
   minLat: 4.0,
@@ -19,6 +20,12 @@ const isWithinNigeria = (lat, lng) => {
   );
 };
 
+// Helper function to generate random coordinates
+const getRandomInRange = (min, max) => {
+  return Math.random() * (max - min) + min;
+};
+
+// Generate mock data with random coordinates for missing or invalid lat/lng
 // Generate mock data with random coordinates for missing or invalid lat/lng
 const generateMockData = () => {
   const schools = schoolsData.map((school, index) => {
@@ -26,38 +33,31 @@ const generateMockData = () => {
     let lng = school.lng !== undefined ? parseFloat(school.lng) : null;
 
     if (lat === null || lng === null || !isWithinNigeria(lat, lng)) {
-      lat = Math.random() * (NIGERIA_BOUNDS.maxLat - NIGERIA_BOUNDS.minLat) + NIGERIA_BOUNDS.minLat;
-      lng = Math.random() * (NIGERIA_BOUNDS.maxLng - NIGERIA_BOUNDS.minLng) + NIGERIA_BOUNDS.minLng;
+      lat = getRandomInRange(NIGERIA_BOUNDS.minLat, NIGERIA_BOUNDS.maxLat);
+      lng = getRandomInRange(NIGERIA_BOUNDS.minLng, NIGERIA_BOUNDS.maxLng);
     }
 
     return {
       id: `school_${index}`,
       type: "school",
-      name: school.name,
+      name: school.school_name, // Ensure this matches the key in your School.json
       lat,
       lng,
       lga: school.lga || "Unknown",
     };
   });
 
-  const hospitals = hospitalsData.map((hospital, index) => {
-    let lat = parseFloat(hospital.latitude);
-    let lng = parseFloat(hospital.longitude);
+  const hospitals = hospitalsData.map((hospital, index) => ({
+    id: `hospital_${index}`,
+    type: "hospital",
+    name: hospital["Facility Name"],
+    lat: 9.0765, // Fixed latitude (e.g., Abuja)
+    lng: 7.3986, // Fixed longitude (e.g., Abuja)
+    lga: hospital.LGA || "Unknown",
+  }));
 
-    if (!isWithinNigeria(lat, lng)) {
-      lat = Math.random() * (NIGERIA_BOUNDS.maxLat - NIGERIA_BOUNDS.minLat) + NIGERIA_BOUNDS.minLat;
-      lng = Math.random() * (NIGERIA_BOUNDS.maxLng - NIGERIA_BOUNDS.minLng) + NIGERIA_BOUNDS.minLng;
-    }
-
-    return {
-      id: `hospital_${index}`,
-      type: "hospital",
-      name: hospital.name,
-      lat,
-      lng,
-      lga: hospital.lga || "Unknown",
-    };
-  });
+  console.log("Schools:", schools); // Log schools data
+  console.log("Hospitals:", hospitals); // Log hospitals data
 
   return [...schools, ...hospitals];
 };

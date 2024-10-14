@@ -65,11 +65,11 @@ const MapMarker = ({ item, handleMarkerClick, map }) => {
   return (
     <Marker
       key={item.id}
-      position={[item.lat, item.lng]}
+      position={[item.lat, item.lng]} // Ensure lat and lng are present
       icon={customIcon}
       eventHandlers={{
         click: () => {
-          handleMarkerClick(item.lat, item.lng, 13);
+          handleMarkerClick(item); // Pass the whole item
           if (popupRef.current) {
             popupRef.current.openOn(map);
           }
@@ -91,7 +91,8 @@ const MapMarker = ({ item, handleMarkerClick, map }) => {
             <strong>LGA:</strong> {item.lga || "Not available"}
           </p>
           <p>
-            <strong>Coordinates:</strong> {item.lat.toFixed(6)}, {item.lng.toFixed(6)}
+            <strong>Coordinates:</strong> {item.lat.toFixed(6)},{" "}
+            {item.lng.toFixed(6)}
           </p>
         </div>
       </Popup>

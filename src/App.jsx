@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import MapComponent from "./Components/Map/Map";
 import StatisticsCard from "./Components/Charts/StatisticsCard";
 import { ButtonGroup } from "./Components/UI/Button"; // Adjust based on your component structure
-import { loadInfrastructureData } from "./Data/InfrastructureData";
+import { loadRealData } from "./Data/loadRealData"; // Ensure the path is correct
 import "./Styles/App.css";
 
 const App = () => {
@@ -13,51 +13,24 @@ const App = () => {
   const [infrastructureData, setInfrastructureData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [offset, setOffset] = useState(0);
-  const [limit] = useState(100);
-
-  const fetchData = async () => {
-    try {
-      const data = await loadInfrastructureData(offset, limit);
-      setInfrastructureData((prevData) => [...prevData, ...data]);
-    } catch (err) {
-      setError(err.message || "An error occurred while loading the data.");
-    } finally {
-      setLoading(false);
-    }
-  };
 
   useEffect(() => {
-    fetchData();
-  }, [offset, limit]);
-
-  const loadMoreData = () => {
-    setOffset((prevOffset) => prevOffset + limit);
-  };
-
-  // Define getStatistics function inline
-  const getStatistics = (data) => {
-    // This is a placeholder implementation. Adjust according to your needs.
-    const types = data.reduce((acc, item) => {
-      acc[item.type] = (acc[item.type] || 0) + 1;
-      return acc;
-    }, {});
-
-    return {
-      total: data.length,
-      types: types,
+    const fetchData = async () => {
+      try {
+        const data = await loadRealData(); // Ensure loadRealData returns an array
+        setInfrastructureData(data);
+      } catch (err) {
+        setError(err.message || "An error occurred while loading the data.");
+      } finally {
+        setLoading(false);
+      }
     };
-  };
 
-  // Filter data based on the active layer
-  const filteredData =
-    activeLayer === "all"
-      ? infrastructureData
-      : infrastructureData.filter((item) => item.type === activeLayer);
+    fetchData();
+  }, []);
 
-  const comparisonData = getStatistics(infrastructureData);
-
-  if (loading && infrastructureData.length === 0) {
+  // Error handling
+  if (loading) {
     return (
       <div
         className="spinner-grow"
@@ -69,10 +42,30 @@ const App = () => {
     );
   }
 
-  // Error state
   if (error) {
     return <div className="alert alert-danger">Error: {error}</div>;
   }
+
+  // Filter data based on the active layer
+  const filteredData =
+    activeLayer === "all"
+      ? infrastructureData
+      : infrastructureData.filter((item) => item.type === activeLayer);
+
+  // Example of getting statistics
+  const getStatistics = (data) => {
+    const types = data.reduce((acc, item) => {
+      acc[item.type] = (acc[item.type] || 0) + 1;
+      return acc;
+    }, {});
+
+    return {
+      total: data.length,
+      types,
+    };
+  };
+
+  const comparisonData = getStatistics(infrastructureData);
 
   return (
     <div className="app-container">
@@ -89,7 +82,6 @@ const App = () => {
                   filteredData={filteredData}
                   setMapCenter={setMapCenter}
                   setMapZoom={setMapZoom}
-                  loadMoreData={loadMoreData}
                 />
               </div>
               <div className="card-footer bg-white border-top-0">
@@ -101,7 +93,8 @@ const App = () => {
             </div>
           </div>
           <div className="col-lg-4">
-            <StatisticsCard data={infrastructureData} />
+            <StatisticsCard data={infrastructureData} />{" "}
+            {/* Ensure this is an array */}
           </div>
         </div>
       </div>

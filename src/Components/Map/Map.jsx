@@ -1,127 +1,81 @@
-import React, { useState, useMemo } from "react";
-import { MapContainer, TileLayer, ZoomControl, Circle } from "react-leaflet";
+import React, { useState, useEffect } from "react";
+import { MapContainer, TileLayer, ZoomControl, useMap } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-cluster";
 import "leaflet/dist/leaflet.css";
 import MapMarker from "./MapMarker";
+import { ButtonGroup } from "../UI/Button"; // Adjust if needed
+import { loadRealData } from "../../Data/loadRealData";
 
-const MARKER_ICONS = {
-  hospital: "🏥",
-  school: "🏫",
-  road: "🛣",
-  default: "📍"
-};
+const MapComponent = ({ mapCenter, mapZoom }) => {
+  const [activeLayer, setActiveLayer] = useState("all");
+  const [viewMode, setViewMode] = useState("markers");
+  const [filteredData, setFilteredData] = useState([]);
 
-const MapComponent = ({ mapCenter, mapZoom, filteredData, setMapCenter, setMapZoom }) => {
-  const [activeMarker, setActiveMarker] = useState(null);
-  const [viewMode, setViewMode] = useState('markers'); // 'markers', 'cluster', or 'heatmap'
+  // Load real data when component mounts
+  useEffect(() => {
+    const data = loadRealData();
+    setFilteredData(data);
+  }, []);
 
-  const handleMarkerClick = (item) => {
-    setMapCenter([item.lat, item.lng]);
-    setMapZoom(15);
-    setActiveMarker(item);
+  const MapController = () => {
+    const map = useMap();
+    useEffect(() => {
+      map.setView(mapCenter, mapZoom);
+    }, [mapCenter, mapZoom]);
+    return null;
   };
 
-  const mapStyle = {
-    height: "600px",
-    width: "100%",
-    borderRadius: "15px",
-    overflow: "hidden",
-    boxShadow: "0 4px 15px rgba(0,0,0,0.1)",
-  };
-
-  const panelStyle = {
-    position: "absolute",
-    backgroundColor: "rgba(255, 255, 255, 0.9)",
-    padding: "15px",
-    borderRadius: "10px",
-    boxShadow: "0 2px 10px rgba(0,0,0,0.1)",
-    zIndex: 1000,
-  };
+  const filteredMarkers = filteredData.filter(
+    (item) => activeLayer === "all" || item.type === activeLayer
+  );
 
   const renderMarkers = () => {
-    switch (viewMode) {
-      case 'cluster':
-        return (
-          <MarkerClusterGroup>
-            {filteredData.map((item) => (
-              <MapMarker key={item.id} item={item} onClick={handleMarkerClick} />
-            ))}
-          </MarkerClusterGroup>
-        );
-      case 'heatmap':
-        return filteredData.map((item) => (
-          <Circle
-            key={item.id}
-            center={[item.lat, item.lng]}
-            pathOptions={{ fillColor: 'red', fillOpacity: 0.5, stroke: false }}
-            radius={500}
-          />
-        ));
-      default:
-        return filteredData.map((item) => (
-          <MapMarker key={item.id} item={item} onClick={handleMarkerClick} />
-        ));
-    }
+    const markers = filteredMarkers.map((item) => (
+      <MapMarker
+        key={item.id}
+        position={[item.coordinates.lat, item.coordinates.lng]}
+        name={item.name}
+        type={item.type}
+      />
+    ));
+
+    return viewMode === "cluster" ? (
+      <MarkerClusterGroup>{markers}</MarkerClusterGroup>
+    ) : (
+      markers
+    );
   };
 
   return (
-    <div style={{ position: "relative", ...mapStyle }}>
-      <MapContainer center={mapCenter} zoom={mapZoom} style={mapStyle} zoomControl={false}>
+    <div style={{ height: "600px", width: "100%" }}>
+      <div style={{ marginBottom: "10px" }}>
+        <ButtonGroup
+          activeLayer={activeLayer}
+          setActiveLayer={setActiveLayer}
+        />
+        <select
+          value={viewMode}
+          onChange={(e) => setViewMode(e.target.value)}
+          style={{ marginLeft: "10px" }}
+        >
+          <option value="markers">Markers</option>
+          <option value="cluster">Clustered</option>
+        </select>
+      </div>
+      <MapContainer
+        center={mapCenter}
+        zoom={mapZoom}
+        style={{ height: "100%", width: "100%" }}
+        zoomControl={false}
+      >
+        <MapController />
         <TileLayer
-          url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         />
         <ZoomControl position="bottomright" />
         {renderMarkers()}
       </MapContainer>
-
-      {/* Info Panel */}
-      <div style={{ ...panelStyle, top: "20px", left: "20px", maxWidth: "300px" }}>
-        <h2 style={{ margin: "0 0 10px 0", fontSize: "18px", color: "#2c3e50" }}>
-          Infrastructure Map
-        </h2>
-        <p style={{ margin: "5px 0", fontSize: "14px", color: "#34495e" }}>
-          Total Items: {filteredData.length}
-        </p>
-        <div style={{ display: "flex", alignItems: "center", marginTop: "10px" }}>
-          {Object.entries(MARKER_ICONS).map(([type, icon]) => (
-            <div key={type} style={{ marginRight: "15px" }}>
-              <span style={{ fontSize: "16px", marginRight: "5px" }}>{icon}</span>
-              <span style={{ fontSize: "14px", color: "#34495e" }}>{type}</span>
-            </div>
-          ))}
-        </div>
-        <div style={{ marginTop: "15px" }}>
-          <select 
-            value={viewMode} 
-            onChange={(e) => setViewMode(e.target.value)}
-            style={{ padding: "5px", borderRadius: "5px", width: "100%" }}
-          >
-            <option value="markers">Markers</option>
-            <option value="cluster">Clustered</option>
-            <option value="heatmap">Density View</option>
-          </select>
-        </div>
-      </div>
-
-      {/* Active Marker Info */}
-      {activeMarker && (
-        <div style={{ ...panelStyle, bottom: "20px", left: "20px", maxWidth: "300px" }}>
-          <h3 style={{ 
-            margin: "0 0 10px 0", 
-            fontSize: "16px", 
-            color: activeMarker.type === "hospital" ? "#e74c3c" : "#3498db" 
-          }}>
-            {activeMarker.name}
-          </h3>
-          <p style={{ margin: "5px 0", fontSize: "14px", color: "#34495e" }}>
-            <strong>Type:</strong> {activeMarker.type}
-          </p>
-          <p style={{ margin: "5px 0", fontSize: "14px", color: "#34495e" }}>
-            <strong>City:</strong> {activeMarker.city}
-          </p>
-        </div>
-      )}
     </div>
   );
 };
